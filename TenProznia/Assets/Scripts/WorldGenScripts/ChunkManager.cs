@@ -6,10 +6,10 @@ public class ChunkManager : MonoBehaviour {
     public GameObject[] chunkPrefabs;
     private Transform playerTransform;
 
-    private float spawnZ = 64F;
-    private float chunkLength = 64F;
-    private int chunksOnScreen = 8;
-    private float safeZone = 50F;
+    private float spawnZ = 128F;
+    private float chunkLength = 128F;
+    private int chunksOnScreen = 4;
+    private float safeZone = 96F;
     private int previousPrefabIndex = 0;
 
     private List<GameObject> activeChunks;
@@ -18,12 +18,12 @@ public class ChunkManager : MonoBehaviour {
         activeChunks = new List<GameObject>();
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
 
-        for (int i = 0; i < chunksOnScreen; i++) {    // i = 0. As long as "i" is less than "ChunksOnScreen", chunks will be spawned.
-            if (i < 2)
+        for (int i = 0; i < chunksOnScreen; i++) {
+            if (i < 2) {
                 SpawnChunk(0);
-            else
+            } else {
                 SpawnChunk();
-
+            }
         }
     }
 
