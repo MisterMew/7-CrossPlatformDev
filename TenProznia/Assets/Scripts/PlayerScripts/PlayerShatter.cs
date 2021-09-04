@@ -52,7 +52,6 @@ public class PlayerShatter : MonoBehaviour {
         //create piece
         GameObject piece;
         piece = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        var Renderer = piece.GetComponent<Renderer>();              // Get renderer component
         piece.GetComponent<Renderer>().material = matPlayer;
 
         //set piece position and scale
