@@ -11,15 +11,11 @@ public class PlayerController : MonoBehaviour {
     float xThrow;
     float yThrow;
 
-    /// Grounding Variables
-    bool isGrounded = false;
-    float distToGround = 1F;
 
-
-     /// UPDATE
-    /* Update once every frame */
-    private void Update() {
-        GetAxisInput();
+     /// START
+    /* Upon Start */
+    private void Start() {
+        rigidbody = GetComponent<Rigidbody>();
     }
 
      /// FIXED UPDATE
@@ -27,21 +23,26 @@ public class PlayerController : MonoBehaviour {
     private void FixedUpdate() {
         rigidbody.AddForce(0, 0, forwardForce * Time.deltaTime);
 
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) {
-            rigidbody.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-        }
-        
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) {
-            rigidbody.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-        }
-        
-        if (isGrounded && Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)) {
-            rigidbody.AddForce(0, jumpForce * Time.deltaTime, 0, ForceMode.VelocityChange);
-        }
+        GetAxisInput();
 
-        GroundCheck();
+        //rigidbody.MovePosition(rigidbody.position + Vector3.right * xThrow);
+        rigidbody.AddForce(transform.right * sidewaysForce * xThrow); //Apply force to the right
 
-        if (rigidbody.position.y < -15f) {
+        //if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) {                       //Right xAxial Movement
+        //    rigidbody.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange); //Apply force to the right
+        //}
+        //
+        //if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) {                         //Left xAxial Movement
+        //    rigidbody.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange); //Apply force to the right
+        //}
+        //
+        //if (transform.position.y < 1.875F) {
+        //    if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)) {
+        //        rigidbody.AddForce(0, jumpForce * Time.deltaTime, 0, ForceMode.VelocityChange);
+        //    }
+        //}
+
+        if (rigidbody.position.y < -15F || rigidbody.position.y > 64F) {
             FindObjectOfType<PlayerShatter>().shatter();
             FindObjectOfType<GameManager>().EndGame();
         }
@@ -50,17 +51,7 @@ public class PlayerController : MonoBehaviour {
      /// GET AXIAL INPUT
     /* Get the axial input regardless of input controller */
     void GetAxisInput() {
-        xThrow = Input.GetAxis("Horizontal"); //Return the horizontal axial input
-        yThrow = Input.GetAxis("Vertical");  //Return the vertical axial input
-    }
-
-     /// GROUND CHECK
-    /* Check if the player is touching the ground */
-    void GroundCheck() {
-        if (Physics.Raycast(transform.position, Vector3.down, distToGround + 0.1F)) {
-            isGrounded = true;
-        } else {
-            isGrounded = false;
-        }
+        xThrow = Input.GetAxis("Horizontal") * Time.deltaTime * sidewaysForce; //Return the horizontal axial input
+        yThrow = Input.GetAxis("Vertical") * Time.deltaTime * jumpForce;      //Return the vertical axial input
     }
 }
