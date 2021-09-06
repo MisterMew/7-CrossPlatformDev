@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+using TMPro;
+
 public class ScoreStatistics : MonoBehaviour {
     public Transform player;
-    public Text scoreText;
+    public TextMeshProUGUI distanceText;
+    public TextMeshProUGUI scoreText;
 
     void Update() {
-        //scoreText.text = player.position.z.ToString("0");
+        distanceText.text = player.position.z.ToString("0m");
     }
 }
