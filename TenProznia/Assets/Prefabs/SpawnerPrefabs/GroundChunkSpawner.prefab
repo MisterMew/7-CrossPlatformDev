@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chunkPrefabs:
-  - {fileID: 616399047388954727}
+  - {fileID: 8153985030571302861, guid: ce574a69ca5e7e0418cb65b0feabf989, type: 3}
 --- !u!1001 &8765453506943131562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53,6 +53,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 80000707206971042}
     m_Modifications:
+    - target: {fileID: 2457569707602080185, guid: ce574a69ca5e7e0418cb65b0feabf989, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8153985030571302861, guid: ce574a69ca5e7e0418cb65b0feabf989, type: 3}
       propertyPath: m_Name
       value: objGround
@@ -103,11 +107,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce574a69ca5e7e0418cb65b0feabf989, type: 3}
---- !u!1 &616399047388954727 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8153985030571302861, guid: ce574a69ca5e7e0418cb65b0feabf989, type: 3}
-  m_PrefabInstance: {fileID: 8765453506943131562}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &90087074894189626 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8711413250796817296, guid: ce574a69ca5e7e0418cb65b0feabf989, type: 3}

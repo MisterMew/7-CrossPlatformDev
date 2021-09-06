@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 public class ObstacleSpawner : MonoBehaviour {
-    public GameObject obstaclePrefab;
+    public GameObject[] obstaclePrefabs;
     public Transform[] spawnPoints;
 
      /// START
@@ -13,12 +13,9 @@ public class ObstacleSpawner : MonoBehaviour {
      /// SPAWN OBSTACLES
     /* Spawn obstacles at the spawn points */
     void SpawnObstacles() {
-        int randomIndex = Random.Range(0, spawnPoints.Length);
-
         for (int i = 0; i < spawnPoints.Length; i++) {
-            if (randomIndex != i) {
-                Instantiate(obstaclePrefab, spawnPoints[i].position, Quaternion.identity); //Quaternian.identity to ignore rotations
-            }
+            int randomIndex = Random.Range(0, obstaclePrefabs.Length);
+            Instantiate(obstaclePrefabs[randomIndex], spawnPoints[i].position, Quaternion.identity); //Quaternian.identity to ignore rotations
         }
     }
 }
