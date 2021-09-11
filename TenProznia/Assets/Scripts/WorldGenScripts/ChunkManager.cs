@@ -6,10 +6,10 @@ public class ChunkManager : MonoBehaviour {
     public GameObject[] chunkPrefabs;
     private Transform playerTransform;
 
-    private float spawnZ = 128F;
-    private float chunkLength = 128F;
+    private float spawnZ = 0F;
+    private float chunkLength = 256F;
     private int chunksOnScreen = 4;
-    private float safeZone = 96F;
+    private float safeZone = 196F;
     private int previousPrefabIndex = 0;
 
     private List<GameObject> activeChunks;
