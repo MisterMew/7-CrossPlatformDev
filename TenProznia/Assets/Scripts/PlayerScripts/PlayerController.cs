@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour {
 
         GetAxisInput();
         GetTouchInput();
-        
+
         rigidbody.AddForce(transform.right * sidewaysForce * xThrow, ForceMode.Impulse); //Apply horizontal force
         rigidbody.velocity = Vector3.ClampMagnitude(rigidbody.velocity, forwardClamped); //Clamp to restricted exceeding maxSpeed
 
