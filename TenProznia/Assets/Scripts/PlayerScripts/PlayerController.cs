@@ -62,15 +62,18 @@ public class PlayerController : MonoBehaviour {
     private void GetTouchInput() {
         if (Input.touchCount > 0) {
             Touch touch = Input.GetTouch(0);
-            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+            //Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+            Vector3 touchPosition = Camera.main.ScreenToViewportPoint(touch.position);
 
-            Debug.Log(Input.touchCount);
+            Debug.Log(Input.touchCount + " @ " + touchPosition);
 
-            if (touchPosition.x > 0) {
-                rigidbody.AddForce(transform.right * sidewaysForce * xThrow, ForceMode.Impulse);
+            if (touchPosition.x > (Screen.width / 2)) {
+                //rigidbody.AddForce(transform.right * sidewaysForce * xThrow, ForceMode.Impulse);
+                rigidbody.AddForce(new Vector2(1F * sidewaysForce * xThrow, 0));
             }
-            else if (touchPosition.x < 0) {
-                rigidbody.AddForce(-transform.right * sidewaysForce * xThrow, ForceMode.Impulse);
+            else if (touchPosition.x < (Screen.width / 2)) {
+                //rigidbody.AddForce(-transform.right * sidewaysForce * xThrow, ForceMode.Impulse);
+                rigidbody.AddForce(new Vector2(-1F * sidewaysForce * xThrow, 0));
             }
         }
     }
@@ -78,7 +81,7 @@ public class PlayerController : MonoBehaviour {
      /// OUT OF BOUNDS
     /* Validate if the player is Out of bounds */
     private bool IsOutOfBounds() {
-        if (rigidbody.position.y < -15F || rigidbody.position.y > 64F) { return true; }
+        if (rigidbody.position.y < -15F  || rigidbody.position.y > 64F) { return true; }
         if (rigidbody.position.x < -256F || rigidbody.position.x > 256F) { return true; }
         return false;
     }
