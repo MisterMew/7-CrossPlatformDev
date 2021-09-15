@@ -6,6 +6,7 @@ public class PauseMenu : MonoBehaviour {
     public static bool gameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject gameOverlay;
+    public GameObject buttonInputs;
 
      /// UPDATE
     /* Check update for key press to pause */
@@ -24,6 +25,7 @@ public class PauseMenu : MonoBehaviour {
     public void ResumeGame() {
         pauseMenuUI.SetActive(false);
         gameOverlay.SetActive(true);
+        buttonInputs.SetActive(true);
         Time.timeScale = 1F;
         gameIsPaused = false;
     }
@@ -33,6 +35,7 @@ public class PauseMenu : MonoBehaviour {
     public void PauseGame() {
         pauseMenuUI.SetActive(true);
         gameOverlay.SetActive(false);
+        buttonInputs.SetActive(false);
         Time.timeScale = 0F;
         gameIsPaused = true;
     }
@@ -40,7 +43,7 @@ public class PauseMenu : MonoBehaviour {
      /// RETURN MAIN
     /*  */
     public void ReturnToMenu() {
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene("MainMenu");
     }
 
      /// GAME: RESTART
@@ -53,7 +56,7 @@ public class PauseMenu : MonoBehaviour {
      /// VALIDATE INPUT
     /* Validate if an input to trigger pausing has occured */
     public bool ValidatePauseInput() {
-        if (Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.Escape)) {
+        if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape)) {
             return true;
         }
         return false;

@@ -1,48 +1,44 @@
 ﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
+    /// Birb Variables
+    private Rigidbody mRigidbody;
+    private Animator birbAnimashen;
+
     /// Physics Variables
-    public Rigidbody rigidbody;
     public float forwardForce = 2000F;
     public float forwardClamped = 10F;
     public float sidewaysForce = 50f;
-    public float jumpForce = 500f;
 
     /// Axis Variables
     private float xThrow;
-    private float yThrow;
-
-    /// Touch Input Variables
-    private float touchWidth;
-    private float touchHeight;
 
 
      /// AWAKE
     /* Define the touch-input area */
     private void Awake() {
-        touchWidth = (float)Screen.width / 2F;
-        touchHeight = (float)Screen.height / 2F;
+        mRigidbody = GetComponent<Rigidbody>();
+        birbAnimashen = gameObject.GetComponentInChildren<Animator>();
     }
 
-     /// START
-    /* Upon Start */
-    private void Start() {
-        rigidbody = GetComponent<Rigidbody>();
-    }
-
+     /// UPDATE
+    /* Updates the birbs animations */
     private void Update() {
+        birbAnimashen.SetFloat("horizontal", xThrow);
+        Debug.Log(xThrow);
     }
 
      /// FIXED UPDATE
     /* Update dependant on framerate */
     private void FixedUpdate() {
-        rigidbody.AddForce(0, 0, forwardForce * Time.deltaTime, ForceMode.Impulse); //Apply forward force
+        mRigidbody.AddForce(0, 0, forwardForce * Time.deltaTime, ForceMode.Impulse); //Apply forward force
 
-        GetAxisInput();
-        GetTouchInput();
+        if (SystemInfo.deviceType == DeviceType.Desktop) { //If the device is desktop
+            xThrow = GetAxisInput();
+        }
 
-        rigidbody.AddForce(transform.right * sidewaysForce * xThrow, ForceMode.Impulse); //Apply horizontal force
-        rigidbody.velocity = Vector3.ClampMagnitude(rigidbody.velocity, forwardClamped); //Clamp to restricted exceeding maxSpeed
+        mRigidbody.AddForce(transform.right * sidewaysForce * xThrow, ForceMode.Impulse); //Apply horizontal force
+        mRigidbody.velocity = Vector3.ClampMagnitude(mRigidbody.velocity, forwardClamped);                //Clamp to restricted exceeding maxSpeed
 
         if (IsOutOfBounds()) { //End the game if player is out of bounds
             FindObjectOfType<PlayerShatter>().shatter();
@@ -52,37 +48,21 @@ public class PlayerController : MonoBehaviour {
 
      /// INPUT: AXIAL
     /* Get the axial input regardless of input controller */
-    private void GetAxisInput() {
-        xThrow = Input.GetAxis("Horizontal") * Time.deltaTime * sidewaysForce; //Return the horizontal axial input
-        yThrow = Input.GetAxis("Vertical") * Time.deltaTime * jumpForce; //Return the horizontal axial input
-    }
-
-     /// INPUT: TOUCH
-    /* Get the touch screen inputs */
-    private void GetTouchInput() {
-        if (Input.touchCount > 0) {
-            Touch touch = Input.GetTouch(0);
-            //Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-            Vector3 touchPosition = Camera.main.ScreenToViewportPoint(touch.position);
-
-            Debug.Log(Input.touchCount + " @ " + touchPosition);
-
-            if (touchPosition.x > (Screen.width / 2)) {
-                //rigidbody.AddForce(transform.right * sidewaysForce * xThrow, ForceMode.Impulse);
-                rigidbody.AddForce(new Vector2(1F * sidewaysForce * xThrow, 0));
-            }
-            else if (touchPosition.x < (Screen.width / 2)) {
-                //rigidbody.AddForce(-transform.right * sidewaysForce * xThrow, ForceMode.Impulse);
-                rigidbody.AddForce(new Vector2(-1F * sidewaysForce * xThrow, 0));
-            }
-        }
+    private float GetAxisInput() {
+        return Input.GetAxis("Horizontal"); //Return the horizontal axial input
     }
 
      /// OUT OF BOUNDS
     /* Validate if the player is Out of bounds */
     private bool IsOutOfBounds() {
-        if (rigidbody.position.y < -15F  || rigidbody.position.y > 64F) { return true; }
-        if (rigidbody.position.x < -256F || rigidbody.position.x > 256F) { return true; }
+        if (mRigidbody.position.y < -15F  || mRigidbody.position.y > 64F)  { return true; }
+        if (mRigidbody.position.x < -256F || mRigidbody.position.x > 256F) { return true; }
         return false;
+    }
+
+     /// MOVE PLAYER
+    /* Used to register tough input */
+    public void MovePlayer(float variants) {
+        xThrow = variants;
     }
 }
