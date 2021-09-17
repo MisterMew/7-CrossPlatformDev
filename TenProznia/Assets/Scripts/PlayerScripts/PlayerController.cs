@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour {
     /* Updates the birbs animations */
     private void Update() {
         birbAnimashen.SetFloat("horizontal", xThrow);
-        Debug.Log(xThrow);
     }
 
      /// FIXED UPDATE

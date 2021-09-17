@@ -47,6 +47,7 @@ public class ChunkManager : MonoBehaviour {
         } else {
             gameObj = Instantiate(chunkPrefabs[prefabIndex]) as GameObject; //Instantiate prefab
         }
+
         gameObj.transform.SetParent(transform);                 //Set the gameobjects position
         gameObj.transform.position = Vector3.forward * spawnZ; //Set the gameobjects nextposition
         spawnZ += chunkLength;                                //Set where the next prefab will spawn

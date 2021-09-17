@@ -6,11 +6,7 @@ public class GameManager : MonoBehaviour {
     bool gameEnded = false;
     public float restartDelay = 1f;
 
-    private void Awake() {
-        Screen.orientation = ScreenOrientation.LandscapeLeft;
-    }
-
-    /// GAME: END
+     /// GAME: END
     /* Ends the game */
     public void EndGame() {
         if (gameEnded == false) {
