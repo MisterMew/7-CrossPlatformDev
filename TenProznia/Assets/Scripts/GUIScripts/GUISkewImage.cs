@@ -2,8 +2,8 @@
 using UnityEngine.UI;
 
 public class GUISkewImage : Image {
-    [SerializeField] private float skewX;
-    [SerializeField] private float skewY;
+    [SerializeField] private float skewX = 0;
+    [SerializeField] private float skewY = 0;
 
     protected override void OnPopulateMesh(VertexHelper vh) {
         base.OnPopulateMesh(vh);
