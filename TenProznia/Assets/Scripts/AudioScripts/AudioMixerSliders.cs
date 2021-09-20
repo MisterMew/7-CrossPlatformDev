@@ -1,26 +1,27 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using System.Collections;
 
 public class AudioMixerSliders : MonoBehaviour {
     /// Variables
     private static AudioMixerSliders musicTransitionInstance;
 
     /// Slider Variables
-    [SerializeField] string volumeParameter = "volMaster";
-    [SerializeField] AudioMixer audioMixer;
-    [SerializeField] Slider slider;
-    [SerializeField] float volumeMultiplier = 20F;
+    [SerializeField] private string volumeParameter = "volMaster";
+    [SerializeField] private AudioMixer audioMixer = default;
+    [SerializeField] private Slider slider = default;
+    [SerializeField] private float volumeMultiplier = 20F;
 
-    /// AWAKE
+     /// AWAKE
     /* Execute upon awaking */
     private void Awake() {
         slider.onValueChanged.AddListener(HandleSliderValueChanged);
     }
 
-    /// START
+     /// START
     /* Execute upon starting */
-    void Start() {
+    private void Start() {
         slider.value = PlayerPrefs.GetFloat(volumeParameter, slider.value);
     }
 
@@ -30,5 +31,23 @@ public class AudioMixerSliders : MonoBehaviour {
 
     private void HandleSliderValueChanged(float sliderValue) {
         audioMixer.SetFloat(volumeParameter, Mathf.Log10(sliderValue) * volumeMultiplier);
+    }
+
+     /// START FADE
+    /* Fade out the audio mixer */
+    public static IEnumerator StartFade(AudioMixer audioMixer, string exposedParam, float duration, float targetVolume) {
+        float currentTime = 0;
+        float currentVol;
+        audioMixer.GetFloat(exposedParam, out currentVol);
+        currentVol = Mathf.Pow(10, currentVol / 20);
+        float targetValue = Mathf.Clamp(targetVolume, 0.0001F, 1);
+
+        while (currentTime < duration) {
+            currentTime += Time.deltaTime;
+            float newVol = Mathf.Lerp(currentVol, targetValue, currentTime / duration);
+            audioMixer.SetFloat(exposedParam, Mathf.Log10(newVol) * 20);
+            yield return null;
+        }
+        yield break;
     }
 }

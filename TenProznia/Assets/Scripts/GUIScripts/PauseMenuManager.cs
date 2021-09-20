@@ -43,6 +43,8 @@ public class PauseMenuManager : MonoBehaviour {
      /// RETURN MAIN
     /* Returns use to the main menu */
     public void ReturnToMenu() {
+        //SceneTransitioner st = new SceneTransitioner();
+        //st.CrossfadeScene("MainMenu");
         SceneManager.LoadScene("MainMenu");
         ResumeGame();
     }

@@ -70,6 +70,9 @@ public class StatisticManager : MonoBehaviour {
     /* Calculate the players current distance travelled */
     private int CalculateDistance() {
         playerDistance = (int)Mathf.Floor(player.position.z / 0.64F);
+        if (playerDistance < 0) {
+            return 0;
+        }
         return playerDistance;
     }
 }

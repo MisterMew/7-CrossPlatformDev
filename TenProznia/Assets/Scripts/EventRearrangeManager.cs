@@ -1,6 +1,6 @@
 ﻿using UnityEditor;
-using UnityEditorInternal;
 using UnityEngine.Events;
+using UnityEditorInternal;
 
 [CustomPropertyDrawer(typeof(UnityEventBase), true)]
 public class BaseCustomUnityEventDrawer : UnityEventDrawer {

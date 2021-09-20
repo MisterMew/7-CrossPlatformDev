@@ -7,9 +7,9 @@ public class ChunkManager : MonoBehaviour {
     private Transform playerTransform;
 
     private float spawnZ = 0F;
-    private float chunkLength = 256F;
-    private int chunksOnScreen = 4;
-    private float safeZone = 196F;
+    private float chunkLength = 512F;
+    private int chunksOnScreen = 2;
+    private float safeZone = 256F;
     private int previousPrefabIndex = 0;
 
     private List<GameObject> activeChunks;
@@ -64,9 +64,7 @@ public class ChunkManager : MonoBehaviour {
      /// RANDOM PREFAB INDEX
     /* Determine which prefab to generate */
     private int RandomPrefabIndex() {
-        if (chunkPrefabs.Length <= 1) {
-            return 0;
-        }
+        if (chunkPrefabs.Length <= 1) { return 0; }
 
         int randomIndex = previousPrefabIndex;                    //If prefab chosen is the = to the previous prefab,
         while (randomIndex == previousPrefabIndex) {             //It loops again until a different prefab is selcted

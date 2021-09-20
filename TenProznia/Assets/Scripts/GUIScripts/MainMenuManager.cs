@@ -4,22 +4,16 @@ using Cinemachine;
 
 public class MainMenuManager : MonoBehaviour {
     /// Variables
-    private Animator cmAnimator;
     private bool cmVirtualCam01 = true;
-    [SerializeField] private CinemachineVirtualCamera vCam01;  //Menu camera
-    [SerializeField] private CinemachineVirtualCamera vCam02; //Credits camera
+    private Animator cmAnimator = default;
+    [SerializeField] private CinemachineVirtualCamera vCam01 = default;  //Menu camera
+    [SerializeField] private CinemachineVirtualCamera vCam02 = default; //Credits camera
     
      /// AWAKE
     /* Get Components */
     private void Awake() {
         Screen.orientation = ScreenOrientation.LandscapeLeft; //Set the screen orientation
         cmAnimator = GetComponent<Animator>();               //Get cinemachine component
-    }
-
-     /// UI: Play Endless
-    /* Upon button click, play the game */
-    public void PlayEndless() {
-        SceneManager.LoadScene("EndlessVoid");
     }
 
      /// UI: Credits
