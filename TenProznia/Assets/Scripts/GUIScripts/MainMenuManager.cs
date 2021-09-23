@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 using Cinemachine;
 
 public class MainMenuManager : MonoBehaviour {
-    /// Variables
+    /// Animation Variables
+    public Animator options;
+    
+    /// Cinematic Variables
     private bool cmVirtualCam01 = true;
     private Animator cmAnimator = default;
     [SerializeField] private CinemachineVirtualCamera vCam01 = default;  //Menu camera
@@ -14,12 +16,11 @@ public class MainMenuManager : MonoBehaviour {
     private void Awake() {
         Screen.orientation = ScreenOrientation.LandscapeLeft; //Set the screen orientation
         cmAnimator = GetComponent<Animator>();               //Get cinemachine component
+        options = GetComponent<Animator>();                 //Get UI animator component
     }
 
-     /// UI: Credits
-    /* Upon button click, view credits */
-    public void ViewCredits() {
-        SwitchCMPriority();
+    public void OptionsMenu() {
+        options.SetTrigger("OpenOptions");
     }
 
      /// UI: Quit
@@ -28,11 +29,17 @@ public class MainMenuManager : MonoBehaviour {
         Application.Quit();
     }
 
+     /// UI: Credits
+    /* Upon button click, view credits */
+    public void ViewCredits() {
+        SwitchCMPriority();
+    }
+
     public void ReturnMain() {
         SwitchCMPriority();
     }
 
-     /// CM: Switch Priority
+    /// CM: Switch Priority
     /* Switch the camera priority */
     private void SwitchCMPriority() {
         if (cmVirtualCam01) {

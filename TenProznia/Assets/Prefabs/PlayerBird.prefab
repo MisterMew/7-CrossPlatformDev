@@ -1207,6 +1207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: vfxTrail
       objectReference: {fileID: 0}
+    - target: {fileID: 2576955921485086429, guid: 03d3f3c2b99c5f34a8e3ed8bca6edbf1, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3655628920415345437, guid: 03d3f3c2b99c5f34a8e3ed8bca6edbf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.000174
