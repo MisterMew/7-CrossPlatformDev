@@ -14,8 +14,9 @@ public class ChunkManager : MonoBehaviour {
 
     private List<GameObject> activeChunks;
 
-     /// START
-    /* Upon Start */
+      /// <summary>
+     /// Upon Start, get game objects and spawn chunks
+    /// </summary>
     void Start() {
         activeChunks = new List<GameObject>();                                   //List of active chunks in scene
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform; //Validate for the "player"
@@ -29,8 +30,9 @@ public class ChunkManager : MonoBehaviour {
         }
     }
 
-     /// FIXED UPDATE
-    /* Update dependant on framerate */
+      /// <summary>
+     /// Update chunks dependant on framerate
+    /// </summary>
     void Update() {
         if (playerTransform.position.z - safeZone > (spawnZ - chunksOnScreen * chunkLength)) { //If player position (- safeZone) is more than the formula, generates ground chunks> 
             SpawnChunk();
@@ -38,8 +40,10 @@ public class ChunkManager : MonoBehaviour {
         }
     }
 
-     /// CHUNK: SPAWN
-    /* Consistently instantiate chunks */
+       /// CHUNK: SPAWN
+      /// <summary>
+     /// Determine when and where to spawn chunks
+    /// </summary>
     void SpawnChunk(int prefabIndex = -1) {  //If prefabIndex isn't defined, = -1
         GameObject gameObj;
         if (prefabIndex == -1) {
@@ -54,15 +58,19 @@ public class ChunkManager : MonoBehaviour {
         activeChunks.Add(gameObj);                           //Add the prefab to the list of active Chunks
     }
 
-     /// CHUNK: DELETE
-    /* Deletes oldest existing chunks */
+       /// CHUNK: DELETE
+      /// <summary>
+     /// Delete the oldest existing chunk
+    /// </summary>
     private void DeleteChunk() {
         Destroy(activeChunks[0]);
         activeChunks.RemoveAt(0);
     }
 
-     /// RANDOM PREFAB INDEX
-    /* Determine which prefab to generate */
+       /// RANDOM PREFAB INDEX
+      /// <summary>
+     /// Randomly determine which prefab to generate next
+    /// </summary>
     private int RandomPrefabIndex() {
         if (chunkPrefabs.Length <= 1) { return 0; }
 

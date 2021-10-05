@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_manager" xml:lang="en-US">
+<title>GameManager Class Reference</title>
+<indexterm><primary>GameManager</primary></indexterm>
+<para>Inheritance diagram for GameManager:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_manager.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_game_manager_1a0c10b4d89c6e37a4433a54a5b7b04500">EndGame</link> ()</para>
+
+<para>GAME: END. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_game_manager_1ade2ef475955a5818fafbe50ebfdd569b">restartDelay</link> = 1F</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_manager_1a0c10b4d89c6e37a4433a54a5b7b04500"/><section>
+    <title>EndGame()</title>
+<indexterm><primary>EndGame</primary><secondary>GameManager</secondary></indexterm>
+<indexterm><primary>GameManager</primary><secondary>EndGame</secondary></indexterm>
+<para><computeroutput>void GameManager.EndGame ( )</computeroutput></para><para>
+
+<para>GAME: END. </para>
+</para>
+
+<para>End the game by Invoking a restart </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_game_manager_1ade2ef475955a5818fafbe50ebfdd569b"/><section>
+    <title>restartDelay</title>
+<indexterm><primary>restartDelay</primary><secondary>GameManager</secondary></indexterm>
+<indexterm><primary>GameManager</primary><secondary>restartDelay</secondary></indexterm>
+<para><computeroutput>float GameManager.restartDelay = 1F</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/<link linkend="__game_manager_8cs">GameManager.cs</link></section>
+</section>

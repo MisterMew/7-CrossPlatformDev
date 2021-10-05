@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_parrot_player_1_1_parrot_player" kind="class" language="C#" prot="public">
+    <compoundname>ParrotPlayer::ParrotPlayer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_parrot_player_1_1_parrot_player_1a6bde7b24f682f6209e28536df949ae5e" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator ParrotPlayer.ParrotPlayer.anim</definition>
+        <argsstring></argsstring>
+        <name>anim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" line="9" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parrot_player_1_1_parrot_player_1af8c3ece5e4d70e14d4df4ea18fe34c0b" prot="private" static="no" mutable="no">
+        <type>CharacterController</type>
+        <definition>CharacterController ParrotPlayer.ParrotPlayer.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" line="10" column="29" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parrot_player_1_1_parrot_player_1a32448251ddcef5450434a9adf65789d4" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 ParrotPlayer.ParrotPlayer.moveDirection</definition>
+        <argsstring></argsstring>
+        <name>moveDirection</name>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" line="14" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_parrot_player_1_1_parrot_player_1aab9278aa8b07c6e8d54803711be5e460" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParrotPlayer.ParrotPlayer.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 600.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" line="12" column="14" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parrot_player_1_1_parrot_player_1ad090442c1e3af601bb08813effc0ff99" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParrotPlayer.ParrotPlayer.turnSpeed</definition>
+        <argsstring></argsstring>
+        <name>turnSpeed</name>
+        <initializer>= 400.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" line="13" column="14" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parrot_player_1_1_parrot_player_1a4bcdf2fa780d17939a741a1c94da7598" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParrotPlayer.ParrotPlayer.gravity</definition>
+        <argsstring></argsstring>
+        <name>gravity</name>
+        <initializer>= 20.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" line="15" column="14" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_parrot_player_1_1_parrot_player_1af08ad23bc6890799b33f8c0e9d8d9a55" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParrotPlayer.ParrotPlayer.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" line="17" column="6" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_parrot_player_1_1_parrot_player_1af7394ec7593a9dd2e01e56f2e3a55c7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParrotPlayer.ParrotPlayer.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" line="22" column="6" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" bodystart="22" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ParrotPlayer.ParrotPlayer</label>
+        <link refid="class_parrot_player_1_1_parrot_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ParrotPlayer.ParrotPlayer</label>
+        <link refid="class_parrot_player_1_1_parrot_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" line="7" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" bodystart="7" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_parrot_player_1_1_parrot_player_1a6bde7b24f682f6209e28536df949ae5e" prot="private" virt="non-virtual"><scope>ParrotPlayer::ParrotPlayer</scope><name>anim</name></member>
+      <member refid="class_parrot_player_1_1_parrot_player_1af8c3ece5e4d70e14d4df4ea18fe34c0b" prot="private" virt="non-virtual"><scope>ParrotPlayer::ParrotPlayer</scope><name>controller</name></member>
+      <member refid="class_parrot_player_1_1_parrot_player_1a4bcdf2fa780d17939a741a1c94da7598" prot="public" virt="non-virtual"><scope>ParrotPlayer::ParrotPlayer</scope><name>gravity</name></member>
+      <member refid="class_parrot_player_1_1_parrot_player_1a32448251ddcef5450434a9adf65789d4" prot="private" virt="non-virtual"><scope>ParrotPlayer::ParrotPlayer</scope><name>moveDirection</name></member>
+      <member refid="class_parrot_player_1_1_parrot_player_1aab9278aa8b07c6e8d54803711be5e460" prot="public" virt="non-virtual"><scope>ParrotPlayer::ParrotPlayer</scope><name>speed</name></member>
+      <member refid="class_parrot_player_1_1_parrot_player_1af08ad23bc6890799b33f8c0e9d8d9a55" prot="private" virt="non-virtual"><scope>ParrotPlayer::ParrotPlayer</scope><name>Start</name></member>
+      <member refid="class_parrot_player_1_1_parrot_player_1ad090442c1e3af601bb08813effc0ff99" prot="public" virt="non-virtual"><scope>ParrotPlayer::ParrotPlayer</scope><name>turnSpeed</name></member>
+      <member refid="class_parrot_player_1_1_parrot_player_1af7394ec7593a9dd2e01e56f2e3a55c7b" prot="private" virt="non-virtual"><scope>ParrotPlayer::ParrotPlayer</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

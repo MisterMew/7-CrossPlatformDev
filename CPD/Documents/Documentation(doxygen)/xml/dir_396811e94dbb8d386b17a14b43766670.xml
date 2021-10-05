@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_396811e94dbb8d386b17a14b43766670" kind="dir">
+    <compoundname>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts</compoundname>
+    <innerfile refid="_chunk_manager_8cs">ChunkManager.cs</innerfile>
+    <innerfile refid="_obstacle_spawner_8cs">ObstacleSpawner.cs</innerfile>
+    <innerfile refid="_oscillate_obstacle_8cs">OscillateObstacle.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/"/>
+  </compounddef>
+</doxygen>

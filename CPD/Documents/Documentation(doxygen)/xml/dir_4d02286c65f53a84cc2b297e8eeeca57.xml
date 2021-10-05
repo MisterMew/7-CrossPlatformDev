@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_4d02286c65f53a84cc2b297e8eeeca57" kind="dir">
+    <compoundname>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts</compoundname>
+    <innerdir refid="dir_a17579d6d522450f075295fec9c36643">C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts</innerdir>
+    <innerdir refid="dir_faad77105c30d4b04bda852dec6cef06">C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/Editor</innerdir>
+    <innerdir refid="dir_4b44e6fb59badaa099d3cfde48be1f58">C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts</innerdir>
+    <innerdir refid="dir_bb7d8240d4947c16b3f0e94221e218ab">C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts</innerdir>
+    <innerdir refid="dir_396811e94dbb8d386b17a14b43766670">C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts</innerdir>
+    <innerfile refid="_game_manager_8cs">GameManager.cs</innerfile>
+    <innerfile refid="_scene_transitioner_8cs">SceneTransitioner.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

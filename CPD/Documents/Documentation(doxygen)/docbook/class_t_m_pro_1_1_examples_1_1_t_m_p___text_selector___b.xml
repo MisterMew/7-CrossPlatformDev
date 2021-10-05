@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b" xml:lang="en-US">
+<title>TMPro.Examples.TMP_TextSelector_B Class Reference</title>
+<indexterm><primary>TMPro.Examples.TMP_TextSelector_B</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.TMP_TextSelector_B:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1ae7830c3581122852db867ca0e728c2a8">OnPointerEnter</link> (PointerEventData eventData)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1adaec8e4a30998ce95981f29f92ced137">OnPointerExit</link> (PointerEventData eventData)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1ad0a0f7e8a9485a0980bb873f31e18e41">OnPointerClick</link> (PointerEventData eventData)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a2e36cc0ea424f43ad1e4ca6e3cdcf1b0">OnPointerUp</link> (PointerEventData eventData)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>RectTransform <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1afab51f8e6ae2f2c170a2fbee569f29d7">TextPopup_Prefab_01</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1ad0a0f7e8a9485a0980bb873f31e18e41"/><section>
+    <title>OnPointerClick()</title>
+<indexterm><primary>OnPointerClick</primary><secondary>TMPro.Examples.TMP_TextSelector_B</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_TextSelector_B</primary><secondary>OnPointerClick</secondary></indexterm>
+<para><computeroutput>void TMPro.Examples.TMP_TextSelector_B.OnPointerClick (PointerEventData eventData)</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1ae7830c3581122852db867ca0e728c2a8"/><section>
+    <title>OnPointerEnter()</title>
+<indexterm><primary>OnPointerEnter</primary><secondary>TMPro.Examples.TMP_TextSelector_B</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_TextSelector_B</primary><secondary>OnPointerEnter</secondary></indexterm>
+<para><computeroutput>void TMPro.Examples.TMP_TextSelector_B.OnPointerEnter (PointerEventData eventData)</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1adaec8e4a30998ce95981f29f92ced137"/><section>
+    <title>OnPointerExit()</title>
+<indexterm><primary>OnPointerExit</primary><secondary>TMPro.Examples.TMP_TextSelector_B</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_TextSelector_B</primary><secondary>OnPointerExit</secondary></indexterm>
+<para><computeroutput>void TMPro.Examples.TMP_TextSelector_B.OnPointerExit (PointerEventData eventData)</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a2e36cc0ea424f43ad1e4ca6e3cdcf1b0"/><section>
+    <title>OnPointerUp()</title>
+<indexterm><primary>OnPointerUp</primary><secondary>TMPro.Examples.TMP_TextSelector_B</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_TextSelector_B</primary><secondary>OnPointerUp</secondary></indexterm>
+<para><computeroutput>void TMPro.Examples.TMP_TextSelector_B.OnPointerUp (PointerEventData eventData)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1afab51f8e6ae2f2c170a2fbee569f29d7"/><section>
+    <title>TextPopup_Prefab_01</title>
+<indexterm><primary>TextPopup_Prefab_01</primary><secondary>TMPro.Examples.TMP_TextSelector_B</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_TextSelector_B</primary><secondary>TextPopup_Prefab_01</secondary></indexterm>
+<para><computeroutput>RectTransform TMPro.Examples.TMP_TextSelector_B.TextPopup_Prefab_01</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__t_m_p___text_selector___b_8cs">TMP_TextSelector_B.cs</link></section>
+</section>

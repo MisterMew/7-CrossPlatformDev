@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_shake_b" xml:lang="en-US">
+<title>TMPro.Examples.VertexShakeB Class Reference</title>
+<indexterm><primary>TMPro.Examples.VertexShakeB</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.VertexShakeB:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_vertex_shake_b.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a25046a446241c10abe00a455b8860c7f">AngleMultiplier</link> = 1.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ac278e62e3d4b818697ca09ee9bbcfc77">SpeedMultiplier</link> = 1.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ab3c2718cdb0b13d63b37cc869801ce88">CurveScale</link> = 1.0f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a25046a446241c10abe00a455b8860c7f"/><section>
+    <title>AngleMultiplier</title>
+<indexterm><primary>AngleMultiplier</primary><secondary>TMPro.Examples.VertexShakeB</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.VertexShakeB</primary><secondary>AngleMultiplier</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.VertexShakeB.AngleMultiplier = 1.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ab3c2718cdb0b13d63b37cc869801ce88"/><section>
+    <title>CurveScale</title>
+<indexterm><primary>CurveScale</primary><secondary>TMPro.Examples.VertexShakeB</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.VertexShakeB</primary><secondary>CurveScale</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.VertexShakeB.CurveScale = 1.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ac278e62e3d4b818697ca09ee9bbcfc77"/><section>
+    <title>SpeedMultiplier</title>
+<indexterm><primary>SpeedMultiplier</primary><secondary>TMPro.Examples.VertexShakeB</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.VertexShakeB</primary><secondary>SpeedMultiplier</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.VertexShakeB.SpeedMultiplier = 1.0f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__vertex_shake_b_8cs">VertexShakeB.cs</link></section>
+</section>

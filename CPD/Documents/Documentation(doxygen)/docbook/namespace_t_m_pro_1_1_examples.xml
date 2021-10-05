@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_t_m_pro_1_1_examples" xml:lang="en-US">
+<title>TMPro.Examples Namespace Reference</title>
+<indexterm><primary>TMPro.Examples</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark01">Benchmark01</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i">Benchmark01_UGUI</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark02">Benchmark02</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03">Benchmark03</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark04">Benchmark04</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller">CameraController</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin">ObjectSpin</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_shader_prop_animator">ShaderPropAnimator</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_simple_script">SimpleScript</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_skew_text_example">SkewTextExample</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_tele_type">TeleType</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_text_console_simulator">TextConsoleSimulator</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text">TextMeshProFloatingText</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_text_mesh_spawner">TextMeshSpawner</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01">TMP_ExampleScript_01</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter">TMP_FrameRateCounter</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check">TMP_TextEventCheck</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_info_debug_tool">TMP_TextInfoDebugTool</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a">TMP_TextSelector_A</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b">TMP_TextSelector_B</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter">TMP_UiFrameRateCounter</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay">TMPro_InstructionOverlay</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_color_cycler">VertexColorCycler</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_jitter">VertexJitter</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_shake_a">VertexShakeA</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_shake_b">VertexShakeB</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_zoom">VertexZoom</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_examples_1_1_warp_text_example">WarpTextExample</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

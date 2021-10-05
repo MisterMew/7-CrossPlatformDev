@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 public class PlayerShatter : MonoBehaviour {
-
+    /// Variables
     public float cubeSize = 0.2f;
     public int cubesInRow = 5;
 
@@ -14,15 +14,19 @@ public class PlayerShatter : MonoBehaviour {
 
     public Material matPlayer;
 
-     /// START
-    /* Upon start */
+       /// START
+      /// <summary>
+     /// Upon Start
+    /// </summary>
     void Start() {
         cubesPivotDistance = cubeSize * cubesInRow / 2;                                         // calculate pivot distance
         cubesPivot = new Vector3(cubesPivotDistance, cubesPivotDistance, cubesPivotDistance);   // use this value to create pivot vector
     }
 
-     /// SHATTER Function
-    /* Create the shattering effect */
+       /// SHATTER Function
+      /// <summary>
+     /// Create player shattering effect
+    /// </summary>
     public void shatter() {
         gameObject.SetActive(false);    //make object disappear
 
@@ -30,7 +34,7 @@ public class PlayerShatter : MonoBehaviour {
         for (int x = 0; x < cubesInRow; x++) {
             for (int y = 0; y < cubesInRow; y++) {
                 for (int z = 0; z < cubesInRow; z++) {
-                    createPiece(x, y, z);
+                    CreatePiece(x, y, z);
                 }
             }
         }
@@ -46,8 +50,11 @@ public class PlayerShatter : MonoBehaviour {
 
     }
 
-
-    void createPiece(int x, int y, int z) {
+       /// CREATE PIECE
+      /// <summary>
+     /// Create the pieces needed for the shattering effect
+    /// </summary>
+    void CreatePiece(int x, int y, int z) {
 
         //create piece
         GameObject piece;

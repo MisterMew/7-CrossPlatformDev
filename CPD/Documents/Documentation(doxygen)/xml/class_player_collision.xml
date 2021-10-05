@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_player_collision" kind="class" language="C#" prot="public">
+    <compoundname>PlayerCollision</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_collision_1a5a544eb0655a2ca4cfa80fe2992b0d27" prot="public" static="no" mutable="no">
+        <type><ref refid="class_player_controller" kindref="compound">PlayerController</ref></type>
+        <definition>PlayerController PlayerCollision.movement</definition>
+        <argsstring></argsstring>
+        <name>movement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" line="4" column="29" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_collision_1a02ee8f57912d8d61c4ab87fb3f4ce3de" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip PlayerCollision.deathSound</definition>
+        <argsstring></argsstring>
+        <name>deathSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" line="5" column="22" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_collision_1a8c7c24573247f6ea55a023b1b65d9493" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerCollision.flowerOrbs</definition>
+        <argsstring></argsstring>
+        <name>flowerOrbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" line="6" column="16" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_collision_1a322cee754722af587367ce7f0346627e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerCollision.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>ON TRIGGER. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Trigger when player collides with a collectible </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" line="13" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_collision_1a1e9a7d5b9cd52e0a3abd2115d6666cc3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerCollision.OnCollisionEnter</definition>
+        <argsstring>(Collision collisionInfo)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collisionInfo</declname>
+        </param>
+        <briefdescription>
+<para>DEATH COLLISION. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Check player collision with obstacles to determine death </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" line="32" column="10" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" bodystart="32" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_collision_1a5c1c9770ca75a2cf2f09be0acc2c5c42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int PlayerCollision.GetOrbCount</definition>
+        <argsstring>()</argsstring>
+        <name>GetOrbCount</name>
+        <briefdescription>
+<para>GET ORB COUNT. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the current amount of orbs collected </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" line="25" column="16" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerCollision</label>
+        <link refid="class_player_collision"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerCollision</label>
+        <link refid="class_player_collision"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>movement</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" line="3" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/PlayerCollision.cs" bodystart="3" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_player_collision_1a02ee8f57912d8d61c4ab87fb3f4ce3de" prot="public" virt="non-virtual"><scope>PlayerCollision</scope><name>deathSound</name></member>
+      <member refid="class_player_collision_1a8c7c24573247f6ea55a023b1b65d9493" prot="public" virt="non-virtual"><scope>PlayerCollision</scope><name>flowerOrbs</name></member>
+      <member refid="class_player_collision_1a5c1c9770ca75a2cf2f09be0acc2c5c42" prot="public" virt="non-virtual"><scope>PlayerCollision</scope><name>GetOrbCount</name></member>
+      <member refid="class_player_collision_1a5a544eb0655a2ca4cfa80fe2992b0d27" prot="public" virt="non-virtual"><scope>PlayerCollision</scope><name>movement</name></member>
+      <member refid="class_player_collision_1a1e9a7d5b9cd52e0a3abd2115d6666cc3" prot="private" virt="non-virtual"><scope>PlayerCollision</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_player_collision_1a322cee754722af587367ce7f0346627e" prot="private" virt="non-virtual"><scope>PlayerCollision</scope><name>OnTriggerEnter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

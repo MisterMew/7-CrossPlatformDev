@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_main_menu_manager" kind="class" language="C#" prot="public">
+    <compoundname>MainMenuManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_main_menu_manager_1a7c158ca562df277a4203271626d6572d" prot="public" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator MainMenuManager.options</definition>
+        <argsstring></argsstring>
+        <name>options</name>
+        <briefdescription>
+<para>Animation Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="6" column="21" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_main_menu_manager_1a1855fa4353036c9045db58f304ab2d49" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainMenuManager.cmVirtualCam01</definition>
+        <argsstring></argsstring>
+        <name>cmVirtualCam01</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Cinematic Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="9" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_menu_manager_1a36738e735568ab506fcd7cd0149404b5" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator MainMenuManager.cmAnimator</definition>
+        <argsstring></argsstring>
+        <name>cmAnimator</name>
+        <initializer>= default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="10" column="22" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_menu_manager_1ab395e2005f20e81732501eb8de8d9afb" prot="private" static="no" mutable="no">
+        <type>CinemachineVirtualCamera</type>
+        <definition>CinemachineVirtualCamera MainMenuManager.vCam01</definition>
+        <argsstring></argsstring>
+        <name>vCam01</name>
+        <initializer>= default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="11" column="39" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_menu_manager_1a23a440ecd19fd07a4d3ccf7f4cb1b070" prot="private" static="no" mutable="no">
+        <type>CinemachineVirtualCamera</type>
+        <definition>CinemachineVirtualCamera MainMenuManager.vCam02</definition>
+        <argsstring></argsstring>
+        <name>vCam02</name>
+        <initializer>= default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="12" column="39" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_main_menu_manager_1ac4cab1e5019d5a18dbda7f85d7d6907c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+<para>AWAKE. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Get alll required components upon Awake </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="19" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_menu_manager_1acedca029a426d4d6e753254084ab49f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuManager.SwitchCMPriority</definition>
+        <argsstring>()</argsstring>
+        <name>SwitchCMPriority</name>
+        <briefdescription>
+<para>CM: Switch Priority. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Switch the cinemachine camera view via priotity </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="62" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="62" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_main_menu_manager_1a7a5cfc84a28762a49ccaea92052e0cfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuManager.OptionsMenu</definition>
+        <argsstring>()</argsstring>
+        <name>OptionsMenu</name>
+        <briefdescription>
+<para>Trigger the options menu </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="28" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_menu_manager_1ac62fafd331f891a6921ef9bc41b57b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuManager.QuitGame</definition>
+        <argsstring>()</argsstring>
+        <name>QuitGame</name>
+        <briefdescription>
+<para>UI: Quit. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Quit the game </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="37" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_menu_manager_1aaa856027a543ea6f2843774dae567989" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuManager.ViewCredits</definition>
+        <argsstring>()</argsstring>
+        <name>ViewCredits</name>
+        <briefdescription>
+<para>UI: Credits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>View the credits menu </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="46" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_menu_manager_1a302d1a741d570f44fcf0a9ceae552269" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuManager.ReturnMain</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnMain</name>
+        <briefdescription>
+<para>return to the main menu (from credits) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="53" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="53" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MainMenuManager</label>
+        <link refid="class_main_menu_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MainMenuManager</label>
+        <link refid="class_main_menu_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" line="4" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/MainMenuManager.cs" bodystart="4" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_main_menu_manager_1ac4cab1e5019d5a18dbda7f85d7d6907c" prot="private" virt="non-virtual"><scope>MainMenuManager</scope><name>Awake</name></member>
+      <member refid="class_main_menu_manager_1a36738e735568ab506fcd7cd0149404b5" prot="private" virt="non-virtual"><scope>MainMenuManager</scope><name>cmAnimator</name></member>
+      <member refid="class_main_menu_manager_1a1855fa4353036c9045db58f304ab2d49" prot="private" virt="non-virtual"><scope>MainMenuManager</scope><name>cmVirtualCam01</name></member>
+      <member refid="class_main_menu_manager_1a7c158ca562df277a4203271626d6572d" prot="public" virt="non-virtual"><scope>MainMenuManager</scope><name>options</name></member>
+      <member refid="class_main_menu_manager_1a7a5cfc84a28762a49ccaea92052e0cfa" prot="public" virt="non-virtual"><scope>MainMenuManager</scope><name>OptionsMenu</name></member>
+      <member refid="class_main_menu_manager_1ac62fafd331f891a6921ef9bc41b57b31" prot="public" virt="non-virtual"><scope>MainMenuManager</scope><name>QuitGame</name></member>
+      <member refid="class_main_menu_manager_1a302d1a741d570f44fcf0a9ceae552269" prot="public" virt="non-virtual"><scope>MainMenuManager</scope><name>ReturnMain</name></member>
+      <member refid="class_main_menu_manager_1acedca029a426d4d6e753254084ab49f3" prot="private" virt="non-virtual"><scope>MainMenuManager</scope><name>SwitchCMPriority</name></member>
+      <member refid="class_main_menu_manager_1ab395e2005f20e81732501eb8de8d9afb" prot="private" virt="non-virtual"><scope>MainMenuManager</scope><name>vCam01</name></member>
+      <member refid="class_main_menu_manager_1a23a440ecd19fd07a4d3ccf7f4cb1b070" prot="private" virt="non-virtual"><scope>MainMenuManager</scope><name>vCam02</name></member>
+      <member refid="class_main_menu_manager_1aaa856027a543ea6f2843774dae567989" prot="public" virt="non-virtual"><scope>MainMenuManager</scope><name>ViewCredits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

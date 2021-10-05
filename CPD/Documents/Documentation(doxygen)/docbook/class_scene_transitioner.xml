@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_scene_transitioner" xml:lang="en-US">
+<title>SceneTransitioner Class Reference</title>
+<indexterm><primary>SceneTransitioner</primary></indexterm>
+<para>Inheritance diagram for SceneTransitioner:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_scene_transitioner.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_scene_transitioner_1ae7012ae8f3c05605837645de88c2eb07">Awake</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_scene_transitioner_1a93ed028775c9dcf60f6587994206fda1">FadeToScene</link> (int sceneIndex)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_scene_transitioner_1a91a25ba5ad21d9abc89bcead2ed8b3f1">OnFadeComplete</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>AudioMixer <link linkend="_class_scene_transitioner_1a81cafc84683b3724d844c4a28d26fa05">audioMixer</link> = default</para>
+
+<para>Variables. </para>
+</listitem>
+            <listitem><para>Animator <link linkend="_class_scene_transitioner_1ac9adea59b862a10f76ce00d444b928bb">crossfade</link> = default</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_scene_transitioner_1af44eb09aa590fd8bcd9104b661ceca95">transitionTime</link> = 1f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_scene_transitioner_1ae7012ae8f3c05605837645de88c2eb07"/><section>
+    <title>Awake()</title>
+<indexterm><primary>Awake</primary><secondary>SceneTransitioner</secondary></indexterm>
+<indexterm><primary>SceneTransitioner</primary><secondary>Awake</secondary></indexterm>
+<para><computeroutput>void SceneTransitioner.Awake ( )</computeroutput></para><para>
+</para>
+
+<para>Reset the music after a fade </para>
+</section>
+<anchor xml:id="_class_scene_transitioner_1a93ed028775c9dcf60f6587994206fda1"/><section>
+    <title>FadeToScene()</title>
+<indexterm><primary>FadeToScene</primary><secondary>SceneTransitioner</secondary></indexterm>
+<indexterm><primary>SceneTransitioner</primary><secondary>FadeToScene</secondary></indexterm>
+<para><computeroutput>void SceneTransitioner.FadeToScene (int sceneIndex)</computeroutput></para><para>
+</para>
+
+<para>Start the process to fade into the next scene </para>
+</section>
+<anchor xml:id="_class_scene_transitioner_1a91a25ba5ad21d9abc89bcead2ed8b3f1"/><section>
+    <title>OnFadeComplete()</title>
+<indexterm><primary>OnFadeComplete</primary><secondary>SceneTransitioner</secondary></indexterm>
+<indexterm><primary>SceneTransitioner</primary><secondary>OnFadeComplete</secondary></indexterm>
+<para><computeroutput>void SceneTransitioner.OnFadeComplete ( )</computeroutput></para><para>
+</para>
+
+<para>Load scene once fade is complete </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_scene_transitioner_1a81cafc84683b3724d844c4a28d26fa05"/><section>
+    <title>audioMixer</title>
+<indexterm><primary>audioMixer</primary><secondary>SceneTransitioner</secondary></indexterm>
+<indexterm><primary>SceneTransitioner</primary><secondary>audioMixer</secondary></indexterm>
+<para><computeroutput>AudioMixer SceneTransitioner.audioMixer = default</computeroutput></para><para>
+
+<para>Variables. </para>
+</para>
+</section>
+<anchor xml:id="_class_scene_transitioner_1ac9adea59b862a10f76ce00d444b928bb"/><section>
+    <title>crossfade</title>
+<indexterm><primary>crossfade</primary><secondary>SceneTransitioner</secondary></indexterm>
+<indexterm><primary>SceneTransitioner</primary><secondary>crossfade</secondary></indexterm>
+<para><computeroutput>Animator SceneTransitioner.crossfade = default</computeroutput></para></section>
+<anchor xml:id="_class_scene_transitioner_1af44eb09aa590fd8bcd9104b661ceca95"/><section>
+    <title>transitionTime</title>
+<indexterm><primary>transitionTime</primary><secondary>SceneTransitioner</secondary></indexterm>
+<indexterm><primary>SceneTransitioner</primary><secondary>transitionTime</secondary></indexterm>
+<para><computeroutput>float SceneTransitioner.transitionTime = 1f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/<link linkend="__scene_transitioner_8cs">SceneTransitioner.cs</link></section>
+</section>

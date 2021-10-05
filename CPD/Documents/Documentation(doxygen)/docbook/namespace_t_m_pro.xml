@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_t_m_pro" xml:lang="en-US">
+<title>TMPro Namespace Reference</title>
+<indexterm><primary>TMPro</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_t_m_pro_1_1_examples">Examples</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___digit_validator">TMP_DigitValidator</link></para>
+
+<para>EXample of a Custom Character Input Validator to only allow digits from 0 to 9. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___phone_number_validator">TMP_PhoneNumberValidator</link></para>
+
+<para>Example of a Custom Character Input Validator to only allow phone number in the (800) 555-1212 format. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler">TMP_TextEventHandler</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

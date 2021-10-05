@@ -1,0 +1,95 @@
+.TH "TMPro.TMP_TextEventHandler" 3 "Fri Sep 24 2021" "Version v1" "TenProznia" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TMPro.TMP_TextEventHandler
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour, IPointerEnterHandler, and IPointerExitHandler\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBCharacterSelectionEvent\fP"
+.br
+.ti -1c
+.RI "class \fBLineSelectionEvent\fP"
+.br
+.ti -1c
+.RI "class \fBLinkSelectionEvent\fP"
+.br
+.ti -1c
+.RI "class \fBSpriteSelectionEvent\fP"
+.br
+.ti -1c
+.RI "class \fBWordSelectionEvent\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnPointerEnter\fP (PointerEventData eventData)"
+.br
+.ti -1c
+.RI "void \fBOnPointerExit\fP (PointerEventData eventData)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBCharacterSelectionEvent\fP \fBonCharacterSelection\fP\fC [getset]\fP"
+.br
+.RI "Event delegate triggered when pointer is over a character\&. "
+.ti -1c
+.RI "\fBSpriteSelectionEvent\fP \fBonSpriteSelection\fP\fC [getset]\fP"
+.br
+.RI "Event delegate triggered when pointer is over a sprite\&. "
+.ti -1c
+.RI "\fBWordSelectionEvent\fP \fBonWordSelection\fP\fC [getset]\fP"
+.br
+.RI "Event delegate triggered when pointer is over a word\&. "
+.ti -1c
+.RI "\fBLineSelectionEvent\fP \fBonLineSelection\fP\fC [getset]\fP"
+.br
+.RI "Event delegate triggered when pointer is over a line\&. "
+.ti -1c
+.RI "\fBLinkSelectionEvent\fP \fBonLinkSelection\fP\fC [getset]\fP"
+.br
+.RI "Event delegate triggered when pointer is over a link\&. "
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void TMPro\&.TMP_TextEventHandler\&.OnPointerEnter (PointerEventData eventData)"
+
+.SS "void TMPro\&.TMP_TextEventHandler\&.OnPointerExit (PointerEventData eventData)"
+
+.SH "Property Documentation"
+.PP 
+.SS "\fBCharacterSelectionEvent\fP TMPro\&.TMP_TextEventHandler\&.onCharacterSelection\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Event delegate triggered when pointer is over a character\&. 
+.SS "\fBLineSelectionEvent\fP TMPro\&.TMP_TextEventHandler\&.onLineSelection\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Event delegate triggered when pointer is over a line\&. 
+.SS "\fBLinkSelectionEvent\fP TMPro\&.TMP_TextEventHandler\&.onLinkSelection\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Event delegate triggered when pointer is over a link\&. 
+.SS "\fBSpriteSelectionEvent\fP TMPro\&.TMP_TextEventHandler\&.onSpriteSelection\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Event delegate triggered when pointer is over a sprite\&. 
+.SS "\fBWordSelectionEvent\fP TMPro\&.TMP_TextEventHandler\&.onWordSelection\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Event delegate triggered when pointer is over a word\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TenProznia from the source code\&.

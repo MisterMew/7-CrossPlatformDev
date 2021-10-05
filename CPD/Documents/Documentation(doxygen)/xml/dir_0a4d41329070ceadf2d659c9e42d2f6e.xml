@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_0a4d41329070ceadf2d659c9e42d2f6e" kind="dir">
+    <compoundname>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character</compoundname>
+    <innerfile refid="_parrot_player_8cs">ParrotPlayer.cs</innerfile>
+    <innerfile refid="_parrot_third_person_camera_8cs">ParrotThirdPersonCamera.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/"/>
+  </compounddef>
+</doxygen>

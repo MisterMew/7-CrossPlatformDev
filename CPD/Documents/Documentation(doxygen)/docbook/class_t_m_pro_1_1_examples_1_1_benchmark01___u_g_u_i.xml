@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i" xml:lang="en-US">
+<title>TMPro.Examples.Benchmark01_UGUI Class Reference</title>
+<indexterm><primary>TMPro.Examples.Benchmark01_UGUI</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.Benchmark01_UGUI:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a51ddf99f4bea063d19d029efbc672ea8">BenchmarkType</link> = 0</para>
+</listitem>
+            <listitem><para>Canvas <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a02cfe9754494cce88d818ab75c1da2d9">canvas</link></para>
+</listitem>
+            <listitem><para>TMP_FontAsset <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a00697aa21ceb618628b504467e786a94">TMProFont</link></para>
+</listitem>
+            <listitem><para>Font <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a76855aada34fa968c4a26cbe7be9d180">TextMeshFont</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a51ddf99f4bea063d19d029efbc672ea8"/><section>
+    <title>BenchmarkType</title>
+<indexterm><primary>BenchmarkType</primary><secondary>TMPro.Examples.Benchmark01_UGUI</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark01_UGUI</primary><secondary>BenchmarkType</secondary></indexterm>
+<para><computeroutput>int TMPro.Examples.Benchmark01_UGUI.BenchmarkType = 0</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a02cfe9754494cce88d818ab75c1da2d9"/><section>
+    <title>canvas</title>
+<indexterm><primary>canvas</primary><secondary>TMPro.Examples.Benchmark01_UGUI</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark01_UGUI</primary><secondary>canvas</secondary></indexterm>
+<para><computeroutput>Canvas TMPro.Examples.Benchmark01_UGUI.canvas</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a76855aada34fa968c4a26cbe7be9d180"/><section>
+    <title>TextMeshFont</title>
+<indexterm><primary>TextMeshFont</primary><secondary>TMPro.Examples.Benchmark01_UGUI</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark01_UGUI</primary><secondary>TextMeshFont</secondary></indexterm>
+<para><computeroutput>Font TMPro.Examples.Benchmark01_UGUI.TextMeshFont</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a00697aa21ceb618628b504467e786a94"/><section>
+    <title>TMProFont</title>
+<indexterm><primary>TMProFont</primary><secondary>TMPro.Examples.Benchmark01_UGUI</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark01_UGUI</primary><secondary>TMProFont</secondary></indexterm>
+<para><computeroutput>TMP_FontAsset TMPro.Examples.Benchmark01_UGUI.TMProFont</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__benchmark01___u_g_u_i_8cs">Benchmark01_UGUI.cs</link></section>
+</section>

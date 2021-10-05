@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_12f23f735f3cb67289d2606f82d1edbf" xml:lang="en-US">
+<title>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets Directory Reference</title>
+<indexterm><primary>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_60b25c05a5ecc32024c169cc9927c78b">Assets</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_4d02286c65f53a84cc2b297e8eeeca57">Scripts</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_01b5ef6069241b970a0dfbbf2c975bb4">TextMesh Pro</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

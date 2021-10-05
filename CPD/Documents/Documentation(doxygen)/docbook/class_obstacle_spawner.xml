@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_obstacle_spawner" xml:lang="en-US">
+<title>ObstacleSpawner Class Reference</title>
+<indexterm><primary>ObstacleSpawner</primary></indexterm>
+<para>Inheritance diagram for ObstacleSpawner:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_obstacle_spawner.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject[] <link linkend="_class_obstacle_spawner_1a2ed9095df18af758788559357a817a9e">obstaclePrefabs</link></para>
+</listitem>
+            <listitem><para>Transform[] <link linkend="_class_obstacle_spawner_1a9faf37e4c0e2ee61bd5f1cf3cab25c70">spawnPoints</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_obstacle_spawner_1a2ed9095df18af758788559357a817a9e"/><section>
+    <title>obstaclePrefabs</title>
+<indexterm><primary>obstaclePrefabs</primary><secondary>ObstacleSpawner</secondary></indexterm>
+<indexterm><primary>ObstacleSpawner</primary><secondary>obstaclePrefabs</secondary></indexterm>
+<para><computeroutput>GameObject [] ObstacleSpawner.obstaclePrefabs</computeroutput></para></section>
+<anchor xml:id="_class_obstacle_spawner_1a9faf37e4c0e2ee61bd5f1cf3cab25c70"/><section>
+    <title>spawnPoints</title>
+<indexterm><primary>spawnPoints</primary><secondary>ObstacleSpawner</secondary></indexterm>
+<indexterm><primary>ObstacleSpawner</primary><secondary>spawnPoints</secondary></indexterm>
+<para><computeroutput>Transform [] ObstacleSpawner.spawnPoints</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/<link linkend="__obstacle_spawner_8cs">ObstacleSpawner.cs</link></section>
+</section>

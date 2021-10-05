@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_jitter" xml:lang="en-US">
+<title>TMPro.Examples.VertexJitter Class Reference</title>
+<indexterm><primary>TMPro.Examples.VertexJitter</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.VertexJitter:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_vertex_jitter.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a48aa2f5018ce1f57c68b316cfc5a76d0">AngleMultiplier</link> = 1.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a5470bb01ad13ec8b9dab328468bc454d">SpeedMultiplier</link> = 1.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a2950cda059be7e08282d0caee720df49">CurveScale</link> = 1.0f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a48aa2f5018ce1f57c68b316cfc5a76d0"/><section>
+    <title>AngleMultiplier</title>
+<indexterm><primary>AngleMultiplier</primary><secondary>TMPro.Examples.VertexJitter</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.VertexJitter</primary><secondary>AngleMultiplier</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.VertexJitter.AngleMultiplier = 1.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a2950cda059be7e08282d0caee720df49"/><section>
+    <title>CurveScale</title>
+<indexterm><primary>CurveScale</primary><secondary>TMPro.Examples.VertexJitter</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.VertexJitter</primary><secondary>CurveScale</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.VertexJitter.CurveScale = 1.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a5470bb01ad13ec8b9dab328468bc454d"/><section>
+    <title>SpeedMultiplier</title>
+<indexterm><primary>SpeedMultiplier</primary><secondary>TMPro.Examples.VertexJitter</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.VertexJitter</primary><secondary>SpeedMultiplier</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.VertexJitter.SpeedMultiplier = 1.0f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__vertex_jitter_8cs">VertexJitter.cs</link></section>
+</section>

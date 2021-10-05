@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_parrot_player" kind="namespace" language="C#">
+    <compoundname>ParrotPlayer</compoundname>
+    <innerclass refid="class_parrot_player_1_1_parrot_player" prot="public">ParrotPlayer::ParrotPlayer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/ParrotPlayer.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

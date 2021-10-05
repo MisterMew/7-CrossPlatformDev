@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_image_fill_gradient" xml:lang="en-US">
+<title>ImageFillGradient Class Reference</title>
+<indexterm><primary>ImageFillGradient</primary></indexterm>
+<para>Inheritance diagram for ImageFillGradient:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_image_fill_gradient.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/<link linkend="__image_fill_gradient_8cs">ImageFillGradient.cs</link></section>

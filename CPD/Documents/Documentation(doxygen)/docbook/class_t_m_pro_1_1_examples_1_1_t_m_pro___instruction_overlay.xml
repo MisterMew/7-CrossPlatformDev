@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay" xml:lang="en-US">
+<title>TMPro.Examples.TMPro_InstructionOverlay Class Reference</title>
+<indexterm><primary>TMPro.Examples.TMPro_InstructionOverlay</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.TMPro_InstructionOverlay:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415">FpsCounterAnchorPositions</link> { <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415ab32beb056fbfe36afbabc6c88c81ab36">TopLeft</link>
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a98e5a1c44509157ebcaf46c515c78875">BottomLeft</link>
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a1d85a557894c340c318493f33bfa8efb">TopRight</link>
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a9146bfc669fddc88db2c4d89297d0e9a">BottomRight</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415">FpsCounterAnchorPositions</link> <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a711b531b8ed7c421f67b1ee9b32b36dd">AnchorPosition</link> = <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a98e5a1c44509157ebcaf46c515c78875">FpsCounterAnchorPositions.BottomLeft</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415"/><section>
+    <title>FpsCounterAnchorPositions</title>
+<indexterm><primary>FpsCounterAnchorPositions</primary><secondary>TMPro.Examples.TMPro_InstructionOverlay</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMPro_InstructionOverlay</primary><secondary>FpsCounterAnchorPositions</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415">TMPro.Examples.TMPro_InstructionOverlay.FpsCounterAnchorPositions</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>TopLeft</primary><secondary>TMPro.Examples.TMPro_InstructionOverlay</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMPro_InstructionOverlay</primary><secondary>TopLeft</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415ab32beb056fbfe36afbabc6c88c81ab36"/>TopLeft</entry><entry></entry></row><row><entry><indexterm><primary>BottomLeft</primary><secondary>TMPro.Examples.TMPro_InstructionOverlay</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMPro_InstructionOverlay</primary><secondary>BottomLeft</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a98e5a1c44509157ebcaf46c515c78875"/>BottomLeft</entry><entry></entry></row><row><entry><indexterm><primary>TopRight</primary><secondary>TMPro.Examples.TMPro_InstructionOverlay</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMPro_InstructionOverlay</primary><secondary>TopRight</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a1d85a557894c340c318493f33bfa8efb"/>TopRight</entry><entry></entry></row><row><entry><indexterm><primary>BottomRight</primary><secondary>TMPro.Examples.TMPro_InstructionOverlay</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMPro_InstructionOverlay</primary><secondary>BottomRight</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a9146bfc669fddc88db2c4d89297d0e9a"/>BottomRight</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a711b531b8ed7c421f67b1ee9b32b36dd"/><section>
+    <title>AnchorPosition</title>
+<indexterm><primary>AnchorPosition</primary><secondary>TMPro.Examples.TMPro_InstructionOverlay</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMPro_InstructionOverlay</primary><secondary>AnchorPosition</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415">FpsCounterAnchorPositions</link> TMPro.Examples.TMPro_InstructionOverlay.AnchorPosition = <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a98e5a1c44509157ebcaf46c515c78875">FpsCounterAnchorPositions.BottomLeft</link></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__t_m_pro___instruction_overlay_8cs">TMPro_InstructionOverlay.cs</link></section>
+</section>

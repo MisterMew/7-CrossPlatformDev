@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_main_menu_manager" xml:lang="en-US">
+<title>MainMenuManager Class Reference</title>
+<indexterm><primary>MainMenuManager</primary></indexterm>
+<para>Inheritance diagram for MainMenuManager:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_main_menu_manager.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_main_menu_manager_1a7a5cfc84a28762a49ccaea92052e0cfa">OptionsMenu</link> ()</para>
+
+<para>Trigger the options menu </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_main_menu_manager_1ac62fafd331f891a6921ef9bc41b57b31">QuitGame</link> ()</para>
+
+<para>UI: Quit. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_main_menu_manager_1aaa856027a543ea6f2843774dae567989">ViewCredits</link> ()</para>
+
+<para>UI: Credits. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_main_menu_manager_1a302d1a741d570f44fcf0a9ceae552269">ReturnMain</link> ()</para>
+
+<para>return to the main menu (from credits) </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Animator <link linkend="_class_main_menu_manager_1a7c158ca562df277a4203271626d6572d">options</link></para>
+
+<para>Animation Variables. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_main_menu_manager_1a7a5cfc84a28762a49ccaea92052e0cfa"/><section>
+    <title>OptionsMenu()</title>
+<indexterm><primary>OptionsMenu</primary><secondary>MainMenuManager</secondary></indexterm>
+<indexterm><primary>MainMenuManager</primary><secondary>OptionsMenu</secondary></indexterm>
+<para><computeroutput>void MainMenuManager.OptionsMenu ( )</computeroutput></para><para>
+
+<para>Trigger the options menu </para>
+</para>
+</section>
+<anchor xml:id="_class_main_menu_manager_1ac62fafd331f891a6921ef9bc41b57b31"/><section>
+    <title>QuitGame()</title>
+<indexterm><primary>QuitGame</primary><secondary>MainMenuManager</secondary></indexterm>
+<indexterm><primary>MainMenuManager</primary><secondary>QuitGame</secondary></indexterm>
+<para><computeroutput>void MainMenuManager.QuitGame ( )</computeroutput></para><para>
+
+<para>UI: Quit. </para>
+</para>
+
+<para>Quit the game </para>
+</section>
+<anchor xml:id="_class_main_menu_manager_1a302d1a741d570f44fcf0a9ceae552269"/><section>
+    <title>ReturnMain()</title>
+<indexterm><primary>ReturnMain</primary><secondary>MainMenuManager</secondary></indexterm>
+<indexterm><primary>MainMenuManager</primary><secondary>ReturnMain</secondary></indexterm>
+<para><computeroutput>void MainMenuManager.ReturnMain ( )</computeroutput></para><para>
+
+<para>return to the main menu (from credits) </para>
+</para>
+</section>
+<anchor xml:id="_class_main_menu_manager_1aaa856027a543ea6f2843774dae567989"/><section>
+    <title>ViewCredits()</title>
+<indexterm><primary>ViewCredits</primary><secondary>MainMenuManager</secondary></indexterm>
+<indexterm><primary>MainMenuManager</primary><secondary>ViewCredits</secondary></indexterm>
+<para><computeroutput>void MainMenuManager.ViewCredits ( )</computeroutput></para><para>
+
+<para>UI: Credits. </para>
+</para>
+
+<para>View the credits menu </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_main_menu_manager_1a7c158ca562df277a4203271626d6572d"/><section>
+    <title>options</title>
+<indexterm><primary>options</primary><secondary>MainMenuManager</secondary></indexterm>
+<indexterm><primary>MainMenuManager</primary><secondary>options</secondary></indexterm>
+<para><computeroutput>Animator MainMenuManager.options</computeroutput></para><para>
+
+<para>Animation Variables. </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/<link linkend="__main_menu_manager_8cs">MainMenuManager.cs</link></section>
+</section>

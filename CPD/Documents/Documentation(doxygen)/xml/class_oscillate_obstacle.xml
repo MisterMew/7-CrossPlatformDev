@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_oscillate_obstacle" kind="class" language="C#" prot="public">
+    <compoundname>OscillateObstacle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_oscillate_obstacle_1a47036235191a56ae7ec2afee3835427d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OscillateObstacle.rotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationSpeed</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/OscillateObstacle.cs" line="4" column="16" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/OscillateObstacle.cs" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_oscillate_obstacle_1a6320885c65d90b08196fb2bb9b57e278" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OscillateObstacle.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>On Update, Oscillate an object </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/OscillateObstacle.cs" line="9" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/OscillateObstacle.cs" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OscillateObstacle</label>
+        <link refid="class_oscillate_obstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OscillateObstacle</label>
+        <link refid="class_oscillate_obstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/OscillateObstacle.cs" line="3" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/OscillateObstacle.cs" bodystart="3" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_oscillate_obstacle_1a47036235191a56ae7ec2afee3835427d" prot="public" virt="non-virtual"><scope>OscillateObstacle</scope><name>rotationSpeed</name></member>
+      <member refid="class_oscillate_obstacle_1a6320885c65d90b08196fb2bb9b57e278" prot="private" virt="non-virtual"><scope>OscillateObstacle</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

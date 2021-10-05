@@ -1,0 +1,65 @@
+.TH "SceneTransitioner" 3 "Fri Sep 24 2021" "Version v1" "TenProznia" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SceneTransitioner
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBAwake\fP ()"
+.br
+.ti -1c
+.RI "void \fBFadeToScene\fP (int sceneIndex)"
+.br
+.ti -1c
+.RI "void \fBOnFadeComplete\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "AudioMixer \fBaudioMixer\fP = default"
+.br
+.RI "Variables\&. "
+.ti -1c
+.RI "Animator \fBcrossfade\fP = default"
+.br
+.ti -1c
+.RI "float \fBtransitionTime\fP = 1f"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void SceneTransitioner\&.Awake ()"
+
+.PP
+Reset the music after a fade 
+.SS "void SceneTransitioner\&.FadeToScene (int sceneIndex)"
+
+.PP
+Start the process to fade into the next scene 
+.SS "void SceneTransitioner\&.OnFadeComplete ()"
+
+.PP
+Load scene once fade is complete 
+.SH "Member Data Documentation"
+.PP 
+.SS "AudioMixer SceneTransitioner\&.audioMixer = default"
+
+.PP
+Variables\&. 
+.SS "Animator SceneTransitioner\&.crossfade = default"
+
+.SS "float SceneTransitioner\&.transitionTime = 1f"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TenProznia from the source code\&.

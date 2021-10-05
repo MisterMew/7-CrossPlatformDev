@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check" xml:lang="en-US">
+<title>TMPro.Examples.TMP_TextEventCheck Class Reference</title>
+<indexterm><primary>TMPro.Examples.TMP_TextEventCheck</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.TMP_TextEventCheck:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler">TMP_TextEventHandler</link> <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1ae23cb7bfed7c19448af70d9e7de12c95">TextEventHandler</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1ae23cb7bfed7c19448af70d9e7de12c95"/><section>
+    <title>TextEventHandler</title>
+<indexterm><primary>TextEventHandler</primary><secondary>TMPro.Examples.TMP_TextEventCheck</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_TextEventCheck</primary><secondary>TextEventHandler</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler">TMP_TextEventHandler</link> TMPro.Examples.TMP_TextEventCheck.TextEventHandler</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__t_m_p___text_event_check_8cs">TMP_TextEventCheck.cs</link></section>
+</section>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_skew_text_example" xml:lang="en-US">
+<title>TMPro.Examples.SkewTextExample Class Reference</title>
+<indexterm><primary>TMPro.Examples.SkewTextExample</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.SkewTextExample:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_skew_text_example.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>AnimationCurve <link linkend="_class_t_m_pro_1_1_examples_1_1_skew_text_example_1a97a9859d8cdc12282e8bab29234cdf40">VertexCurve</link> = new AnimationCurve(new Keyframe(0, 0), new Keyframe(0.25f, 2.0f), new Keyframe(0.5f, 0), new Keyframe(0.75f, 2.0f), new Keyframe(1, 0f))</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_skew_text_example_1a99a24dc0d0b4c3c9ae46c925a57031f1">CurveScale</link> = 1.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_skew_text_example_1a6f76ea16465a528676168b897d3d90a2">ShearAmount</link> = 1.0f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_skew_text_example_1a99a24dc0d0b4c3c9ae46c925a57031f1"/><section>
+    <title>CurveScale</title>
+<indexterm><primary>CurveScale</primary><secondary>TMPro.Examples.SkewTextExample</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.SkewTextExample</primary><secondary>CurveScale</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.SkewTextExample.CurveScale = 1.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_skew_text_example_1a6f76ea16465a528676168b897d3d90a2"/><section>
+    <title>ShearAmount</title>
+<indexterm><primary>ShearAmount</primary><secondary>TMPro.Examples.SkewTextExample</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.SkewTextExample</primary><secondary>ShearAmount</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.SkewTextExample.ShearAmount = 1.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_skew_text_example_1a97a9859d8cdc12282e8bab29234cdf40"/><section>
+    <title>VertexCurve</title>
+<indexterm><primary>VertexCurve</primary><secondary>TMPro.Examples.SkewTextExample</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.SkewTextExample</primary><secondary>VertexCurve</secondary></indexterm>
+<para><computeroutput>AnimationCurve TMPro.Examples.SkewTextExample.VertexCurve = new AnimationCurve(new Keyframe(0, 0), new Keyframe(0.25f, 2.0f), new Keyframe(0.5f, 0), new Keyframe(0.75f, 2.0f), new Keyframe(1, 0f))</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__skew_text_example_8cs">SkewTextExample.cs</link></section>
+</section>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_audio_mixer_sliders" xml:lang="en-US">
+<title>AudioMixerSliders Class Reference</title>
+<indexterm><primary>AudioMixerSliders</primary></indexterm>
+<para>Inheritance diagram for AudioMixerSliders:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_mixer_sliders.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static IEnumerator <link linkend="_class_audio_mixer_sliders_1a4323bca135d1915151ffd2bd79210082">StartFade</link> (AudioMixer audioMixer, string exposedParam, float duration, float targetVolume)</para>
+
+<para>START FADE. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_audio_mixer_sliders_1a4323bca135d1915151ffd2bd79210082"/><section>
+    <title>StartFade()</title>
+<indexterm><primary>StartFade</primary><secondary>AudioMixerSliders</secondary></indexterm>
+<indexterm><primary>AudioMixerSliders</primary><secondary>StartFade</secondary></indexterm>
+<para><computeroutput>static IEnumerator AudioMixerSliders.StartFade (AudioMixer audioMixer, string exposedParam, float duration, float targetVolume)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>START FADE. </para>
+</para>
+
+<para>Fade the master mixer when tansitioning scenes </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/<link linkend="__audio_mixer_sliders_8cs">AudioMixerSliders.cs</link></section>
+</section>

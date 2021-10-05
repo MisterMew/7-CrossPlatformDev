@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_shader_prop_animator" xml:lang="en-US">
+<title>TMPro.Examples.ShaderPropAnimator Class Reference</title>
+<indexterm><primary>TMPro.Examples.ShaderPropAnimator</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.ShaderPropAnimator:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_shader_prop_animator.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>AnimationCurve <link linkend="_class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a5b9d48d8e4affbb0d205aa88136919f1">GlowCurve</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a6e28899cd07f82e7b51db5d99d06abc0">m_frame</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a5b9d48d8e4affbb0d205aa88136919f1"/><section>
+    <title>GlowCurve</title>
+<indexterm><primary>GlowCurve</primary><secondary>TMPro.Examples.ShaderPropAnimator</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.ShaderPropAnimator</primary><secondary>GlowCurve</secondary></indexterm>
+<para><computeroutput>AnimationCurve TMPro.Examples.ShaderPropAnimator.GlowCurve</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a6e28899cd07f82e7b51db5d99d06abc0"/><section>
+    <title>m_frame</title>
+<indexterm><primary>m_frame</primary><secondary>TMPro.Examples.ShaderPropAnimator</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.ShaderPropAnimator</primary><secondary>m_frame</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.ShaderPropAnimator.m_frame</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__shader_prop_animator_8cs">ShaderPropAnimator.cs</link></section>
+</section>

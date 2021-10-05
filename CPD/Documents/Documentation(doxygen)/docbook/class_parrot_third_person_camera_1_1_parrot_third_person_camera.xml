@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_parrot_third_person_camera_1_1_parrot_third_person_camera" xml:lang="en-US">
+<title>ParrotThirdPersonCamera.ParrotThirdPersonCamera Class Reference</title>
+<indexterm><primary>ParrotThirdPersonCamera.ParrotThirdPersonCamera</primary></indexterm>
+<para>Inheritance diagram for ParrotThirdPersonCamera.ParrotThirdPersonCamera:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_parrot_third_person_camera_1_1_parrot_third_person_camera.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Transform <link linkend="_class_parrot_third_person_camera_1_1_parrot_third_person_camera_1a670eb5950a8e809f8653d1bde163f81d">lookAt</link></para>
+</listitem>
+            <listitem><para>Transform <link linkend="_class_parrot_third_person_camera_1_1_parrot_third_person_camera_1ac40d21b1084682ed5366ad0ffbd8bdc3">camTransform</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_parrot_third_person_camera_1_1_parrot_third_person_camera_1a54e78789f0183bd6aca1105d7481163f">distance</link> = 5.0f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_parrot_third_person_camera_1_1_parrot_third_person_camera_1ac40d21b1084682ed5366ad0ffbd8bdc3"/><section>
+    <title>camTransform</title>
+<indexterm><primary>camTransform</primary><secondary>ParrotThirdPersonCamera.ParrotThirdPersonCamera</secondary></indexterm>
+<indexterm><primary>ParrotThirdPersonCamera.ParrotThirdPersonCamera</primary><secondary>camTransform</secondary></indexterm>
+<para><computeroutput>Transform ParrotThirdPersonCamera.ParrotThirdPersonCamera.camTransform</computeroutput></para></section>
+<anchor xml:id="_class_parrot_third_person_camera_1_1_parrot_third_person_camera_1a54e78789f0183bd6aca1105d7481163f"/><section>
+    <title>distance</title>
+<indexterm><primary>distance</primary><secondary>ParrotThirdPersonCamera.ParrotThirdPersonCamera</secondary></indexterm>
+<indexterm><primary>ParrotThirdPersonCamera.ParrotThirdPersonCamera</primary><secondary>distance</secondary></indexterm>
+<para><computeroutput>float ParrotThirdPersonCamera.ParrotThirdPersonCamera.distance = 5.0f</computeroutput></para></section>
+<anchor xml:id="_class_parrot_third_person_camera_1_1_parrot_third_person_camera_1a670eb5950a8e809f8653d1bde163f81d"/><section>
+    <title>lookAt</title>
+<indexterm><primary>lookAt</primary><secondary>ParrotThirdPersonCamera.ParrotThirdPersonCamera</secondary></indexterm>
+<indexterm><primary>ParrotThirdPersonCamera.ParrotThirdPersonCamera</primary><secondary>lookAt</secondary></indexterm>
+<para><computeroutput>Transform ParrotThirdPersonCamera.ParrotThirdPersonCamera.lookAt</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/<link linkend="__parrot_third_person_camera_8cs">ParrotThirdPersonCamera.cs</link></section>
+</section>

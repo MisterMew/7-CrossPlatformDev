@@ -4,14 +4,18 @@ public class ObstacleSpawner : MonoBehaviour {
     public GameObject[] obstaclePrefabs;
     public Transform[] spawnPoints;
 
-     /// START
-    /* Start function */
+       /// START
+      /// <summary>
+     /// Start
+    /// </summary>
     private void Start() {
         SpawnObstacles();
     }
 
-     /// SPAWN OBSTACLES
-    /* Spawn obstacles at the spawn points */
+       /// SPAWN OBSTACLES
+      /// <summary>
+     /// Spawn a random obstacle at each spawn point
+    /// </summary>
     void SpawnObstacles() {
         for (int i = 0; i < spawnPoints.Length; i++) {
             int randomIndex = Random.Range(0, obstaclePrefabs.Length);

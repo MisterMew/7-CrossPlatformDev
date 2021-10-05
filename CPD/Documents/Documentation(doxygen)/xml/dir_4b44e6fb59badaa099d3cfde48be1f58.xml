@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_4b44e6fb59badaa099d3cfde48be1f58" kind="dir">
+    <compoundname>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts</compoundname>
+    <innerfile refid="_g_u_i_skew_image_8cs">GUISkewImage.cs</innerfile>
+    <innerfile refid="_image_fill_gradient_8cs">ImageFillGradient.cs</innerfile>
+    <innerfile refid="_main_menu_manager_8cs">MainMenuManager.cs</innerfile>
+    <innerfile refid="_pause_menu_manager_8cs">PauseMenuManager.cs</innerfile>
+    <innerfile refid="_statistic_manager_8cs">StatisticManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/"/>
+  </compounddef>
+</doxygen>

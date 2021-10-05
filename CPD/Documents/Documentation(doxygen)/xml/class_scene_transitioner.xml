@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_scene_transitioner" kind="class" language="C#" prot="public">
+    <compoundname>SceneTransitioner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scene_transitioner_1a81cafc84683b3724d844c4a28d26fa05" prot="public" static="no" mutable="no">
+        <type>AudioMixer</type>
+        <definition>AudioMixer SceneTransitioner.audioMixer</definition>
+        <argsstring></argsstring>
+        <name>audioMixer</name>
+        <initializer>= default</initializer>
+        <briefdescription>
+<para>Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" line="7" column="23" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_transitioner_1ac9adea59b862a10f76ce00d444b928bb" prot="public" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator SceneTransitioner.crossfade</definition>
+        <argsstring></argsstring>
+        <name>crossfade</name>
+        <initializer>= default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" line="8" column="21" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_transitioner_1af44eb09aa590fd8bcd9104b661ceca95" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SceneTransitioner.transitionTime</definition>
+        <argsstring></argsstring>
+        <name>transitionTime</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" line="9" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scene_transitioner_1a563c90c833b4a52dfe103072747d9901" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SceneTransitioner.sceneToLoad</definition>
+        <argsstring></argsstring>
+        <name>sceneToLoad</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" line="10" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scene_transitioner_1ae7012ae8f3c05605837645de88c2eb07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneTransitioner.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset the music after a fade </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" line="15" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_transitioner_1a93ed028775c9dcf60f6587994206fda1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneTransitioner.FadeToScene</definition>
+        <argsstring>(int sceneIndex)</argsstring>
+        <name>FadeToScene</name>
+        <param>
+          <type>int</type>
+          <declname>sceneIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start the process to fade into the next scene </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" line="22" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_transitioner_1a91a25ba5ad21d9abc89bcead2ed8b3f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneTransitioner.OnFadeComplete</definition>
+        <argsstring>()</argsstring>
+        <name>OnFadeComplete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load scene once fade is complete </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" line="31" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" bodystart="31" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneTransitioner</label>
+        <link refid="class_scene_transitioner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneTransitioner</label>
+        <link refid="class_scene_transitioner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" line="5" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs" bodystart="5" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_scene_transitioner_1a81cafc84683b3724d844c4a28d26fa05" prot="public" virt="non-virtual"><scope>SceneTransitioner</scope><name>audioMixer</name></member>
+      <member refid="class_scene_transitioner_1ae7012ae8f3c05605837645de88c2eb07" prot="public" virt="non-virtual"><scope>SceneTransitioner</scope><name>Awake</name></member>
+      <member refid="class_scene_transitioner_1ac9adea59b862a10f76ce00d444b928bb" prot="public" virt="non-virtual"><scope>SceneTransitioner</scope><name>crossfade</name></member>
+      <member refid="class_scene_transitioner_1a93ed028775c9dcf60f6587994206fda1" prot="public" virt="non-virtual"><scope>SceneTransitioner</scope><name>FadeToScene</name></member>
+      <member refid="class_scene_transitioner_1a91a25ba5ad21d9abc89bcead2ed8b3f1" prot="public" virt="non-virtual"><scope>SceneTransitioner</scope><name>OnFadeComplete</name></member>
+      <member refid="class_scene_transitioner_1a563c90c833b4a52dfe103072747d9901" prot="private" virt="non-virtual"><scope>SceneTransitioner</scope><name>sceneToLoad</name></member>
+      <member refid="class_scene_transitioner_1af44eb09aa590fd8bcd9104b661ceca95" prot="public" virt="non-virtual"><scope>SceneTransitioner</scope><name>transitionTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

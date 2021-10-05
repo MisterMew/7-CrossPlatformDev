@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_chat_controller" xml:lang="en-US">
+<title>ChatController Class Reference</title>
+<indexterm><primary>ChatController</primary></indexterm>
+<para>Inheritance diagram for ChatController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_chat_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>TMP_InputField <link linkend="_class_chat_controller_1aa10d0f728b5a82ad62e48b0367c29054">TMP_ChatInput</link></para>
+</listitem>
+            <listitem><para>TMP_Text <link linkend="_class_chat_controller_1aac379e56f05d9710d7363645e887f139">TMP_ChatOutput</link></para>
+</listitem>
+            <listitem><para>Scrollbar <link linkend="_class_chat_controller_1a76cac89a1da8d005d5da2e3a2a93de57">ChatScrollbar</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_chat_controller_1a76cac89a1da8d005d5da2e3a2a93de57"/><section>
+    <title>ChatScrollbar</title>
+<indexterm><primary>ChatScrollbar</primary><secondary>ChatController</secondary></indexterm>
+<indexterm><primary>ChatController</primary><secondary>ChatScrollbar</secondary></indexterm>
+<para><computeroutput>Scrollbar ChatController.ChatScrollbar</computeroutput></para></section>
+<anchor xml:id="_class_chat_controller_1aa10d0f728b5a82ad62e48b0367c29054"/><section>
+    <title>TMP_ChatInput</title>
+<indexterm><primary>TMP_ChatInput</primary><secondary>ChatController</secondary></indexterm>
+<indexterm><primary>ChatController</primary><secondary>TMP_ChatInput</secondary></indexterm>
+<para><computeroutput>TMP_InputField ChatController.TMP_ChatInput</computeroutput></para></section>
+<anchor xml:id="_class_chat_controller_1aac379e56f05d9710d7363645e887f139"/><section>
+    <title>TMP_ChatOutput</title>
+<indexterm><primary>TMP_ChatOutput</primary><secondary>ChatController</secondary></indexterm>
+<indexterm><primary>ChatController</primary><secondary>TMP_ChatOutput</secondary></indexterm>
+<para><computeroutput>TMP_Text ChatController.TMP_ChatOutput</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__chat_controller_8cs">ChatController.cs</link></section>
+</section>

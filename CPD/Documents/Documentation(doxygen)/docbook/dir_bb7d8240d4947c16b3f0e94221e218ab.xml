@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_bb7d8240d4947c16b3f0e94221e218ab" xml:lang="en-US">
+<title>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts Directory Reference</title>
+<indexterm><primary>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__camera_follow_player_8cs">CameraFollowPlayer.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__player_collision_8cs">PlayerCollision.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__player_controller_8cs">PlayerController.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__player_shatter_8cs">PlayerShatter.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

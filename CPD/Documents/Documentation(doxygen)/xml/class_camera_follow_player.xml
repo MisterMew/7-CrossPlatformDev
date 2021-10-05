@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_camera_follow_player" kind="class" language="C#" prot="public">
+    <compoundname>CameraFollowPlayer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_camera_follow_player_1a1bf81ea5b669e2a1dda6fc9b1512cbff" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform CameraFollowPlayer.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/CameraFollowPlayer.cs" line="4" column="22" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/CameraFollowPlayer.cs" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_follow_player_1a73d5030276529ef41f55115c23b78d9d" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CameraFollowPlayer.offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/CameraFollowPlayer.cs" line="5" column="20" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/CameraFollowPlayer.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_follow_player_1a2c7a1c8a9e77787ec8c39db6e3f8f693" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraFollowPlayer.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>UPDATE. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Update the camera to follow the player </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/CameraFollowPlayer.cs" line="12" column="10" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/CameraFollowPlayer.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CameraFollowPlayer</label>
+        <link refid="class_camera_follow_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CameraFollowPlayer</label>
+        <link refid="class_camera_follow_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/CameraFollowPlayer.cs" line="3" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/CameraFollowPlayer.cs" bodystart="3" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_camera_follow_player_1a73d5030276529ef41f55115c23b78d9d" prot="public" virt="non-virtual"><scope>CameraFollowPlayer</scope><name>offset</name></member>
+      <member refid="class_camera_follow_player_1a1bf81ea5b669e2a1dda6fc9b1512cbff" prot="public" virt="non-virtual"><scope>CameraFollowPlayer</scope><name>player</name></member>
+      <member refid="class_camera_follow_player_1a2c7a1c8a9e77787ec8c39db6e3f8f693" prot="private" virt="non-virtual"><scope>CameraFollowPlayer</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

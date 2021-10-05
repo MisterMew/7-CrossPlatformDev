@@ -14,21 +14,27 @@ public class PlayerController : MonoBehaviour {
     private float xThrow;
 
 
-     /// AWAKE
-    /* Define the touch-input area */
+       /// AWAKE
+      /// <summary>
+     /// Upon Awake, Get player rigidboday and define the touch-input area
+    /// </summary>
     private void Awake() {
         mRigidbody = GetComponent<Rigidbody>();
         birbAnimashen = gameObject.GetComponentInChildren<Animator>();
     }
 
-     /// UPDATE
-    /* Updates the birbs animations */
+       /// UPDATE
+      /// <summary>
+     /// Update birb animations
+    /// </summary>
     private void Update() {
         birbAnimashen.SetFloat("horizontal", xThrow);
     }
 
-     /// FIXED UPDATE
-    /* Update dependant on framerate */
+       /// FIXED UPDATE
+      /// <summary>
+     /// Fixed Update dependant on the framerate
+    /// </summary>
     private void FixedUpdate() {
         mRigidbody.AddForce(0, 0, forwardForce * Time.deltaTime, ForceMode.Impulse); //Apply forward force
 
@@ -45,22 +51,28 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-     /// INPUT: AXIAL
-    /* Get the axial input regardless of input controller */
+       /// INPUT: AXIAL
+      /// <summary>
+     /// Get Axial input regardless of input controller
+    /// </summary>
     private float GetAxisInput() {
         return Input.GetAxis("Horizontal"); //Return the horizontal axial input
     }
 
-     /// OUT OF BOUNDS
-    /* Validate if the player is Out of bounds */
+       /// OUT OF BOUNDS
+      /// <summary>
+     /// Validate whether the player is Out of Bounds
+    /// </summary>
     private bool IsOutOfBounds() {
         if (mRigidbody.position.y < -15F  || mRigidbody.position.y > 64F)  { return true; }
         if (mRigidbody.position.x < -256F || mRigidbody.position.x > 256F) { return true; }
         return false;
     }
 
-     /// MOVE PLAYER
-    /* Used to register tough input */
+       /// MOVE PLAYER
+      /// <summary>
+     /// Move the player when using touch Input
+    /// </summary>
     public void MovePlayer(float variants) {
         xThrow = variants;
     }

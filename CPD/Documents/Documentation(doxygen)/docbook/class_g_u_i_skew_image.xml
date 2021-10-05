@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_g_u_i_skew_image" xml:lang="en-US">
+<title>GUISkewImage Class Reference</title>
+<indexterm><primary>GUISkewImage</primary></indexterm>
+<para>Inheritance diagram for GUISkewImage:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_g_u_i_skew_image.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_g_u_i_skew_image_1aef6e433caebe48048b3581d7e1a32cd9">OnPopulateMesh</link> (VertexHelper vh)</para>
+
+<para>Allow an image to be skewed </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_g_u_i_skew_image_1aef6e433caebe48048b3581d7e1a32cd9"/><section>
+    <title>OnPopulateMesh()</title>
+<indexterm><primary>OnPopulateMesh</primary><secondary>GUISkewImage</secondary></indexterm>
+<indexterm><primary>GUISkewImage</primary><secondary>OnPopulateMesh</secondary></indexterm>
+<para><computeroutput>override void GUISkewImage.OnPopulateMesh (VertexHelper vh)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>Allow an image to be skewed </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/<link linkend="__g_u_i_skew_image_8cs">GUISkewImage.cs</link></section>
+</section>

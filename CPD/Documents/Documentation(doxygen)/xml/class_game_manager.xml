@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_game_manager" kind="class" language="C#" prot="public">
+    <compoundname>GameManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_manager_1a44bef7cf192199ea542291cf88311b41" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GameManager.gameEnded</definition>
+        <argsstring></argsstring>
+        <name>gameEnded</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GameManager.cs" line="6" column="10" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GameManager.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_manager_1ade2ef475955a5818fafbe50ebfdd569b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GameManager.restartDelay</definition>
+        <argsstring></argsstring>
+        <name>restartDelay</name>
+        <initializer>= 1F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GameManager.cs" line="7" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GameManager.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_manager_1a0c10b4d89c6e37a4433a54a5b7b04500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameManager.EndGame</definition>
+        <argsstring>()</argsstring>
+        <name>EndGame</name>
+        <briefdescription>
+<para>GAME: END. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>End the game by Invoking a restart </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GameManager.cs" line="14" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GameManager.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_manager_1a1cbb012b22180860880a659142a0cd07" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameManager.Restart</definition>
+        <argsstring>()</argsstring>
+        <name>Restart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reload the current scene </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GameManager.cs" line="24" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GameManager.cs" bodystart="24" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GameManager</label>
+        <link refid="class_game_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GameManager</label>
+        <link refid="class_game_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GameManager.cs" line="4" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GameManager.cs" bodystart="4" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_game_manager_1a0c10b4d89c6e37a4433a54a5b7b04500" prot="public" virt="non-virtual"><scope>GameManager</scope><name>EndGame</name></member>
+      <member refid="class_game_manager_1a44bef7cf192199ea542291cf88311b41" prot="private" virt="non-virtual"><scope>GameManager</scope><name>gameEnded</name></member>
+      <member refid="class_game_manager_1a1cbb012b22180860880a659142a0cd07" prot="private" virt="non-virtual"><scope>GameManager</scope><name>Restart</name></member>
+      <member refid="class_game_manager_1ade2ef475955a5818fafbe50ebfdd569b" prot="public" virt="non-virtual"><scope>GameManager</scope><name>restartDelay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

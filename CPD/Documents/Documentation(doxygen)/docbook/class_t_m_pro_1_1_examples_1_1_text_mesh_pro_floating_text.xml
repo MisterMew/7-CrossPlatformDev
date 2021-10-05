@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text" xml:lang="en-US">
+<title>TMPro.Examples.TextMeshProFloatingText Class Reference</title>
+<indexterm><primary>TMPro.Examples.TextMeshProFloatingText</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.TextMeshProFloatingText:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>IEnumerator <link linkend="_class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a2d85960b568e04dd6dcd05db9c65fe69">DisplayTextMeshProFloatingText</link> ()</para>
+</listitem>
+            <listitem><para>IEnumerator <link linkend="_class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a44484a164aa2ba2f4826a1d060a7ae5b">DisplayTextMeshFloatingText</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Font <link linkend="_class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a9bb498ea133aa1535bc4a6bdc76fa533">TheFont</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1afa4a7158646022f85c2961f4a0edfb61">SpawnType</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a44484a164aa2ba2f4826a1d060a7ae5b"/><section>
+    <title>DisplayTextMeshFloatingText()</title>
+<indexterm><primary>DisplayTextMeshFloatingText</primary><secondary>TMPro.Examples.TextMeshProFloatingText</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TextMeshProFloatingText</primary><secondary>DisplayTextMeshFloatingText</secondary></indexterm>
+<para><computeroutput>IEnumerator TMPro.Examples.TextMeshProFloatingText.DisplayTextMeshFloatingText ( )</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a2d85960b568e04dd6dcd05db9c65fe69"/><section>
+    <title>DisplayTextMeshProFloatingText()</title>
+<indexterm><primary>DisplayTextMeshProFloatingText</primary><secondary>TMPro.Examples.TextMeshProFloatingText</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TextMeshProFloatingText</primary><secondary>DisplayTextMeshProFloatingText</secondary></indexterm>
+<para><computeroutput>IEnumerator TMPro.Examples.TextMeshProFloatingText.DisplayTextMeshProFloatingText ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1afa4a7158646022f85c2961f4a0edfb61"/><section>
+    <title>SpawnType</title>
+<indexterm><primary>SpawnType</primary><secondary>TMPro.Examples.TextMeshProFloatingText</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TextMeshProFloatingText</primary><secondary>SpawnType</secondary></indexterm>
+<para><computeroutput>int TMPro.Examples.TextMeshProFloatingText.SpawnType</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a9bb498ea133aa1535bc4a6bdc76fa533"/><section>
+    <title>TheFont</title>
+<indexterm><primary>TheFont</primary><secondary>TMPro.Examples.TextMeshProFloatingText</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TextMeshProFloatingText</primary><secondary>TheFont</secondary></indexterm>
+<para><computeroutput>Font TMPro.Examples.TextMeshProFloatingText.TheFont</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__text_mesh_pro_floating_text_8cs">TextMeshProFloatingText.cs</link></section>
+</section>

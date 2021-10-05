@@ -1,0 +1,786 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+  <compound refid="class_audio_manager" kind="class"><name>AudioManager</name>
+    <member refid="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" kind="variable"><name>musicSource</name></member>
+    <member refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" kind="function"><name>Awake</name></member>
+  </compound>
+  <compound refid="class_audio_mixer_sliders" kind="class"><name>AudioMixerSliders</name>
+    <member refid="class_audio_mixer_sliders_1af2d2cb1bcd3960e3a685669ed3294ad4" kind="variable"><name>musicTransitionInstance</name></member>
+    <member refid="class_audio_mixer_sliders_1a1b743bc9e2d25a9f97fec7f393b133ce" kind="variable"><name>volumeParameter</name></member>
+    <member refid="class_audio_mixer_sliders_1aab048032e995308cdb179a9c00c7ffa9" kind="variable"><name>audioMixer</name></member>
+    <member refid="class_audio_mixer_sliders_1ab51b701de67fc7bc079e84cd6b19d245" kind="variable"><name>slider</name></member>
+    <member refid="class_audio_mixer_sliders_1a623ac10424316a8e40baf82aece3a4c3" kind="variable"><name>volumeMultiplier</name></member>
+    <member refid="class_audio_mixer_sliders_1a475112a898da6b1f2ad74a83dbfe2ecd" kind="function"><name>Awake</name></member>
+    <member refid="class_audio_mixer_sliders_1a73bf790ec16ebf329bce96675a680ad3" kind="function"><name>Start</name></member>
+    <member refid="class_audio_mixer_sliders_1a6626d5eb35020e0c234b261aebbfe303" kind="function"><name>OnDisable</name></member>
+    <member refid="class_audio_mixer_sliders_1ab0a2b9e5f3e37bd23152cffee71573a7" kind="function"><name>HandleSliderValueChanged</name></member>
+    <member refid="class_audio_mixer_sliders_1a4323bca135d1915151ffd2bd79210082" kind="function"><name>StartFade</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_benchmark01" kind="class"><name>TMPro::Examples::Benchmark01</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1adb8b4f7e8213b2c146e8d8e1b88180dc" kind="variable"><name>BenchmarkType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1ac150b09608aaf2f8e06fa0703496c864" kind="variable"><name>TMProFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a8e58d54eac5c21bc055263ff7689322f" kind="variable"><name>TextMeshFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1aeffa4ceaf4dc78bbe7ea5edb00ade157" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a8e52e91b8d83663ccef6e11f6f9cee38" kind="variable"><name>m_textContainer</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a1fc13c5132d5561cbacf7854754a14a7" kind="variable"><name>m_textMesh</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a2c178228c97f2aa9e5f8e48a62c85810" kind="variable"><name>m_material01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a0dc7f445e129a625644c411430b4be40" kind="variable"><name>m_material02</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a77be73d3b7e00ba36cf8996a0f4ecf3a" kind="variable"><name>label01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1ad592c85a36ff01c147af5953b647e721" kind="variable"><name>label02</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1aa55f468ecf85b127e95cff7bcccf1db9" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i" kind="class"><name>TMPro::Examples::Benchmark01_UGUI</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a51ddf99f4bea063d19d029efbc672ea8" kind="variable"><name>BenchmarkType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a02cfe9754494cce88d818ab75c1da2d9" kind="variable"><name>canvas</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a00697aa21ceb618628b504467e786a94" kind="variable"><name>TMProFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a76855aada34fa968c4a26cbe7be9d180" kind="variable"><name>TextMeshFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a138cb98358634c40efb0e35e4b8d2da0" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a9eb879cfb947c40a33a8a7f5bbf18661" kind="variable"><name>m_textMesh</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a27552373f2d542929f2ab2b92e09db80" kind="variable"><name>m_material01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a95ca6bf5a7d5f8cd4eeef51bdbf0e864" kind="variable"><name>m_material02</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a8bba7d6079aca832612a80f4ae68b2db" kind="variable"><name>label01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1abfd96548cfc3d7a5c2bed80aa4f4a00f" kind="variable"><name>label02</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a72bbcf307e7a9a4fb28edf0e4865b619" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_benchmark02" kind="class"><name>TMPro::Examples::Benchmark02</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark02_1a2a32f6a6d5ecd16e70c8174957234158" kind="variable"><name>SpawnType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark02_1ab564edc57654d2d1a52a5dd012f3b63e" kind="variable"><name>NumberOfNPC</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark02_1a6517c4d88f4f61f3b4f9032310d0b734" kind="variable"><name>floatingText_Script</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark02_1ad079cdf95753c6a6d92cd89b72d5f637" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_benchmark03" kind="class"><name>TMPro::Examples::Benchmark03</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14a" kind="enum"><name>BenchmarkType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aafca9d59239c6f35c2f0aac71266b1e0d" kind="enumvalue"><name>TMP_SDF_MOBILE</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aaace65420212814769249b3b9cec85693" kind="enumvalue"><name>TMP_SDF__MOBILE_SSD</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa5034bfb01f1ef64ed8c16b4dcaf26983" kind="enumvalue"><name>TMP_SDF</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa843417aa36d5868faea02d795c0db97f" kind="enumvalue"><name>TMP_BITMAP_MOBILE</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa60b5f9278a0883891723912a65cb9820" kind="enumvalue"><name>TEXTMESH_BITMAP</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a0018cd82081205ac1379fa8e66a394f0" kind="variable"><name>NumberOfSamples</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a467c3e3f72230d8eb48dbb8e1533cd12" kind="variable"><name>Benchmark</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a4d7a226f0facf0494d3c5eaef95d234c" kind="variable"><name>SourceFontFile</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a6bac045f150b54ef8be968b836d8dd52" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a91e862bb55bb6a47ce5af531634addf7" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_benchmark04" kind="class"><name>TMPro::Examples::Benchmark04</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1ae0ed0b5b3b4420880d61a9898689b99b" kind="variable"><name>SpawnType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1a85eba46098210950a9d7c3d05ed3ff66" kind="variable"><name>MinPointSize</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1ac46a1dbaedb058606168ac613b37e4a7" kind="variable"><name>MaxPointSize</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1abf9ed65203897e474c369e98aa8fa325" kind="variable"><name>Steps</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1ab02a4920ec975bc74fc79bfba5a8b10f" kind="variable"><name>m_Transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1a2c62d8d74ee70722e0a324c46d244597" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_camera_controller" kind="class"><name>TMPro::Examples::CameraController</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ce" kind="enum"><name>CameraModes</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452cea3903aab323863bd2e9b68218a7a65ebd" kind="enumvalue"><name>Follow</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452cea93fe1f7c5ca2e09af063aca96d0625cc" kind="enumvalue"><name>Isometric</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ceab24ce0cd392a5b0b8dedc66c25213594" kind="enumvalue"><name>Free</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1ac36764811b8b0bf7bc28f5d94652c86c" kind="variable"><name>cameraTransform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a04361574aff357dcec41a4bafbce5b1d" kind="variable"><name>dummyTarget</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1adc57f6832421a8925cb6af0278644c96" kind="variable"><name>previousSmoothing</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a3e6b37b51a026049ac063a651f95f56c" kind="variable"><name>currentVelocity</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a7c67314ea5cfdc0491ccd5915eb22927" kind="variable"><name>desiredPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1aa108422dd9ec2db51e4a51b6fa49eda6" kind="variable"><name>mouseX</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1aecf20a7e35c36a8cc228863cb31e3fbe" kind="variable"><name>mouseY</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1adfb1f4f8bb0f1c536914e4e8c63300b3" kind="variable"><name>moveVector</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1aca728ed124c5bc66514cac1c92dfcae2" kind="variable"><name>mouseWheel</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a185480dc2cf1a5f480549dfebc0ee8e7" kind="variable"><name>CameraTarget</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a63f61961e47e5d7068e6ce65be83cc36" kind="variable"><name>FollowDistance</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a794f2217e529fa239e65463612bd78ca" kind="variable"><name>MaxFollowDistance</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1af54c30206b387c4cdb03d8c894aee65e" kind="variable"><name>MinFollowDistance</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a8709e27c129e088a6da0f43c119d835a" kind="variable"><name>ElevationAngle</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a33b43fba4e4a426db3cf907e875a579a" kind="variable"><name>MaxElevationAngle</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1ab56a8533afb8ddf74cf4f28403db0c9e" kind="variable"><name>MinElevationAngle</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1ac480ba2a3715f19d27dabb126ebb9a55" kind="variable"><name>OrbitalAngle</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a27513135088672400a14f64275a45190" kind="variable"><name>CameraMode</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a88aeb1dacfab4311497e12b63d9a0ead" kind="variable"><name>MovementSmoothing</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a3e2c0e89101934e95f27fa271ff05d14" kind="variable"><name>RotationSmoothing</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1add5727218e5af8bf5c4d50ecbc69eff2" kind="variable"><name>MovementSmoothingValue</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a004e199cff2c8738cc9584087357444d" kind="variable"><name>RotationSmoothingValue</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1af5ce7ae7b15ae2b86b4d7b4ad077d71a" kind="variable"><name>MoveSensitivity</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1afad7b776c032f00b6ea912bc0a3fdd3a" kind="variable"><name>event_SmoothingValue</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1aa11c6325e2887eb4939340b36a86f07e" kind="variable"><name>event_FollowDistance</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1ababc2f74b5580b96a5b15259eec5759a" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1ae3e24286c2245dd641957f886af00335" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a9f5da05c646aad22ad84d5f8fa4a135c" kind="function"><name>LateUpdate</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1aee18ca227c7c36eef5c5c21e07f0473b" kind="function"><name>GetPlayerInput</name></member>
+  </compound>
+  <compound refid="class_camera_follow_player" kind="class"><name>CameraFollowPlayer</name>
+    <member refid="class_camera_follow_player_1a1bf81ea5b669e2a1dda6fc9b1512cbff" kind="variable"><name>player</name></member>
+    <member refid="class_camera_follow_player_1a73d5030276529ef41f55115c23b78d9d" kind="variable"><name>offset</name></member>
+    <member refid="class_camera_follow_player_1a2c7a1c8a9e77787ec8c39db6e3f8f693" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_character_selection_event" kind="class"><name>TMPro::TMP_TextEventHandler::CharacterSelectionEvent</name>
+  </compound>
+  <compound refid="class_chat_controller" kind="class"><name>ChatController</name>
+    <member refid="class_chat_controller_1aa10d0f728b5a82ad62e48b0367c29054" kind="variable"><name>TMP_ChatInput</name></member>
+    <member refid="class_chat_controller_1aac379e56f05d9710d7363645e887f139" kind="variable"><name>TMP_ChatOutput</name></member>
+    <member refid="class_chat_controller_1a76cac89a1da8d005d5da2e3a2a93de57" kind="variable"><name>ChatScrollbar</name></member>
+    <member refid="class_chat_controller_1a3423082c1eb4fb566c5a6df99f5cee64" kind="function"><name>OnEnable</name></member>
+    <member refid="class_chat_controller_1a14b6ba4660216ef76040803a6916740f" kind="function"><name>OnDisable</name></member>
+    <member refid="class_chat_controller_1ad8da6957231dd7cb1b4f6cca65bd4112" kind="function"><name>AddToChatOutput</name></member>
+  </compound>
+  <compound refid="class_chunk_manager" kind="class"><name>ChunkManager</name>
+    <member refid="class_chunk_manager_1aa5547015cebfa94b8888f04232dbcd4a" kind="variable"><name>chunkPrefabs</name></member>
+    <member refid="class_chunk_manager_1a7241e4e830e7c9f4fbcf82e583bb298d" kind="variable"><name>playerTransform</name></member>
+    <member refid="class_chunk_manager_1a1ff9531793e19b8921a05b7d8f206366" kind="variable"><name>spawnZ</name></member>
+    <member refid="class_chunk_manager_1a9c46d3c4b7c012a62ac89d186b6a389c" kind="variable"><name>chunkLength</name></member>
+    <member refid="class_chunk_manager_1af85f5bea4525ecf1161bf219459a0e37" kind="variable"><name>chunksOnScreen</name></member>
+    <member refid="class_chunk_manager_1a358f7dae94679ca2e9443b362e2a1f95" kind="variable"><name>safeZone</name></member>
+    <member refid="class_chunk_manager_1a78020343c859558c8d74186980ddf189" kind="variable"><name>previousPrefabIndex</name></member>
+    <member refid="class_chunk_manager_1a5eec97ebeeae95d3638133fabf1fc02b" kind="variable"><name>activeChunks</name></member>
+    <member refid="class_chunk_manager_1a0a59dc01c877b74d002ea2d799644b1f" kind="function"><name>Start</name></member>
+    <member refid="class_chunk_manager_1a543e3f5cc143906fd50ac3e3e38841d4" kind="function"><name>Update</name></member>
+    <member refid="class_chunk_manager_1abfd2fd854d0381494c2caf1a74020f55" kind="function"><name>SpawnChunk</name></member>
+    <member refid="class_chunk_manager_1adc5122bbb43ecae611b0c37013d516d3" kind="function"><name>DeleteChunk</name></member>
+    <member refid="class_chunk_manager_1a8eeee26024d6779daeebd8775b7079d5" kind="function"><name>RandomPrefabIndex</name></member>
+  </compound>
+  <compound refid="class_dropdown_sample" kind="class"><name>DropdownSample</name>
+    <member refid="class_dropdown_sample_1a7d0f56c0fb633e77ee05197354b515b1" kind="variable"><name>text</name></member>
+    <member refid="class_dropdown_sample_1a337a104db31bcec7e189ae9aa5b4d7a5" kind="variable"><name>dropdownWithoutPlaceholder</name></member>
+    <member refid="class_dropdown_sample_1a885d8fbdb7bd94d04ea857635765bd7c" kind="variable"><name>dropdownWithPlaceholder</name></member>
+    <member refid="class_dropdown_sample_1af87d7f8d01af498974a8d63e774b4a4b" kind="function"><name>OnButtonClick</name></member>
+  </compound>
+  <compound refid="class_env_map_animator" kind="class"><name>EnvMapAnimator</name>
+    <member refid="class_env_map_animator_1a0e8af1e7df113e4ca34b2ffbb6a603e7" kind="variable"><name>RotationSpeeds</name></member>
+    <member refid="class_env_map_animator_1ab5eb85d6b2d2cd0c16dc89a97bdcd7f3" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_env_map_animator_1adba0e59d88f38e597f293b8ee9cd22e3" kind="variable"><name>m_material</name></member>
+    <member refid="class_env_map_animator_1ab068eb4d4818991266673eec54fc015a" kind="function"><name>Awake</name></member>
+    <member refid="class_env_map_animator_1adbe7951dff130857ba9b73a293873cd5" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_game_manager" kind="class"><name>GameManager</name>
+    <member refid="class_game_manager_1a44bef7cf192199ea542291cf88311b41" kind="variable"><name>gameEnded</name></member>
+    <member refid="class_game_manager_1ade2ef475955a5818fafbe50ebfdd569b" kind="variable"><name>restartDelay</name></member>
+    <member refid="class_game_manager_1a0c10b4d89c6e37a4433a54a5b7b04500" kind="function"><name>EndGame</name></member>
+    <member refid="class_game_manager_1a1cbb012b22180860880a659142a0cd07" kind="function"><name>Restart</name></member>
+  </compound>
+  <compound refid="class_g_u_i_skew_image" kind="class"><name>GUISkewImage</name>
+    <member refid="class_g_u_i_skew_image_1a3340bdab036018178c8fd77d26b4c8c4" kind="variable"><name>skewX</name></member>
+    <member refid="class_g_u_i_skew_image_1a8488f098299d6afad7dd0944163c7b77" kind="variable"><name>skewY</name></member>
+    <member refid="class_g_u_i_skew_image_1aef6e433caebe48048b3581d7e1a32cd9" kind="function"><name>OnPopulateMesh</name></member>
+  </compound>
+  <compound refid="class_image_fill_gradient" kind="class"><name>ImageFillGradient</name>
+    <member refid="class_image_fill_gradient_1ab9b1e05ba0a69a83fe4ff0b8455effe2" kind="variable"><name>gradient</name></member>
+    <member refid="class_image_fill_gradient_1aa6bba0f50c3117847ff82041314460f9" kind="variable"><name>image</name></member>
+    <member refid="class_image_fill_gradient_1a34154096ea2f9dd85330e8f78711ae10" kind="function"><name>Awake</name></member>
+    <member refid="class_image_fill_gradient_1a92bf143831c9023dd1ea3263512566d3" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_line_selection_event" kind="class"><name>TMPro::TMP_TextEventHandler::LineSelectionEvent</name>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_link_selection_event" kind="class"><name>TMPro::TMP_TextEventHandler::LinkSelectionEvent</name>
+  </compound>
+  <compound refid="class_main_menu_manager" kind="class"><name>MainMenuManager</name>
+    <member refid="class_main_menu_manager_1a7c158ca562df277a4203271626d6572d" kind="variable"><name>options</name></member>
+    <member refid="class_main_menu_manager_1a1855fa4353036c9045db58f304ab2d49" kind="variable"><name>cmVirtualCam01</name></member>
+    <member refid="class_main_menu_manager_1a36738e735568ab506fcd7cd0149404b5" kind="variable"><name>cmAnimator</name></member>
+    <member refid="class_main_menu_manager_1ab395e2005f20e81732501eb8de8d9afb" kind="variable"><name>vCam01</name></member>
+    <member refid="class_main_menu_manager_1a23a440ecd19fd07a4d3ccf7f4cb1b070" kind="variable"><name>vCam02</name></member>
+    <member refid="class_main_menu_manager_1ac4cab1e5019d5a18dbda7f85d7d6907c" kind="function"><name>Awake</name></member>
+    <member refid="class_main_menu_manager_1acedca029a426d4d6e753254084ab49f3" kind="function"><name>SwitchCMPriority</name></member>
+    <member refid="class_main_menu_manager_1a7a5cfc84a28762a49ccaea92052e0cfa" kind="function"><name>OptionsMenu</name></member>
+    <member refid="class_main_menu_manager_1ac62fafd331f891a6921ef9bc41b57b31" kind="function"><name>QuitGame</name></member>
+    <member refid="class_main_menu_manager_1aaa856027a543ea6f2843774dae567989" kind="function"><name>ViewCredits</name></member>
+    <member refid="class_main_menu_manager_1a302d1a741d570f44fcf0a9ceae552269" kind="function"><name>ReturnMain</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_object_spin" kind="class"><name>TMPro::Examples::ObjectSpin</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fc" kind="enum"><name>MotionType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fcaf1a42bd417390fc63b030a519624607a" kind="enumvalue"><name>Rotation</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fcad64312a309fe3d4d870a2afbd94d5ec3" kind="enumvalue"><name>BackAndForth</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fca6dd08874f83507e9c7b23f1a46b7fa7c" kind="enumvalue"><name>Translation</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a4b1d0b19553122b485c5878fe45ea0b3" kind="variable"><name>SpinSpeed</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a802c4f5441264532dd2b379c48dfa012" kind="variable"><name>RotationRange</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1ae422bdffcabfc75fae2c0bad902124f1" kind="variable"><name>Motion</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1aa4c3f81d6599f7413b15b6506ec43c13" kind="variable"><name>m_transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a654490f014827216fcf23ef71e98999f" kind="variable"><name>m_time</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a0138defc93d0f01ae2ead2e1c3797ac5" kind="variable"><name>m_prevPOS</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a9a1322b6bd1252329a536606100e6dd6" kind="variable"><name>m_initial_Rotation</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a8b1e3a08cdae0b3e63197580206dc2b8" kind="variable"><name>m_initial_Position</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a96280fca56fbe192706a8d12072231e7" kind="variable"><name>m_lightColor</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a7bac58b20ea632aef69eb77bb156bd30" kind="variable"><name>frames</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1ae9048c02ad22ba858707c6c9dfdef6aa" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1acd1a3c2ffda7ea557363743b96329119" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_obstacle_spawner" kind="class"><name>ObstacleSpawner</name>
+    <member refid="class_obstacle_spawner_1a2ed9095df18af758788559357a817a9e" kind="variable"><name>obstaclePrefabs</name></member>
+    <member refid="class_obstacle_spawner_1a9faf37e4c0e2ee61bd5f1cf3cab25c70" kind="variable"><name>spawnPoints</name></member>
+    <member refid="class_obstacle_spawner_1a169bc15028d4fcd19199ff608b174c7e" kind="function"><name>Start</name></member>
+    <member refid="class_obstacle_spawner_1a5d55f33d0e8b740f3203fdd0c1db38e8" kind="function"><name>SpawnObstacles</name></member>
+  </compound>
+  <compound refid="class_oscillate_obstacle" kind="class"><name>OscillateObstacle</name>
+    <member refid="class_oscillate_obstacle_1a47036235191a56ae7ec2afee3835427d" kind="variable"><name>rotationSpeed</name></member>
+    <member refid="class_oscillate_obstacle_1a6320885c65d90b08196fb2bb9b57e278" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_parrot_player_1_1_parrot_player" kind="class"><name>ParrotPlayer::ParrotPlayer</name>
+    <member refid="class_parrot_player_1_1_parrot_player_1a6bde7b24f682f6209e28536df949ae5e" kind="variable"><name>anim</name></member>
+    <member refid="class_parrot_player_1_1_parrot_player_1af8c3ece5e4d70e14d4df4ea18fe34c0b" kind="variable"><name>controller</name></member>
+    <member refid="class_parrot_player_1_1_parrot_player_1a32448251ddcef5450434a9adf65789d4" kind="variable"><name>moveDirection</name></member>
+    <member refid="class_parrot_player_1_1_parrot_player_1aab9278aa8b07c6e8d54803711be5e460" kind="variable"><name>speed</name></member>
+    <member refid="class_parrot_player_1_1_parrot_player_1ad090442c1e3af601bb08813effc0ff99" kind="variable"><name>turnSpeed</name></member>
+    <member refid="class_parrot_player_1_1_parrot_player_1a4bcdf2fa780d17939a741a1c94da7598" kind="variable"><name>gravity</name></member>
+    <member refid="class_parrot_player_1_1_parrot_player_1af08ad23bc6890799b33f8c0e9d8d9a55" kind="function"><name>Start</name></member>
+    <member refid="class_parrot_player_1_1_parrot_player_1af7394ec7593a9dd2e01e56f2e3a55c7b" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera" kind="class"><name>ParrotThirdPersonCamera::ParrotThirdPersonCamera</name>
+    <member refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera_1ab5a42575b4bda57290aac311e1621b80" kind="variable"><name>Y_ANGLE_MIN</name></member>
+    <member refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera_1aff8adc389f009accadab6a91c2a471bc" kind="variable"><name>Y_ANGLE_MAX</name></member>
+    <member refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera_1a670eb5950a8e809f8653d1bde163f81d" kind="variable"><name>lookAt</name></member>
+    <member refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera_1ac40d21b1084682ed5366ad0ffbd8bdc3" kind="variable"><name>camTransform</name></member>
+    <member refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera_1a54e78789f0183bd6aca1105d7481163f" kind="variable"><name>distance</name></member>
+    <member refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera_1a47b08f4829a39f6ebfd423272e1d4a8f" kind="variable"><name>currentX</name></member>
+    <member refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera_1a14edde2b5e2ec4cdcc26ddf456096344" kind="variable"><name>currentY</name></member>
+    <member refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera_1a50818911067d03e8fe86112bcf9365b5" kind="function"><name>Start</name></member>
+    <member refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera_1ab1dbcbfb041ed2a7d13a5be314dddb75" kind="function"><name>Update</name></member>
+    <member refid="class_parrot_third_person_camera_1_1_parrot_third_person_camera_1a67b67c496464aace27ce92a208d24c4c" kind="function"><name>LateUpdate</name></member>
+  </compound>
+  <compound refid="class_pause_menu_manager" kind="class"><name>PauseMenuManager</name>
+    <member refid="class_pause_menu_manager_1ae26ec391bcc1a3c4406d2efea60d2163" kind="variable"><name>gameIsPaused</name></member>
+    <member refid="class_pause_menu_manager_1a0a78a541cea4c469ef0aa3bddfe82a49" kind="variable"><name>pauseMenuUI</name></member>
+    <member refid="class_pause_menu_manager_1ab320b22302db2bd4736c89a783d99c03" kind="variable"><name>gameOverlay</name></member>
+    <member refid="class_pause_menu_manager_1af3520aebc02d59b81caf333c2e1b11f0" kind="variable"><name>buttonInputs</name></member>
+    <member refid="class_pause_menu_manager_1a03f9fbd33dd41e3a222a392f62e20090" kind="function"><name>Update</name></member>
+    <member refid="class_pause_menu_manager_1a886189569ee70c2a57d86ef5f7d59602" kind="function"><name>ResumeGame</name></member>
+    <member refid="class_pause_menu_manager_1a73cfd980e6d6e634cc27113654c07b1e" kind="function"><name>PauseGame</name></member>
+    <member refid="class_pause_menu_manager_1a552e5294a03a1feeaa1608e70d1eca33" kind="function"><name>ReturnToMenu</name></member>
+    <member refid="class_pause_menu_manager_1ab94e7a248212648f64ebd470cf8d46b8" kind="function"><name>RestartGame</name></member>
+    <member refid="class_pause_menu_manager_1a99019215d81e3826c220d8b50b0eefd7" kind="function"><name>ValidatePauseInput</name></member>
+    <member refid="class_pause_menu_manager_1ab3e6f52141ec2de320c38788cd6eba16" kind="function"><name>QuitGame</name></member>
+  </compound>
+  <compound refid="class_player_collision" kind="class"><name>PlayerCollision</name>
+    <member refid="class_player_collision_1a5a544eb0655a2ca4cfa80fe2992b0d27" kind="variable"><name>movement</name></member>
+    <member refid="class_player_collision_1a02ee8f57912d8d61c4ab87fb3f4ce3de" kind="variable"><name>deathSound</name></member>
+    <member refid="class_player_collision_1a8c7c24573247f6ea55a023b1b65d9493" kind="variable"><name>flowerOrbs</name></member>
+    <member refid="class_player_collision_1a322cee754722af587367ce7f0346627e" kind="function"><name>OnTriggerEnter</name></member>
+    <member refid="class_player_collision_1a1e9a7d5b9cd52e0a3abd2115d6666cc3" kind="function"><name>OnCollisionEnter</name></member>
+    <member refid="class_player_collision_1a5c1c9770ca75a2cf2f09be0acc2c5c42" kind="function"><name>GetOrbCount</name></member>
+  </compound>
+  <compound refid="class_player_controller" kind="class"><name>PlayerController</name>
+    <member refid="class_player_controller_1a19c508ba275b4493fd6a05517b08fa82" kind="variable"><name>mRigidbody</name></member>
+    <member refid="class_player_controller_1a46a238ea5bc862f37677bf81bbfc2031" kind="variable"><name>birbAnimashen</name></member>
+    <member refid="class_player_controller_1a3319a94ff8ea07bb89cf78c0ce012972" kind="variable"><name>xThrow</name></member>
+    <member refid="class_player_controller_1aba649a1bb86e5f7a637ccdf632e9cd15" kind="variable"><name>forwardForce</name></member>
+    <member refid="class_player_controller_1ad00137a2337a8b6e82e5441d0201b7e7" kind="variable"><name>forwardClamped</name></member>
+    <member refid="class_player_controller_1ab85b9b17d7e29ea2a9a3964c9f60e0bf" kind="variable"><name>sidewaysForce</name></member>
+    <member refid="class_player_controller_1a050967f0e5c2340cb21861e4c8c788a1" kind="function"><name>Awake</name></member>
+    <member refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" kind="function"><name>Update</name></member>
+    <member refid="class_player_controller_1ae5bdb1b48571f67c3f722a58b6f404d4" kind="function"><name>FixedUpdate</name></member>
+    <member refid="class_player_controller_1a7219ab25aa601f2071bd3cf3a2d14314" kind="function"><name>GetAxisInput</name></member>
+    <member refid="class_player_controller_1aae611c643f58e6732a162abe7c3f4b62" kind="function"><name>IsOutOfBounds</name></member>
+    <member refid="class_player_controller_1a59ce4ff25098e8a767f18a687e13948b" kind="function"><name>MovePlayer</name></member>
+  </compound>
+  <compound refid="class_player_shatter" kind="class"><name>PlayerShatter</name>
+    <member refid="class_player_shatter_1ae24308efeac280f2f26c5922d38b7b7b" kind="variable"><name>cubeSize</name></member>
+    <member refid="class_player_shatter_1ad603c5263e2a36b24615240703076a2c" kind="variable"><name>cubesInRow</name></member>
+    <member refid="class_player_shatter_1a56f52f2f02adddae7a818279bd3ba4cd" kind="variable"><name>shatterForce</name></member>
+    <member refid="class_player_shatter_1aa3bc5d76b7de5e991e1b362857b1d07c" kind="variable"><name>shatterRadius</name></member>
+    <member refid="class_player_shatter_1a25ea3cad02c2d0fb16ce08b198a9c925" kind="variable"><name>shatterUpward</name></member>
+    <member refid="class_player_shatter_1a3185b794e82ed85db72ececdf533485f" kind="variable"><name>matPlayer</name></member>
+    <member refid="class_player_shatter_1a2421765b0fb92031f85c27a7ea2f5b06" kind="variable"><name>cubesPivotDistance</name></member>
+    <member refid="class_player_shatter_1a2d50660498ece29a79cdd6ece74f4b80" kind="variable"><name>cubesPivot</name></member>
+    <member refid="class_player_shatter_1a849e98c38c2769f3c016302ba45d309f" kind="function"><name>Start</name></member>
+    <member refid="class_player_shatter_1a7d8294222f1d5af78a972925644aaed6" kind="function"><name>CreatePiece</name></member>
+    <member refid="class_player_shatter_1a8a383c5113ff3490b99b0327943ed63a" kind="function"><name>shatter</name></member>
+  </compound>
+  <compound refid="class_scene_transitioner" kind="class"><name>SceneTransitioner</name>
+    <member refid="class_scene_transitioner_1a81cafc84683b3724d844c4a28d26fa05" kind="variable"><name>audioMixer</name></member>
+    <member refid="class_scene_transitioner_1ac9adea59b862a10f76ce00d444b928bb" kind="variable"><name>crossfade</name></member>
+    <member refid="class_scene_transitioner_1af44eb09aa590fd8bcd9104b661ceca95" kind="variable"><name>transitionTime</name></member>
+    <member refid="class_scene_transitioner_1a563c90c833b4a52dfe103072747d9901" kind="variable"><name>sceneToLoad</name></member>
+    <member refid="class_scene_transitioner_1ae7012ae8f3c05605837645de88c2eb07" kind="function"><name>Awake</name></member>
+    <member refid="class_scene_transitioner_1a93ed028775c9dcf60f6587994206fda1" kind="function"><name>FadeToScene</name></member>
+    <member refid="class_scene_transitioner_1a91a25ba5ad21d9abc89bcead2ed8b3f1" kind="function"><name>OnFadeComplete</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator" kind="class"><name>TMPro::Examples::ShaderPropAnimator</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1ab352d356a9ac0b0d624dbb0ac710c20c" kind="variable"><name>m_Renderer</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1addbb1235d17334b54f2a84ac80462542" kind="variable"><name>m_Material</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a5b9d48d8e4affbb0d205aa88136919f1" kind="variable"><name>GlowCurve</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a6e28899cd07f82e7b51db5d99d06abc0" kind="variable"><name>m_frame</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a6b90e947cd9b865b817b0e880d1966e8" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a5e02cbaa1836717ecb1d3c7ca1102117" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a10d4f51c73fd5a477bd599db3fda4b18" kind="function"><name>AnimateProperties</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_simple_script" kind="class"><name>TMPro::Examples::SimpleScript</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_simple_script_1abe951526ba52e3418fd1d8faf157a35e" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_simple_script_1a32751c30269823988301892a247d825e" kind="variable"><name>m_frame</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_simple_script_1ae9e2786f4ae458c9eef5a57e5f09b533" kind="variable"><name>label</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_simple_script_1afee2cd5e0dbf2244d09333d31ac27040" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_simple_script_1a261280a451af9aef31d4520561416599" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_skew_text_example" kind="class"><name>TMPro::Examples::SkewTextExample</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a2c7d525575e9efa7c051bc88190c220c" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a97a9859d8cdc12282e8bab29234cdf40" kind="variable"><name>VertexCurve</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a99a24dc0d0b4c3c9ae46c925a57031f1" kind="variable"><name>CurveScale</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a6f76ea16465a528676168b897d3d90a2" kind="variable"><name>ShearAmount</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a41d450e8d1c6f1a3ccc8b5271d6848a0" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1adfeed651f0d70d892c912023307430fa" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a71e40729ea55367d244f8cbb3a8409fc" kind="function"><name>CopyAnimationCurve</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1ab944d8c8f98e214fdfd3953b3dad67c1" kind="function"><name>WarpText</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_sprite_selection_event" kind="class"><name>TMPro::TMP_TextEventHandler::SpriteSelectionEvent</name>
+  </compound>
+  <compound refid="class_statistic_manager" kind="class"><name>StatisticManager</name>
+    <member refid="class_statistic_manager_1a861131db7bdf5e1df7bc4002d6ca6675" kind="variable"><name>pc</name></member>
+    <member refid="class_statistic_manager_1a5f45a47da3b894d50a8c03d68887b525" kind="variable"><name>scoreMultiplier</name></member>
+    <member refid="class_statistic_manager_1aa47ad7587cf01cab09f86e3d39107090" kind="variable"><name>playerScore</name></member>
+    <member refid="class_statistic_manager_1a382ed7464099b50cda657e4369c80eba" kind="variable"><name>playerDistance</name></member>
+    <member refid="class_statistic_manager_1aef099d4027232f70bb36300d94282a15" kind="variable"><name>flowerOrbs</name></member>
+    <member refid="class_statistic_manager_1a369b59a684ee6324f76466a5dbe8e686" kind="variable"><name>player</name></member>
+    <member refid="class_statistic_manager_1a905a749b5f2acd6a4ce2df9e91c5301c" kind="variable"><name>scoreText</name></member>
+    <member refid="class_statistic_manager_1acb442fbdbcbf1b1c634392d40a1802d1" kind="variable"><name>distanceText</name></member>
+    <member refid="class_statistic_manager_1aa19d09b39cfdbd78f2b89865f41b7c93" kind="variable"><name>collectiblesText</name></member>
+    <member refid="class_statistic_manager_1ad50350e72f742357539230f691546010" kind="function"><name>Awake</name></member>
+    <member refid="class_statistic_manager_1a57560337d253a78f932c555911d95f1b" kind="function"><name>Start</name></member>
+    <member refid="class_statistic_manager_1a6a7d30688fdf7604dc4f465869e1e650" kind="function"><name>Update</name></member>
+    <member refid="class_statistic_manager_1a6ad36f9034aae562778c3f8e053a0e6e" kind="function"><name>ResetStatistics</name></member>
+    <member refid="class_statistic_manager_1a6812cdd28ec19f6f1217bed4e3872597" kind="function"><name>CalculateScore</name></member>
+    <member refid="class_statistic_manager_1a684c17b9a673108ac2ef59ca9a97dacc" kind="function"><name>CalculateDistance</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_tele_type" kind="class"><name>TMPro::Examples::TeleType</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_tele_type_1a51dff8db56be78d4bc721ca16e185b8c" kind="variable"><name>label01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_tele_type_1a33c3497dfd3bd9a94d59e8e6dc3a4d8d" kind="variable"><name>label02</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_tele_type_1aaa5fbd230494861742a944fe80f1226b" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_tele_type_1a2941c99e0e5b66827cab3c48df12278a" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_tele_type_1ab60c17eaa598b380cb7ea3d0346f35fd" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator" kind="class"><name>TMPro::Examples::TextConsoleSimulator</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1ab8f4fe727e3181811083ba8577e3008c" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1a0e350c103f20014f2efd7b98d9a1f3af" kind="variable"><name>hasTextChanged</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1abbc6d2f5a25c301388f03bda7382bf07" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1a83594792d8d11ed3a2d4b758ca7ee217" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1ad9bb1142c943693a7bbe56e04b48964d" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1a94ced624d0ea2be830df1cd237b3a152" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1a006cf2646d07f88b304fe360f2c24ac1" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1abb2ccedacf0ba2dfe698d60507e4dfec" kind="function"><name>RevealCharacters</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1a3becab8f9f7e9f902a73247c2bcc9ec9" kind="function"><name>RevealWords</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text" kind="class"><name>TMPro::Examples::TextMeshProFloatingText</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a9bb498ea133aa1535bc4a6bdc76fa533" kind="variable"><name>TheFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1afa4a7158646022f85c2961f4a0edfb61" kind="variable"><name>SpawnType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a301544d6e8c542a6ed7faaaadaf2a6b3" kind="variable"><name>m_floatingText</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a508d4d049c49e74757b0c9c662ba0f4f" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a3ce8ff1ed7fa3998263d6a0a9855f1c7" kind="variable"><name>m_textMesh</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a16373b0064a29ebb506bcd293f28f8c6" kind="variable"><name>m_transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a7ca532aa895847c94e8274018b6b7fe4" kind="variable"><name>m_floatingText_Transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a11ed6f58b4ccee4bbd07753374f1b9d0" kind="variable"><name>m_cameraTransform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1ac92be106c6daad064bf2c1a8275a5b4f" kind="variable"><name>lastPOS</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a0b00a2ba65cce9026243a1d2b5329eb9" kind="variable"><name>lastRotation</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a1fa7fb625c94c5c07325020bca35da52" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1adf09f894fc266a9d626e18ce2ef3a1f3" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a2d85960b568e04dd6dcd05db9c65fe69" kind="function"><name>DisplayTextMeshProFloatingText</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a44484a164aa2ba2f4826a1d060a7ae5b" kind="function"><name>DisplayTextMeshFloatingText</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner" kind="class"><name>TMPro::Examples::TextMeshSpawner</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1ab194341830ee5e784c176b8b516d6fe3" kind="variable"><name>SpawnType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a27f2e4feca0ce34a67de071e9e256bfb" kind="variable"><name>NumberOfNPC</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a5095e4cdcd5de19421b45082723ea30e" kind="variable"><name>TheFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a1c82276ccc1ddd5761a78b6e48be8541" kind="variable"><name>floatingText_Script</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a8c83bc49fd88b2cca7c317fe13a122f2" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a785c4650a74655c3511de4b05a82a421" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___digit_validator" kind="class"><name>TMPro::TMP_DigitValidator</name>
+    <member refid="class_t_m_pro_1_1_t_m_p___digit_validator_1aee9e46839d4adef308831e5fcba40b0e" kind="function"><name>Validate</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01" kind="class"><name>TMPro::Examples::TMP_ExampleScript_01</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a7581fa07718f773bf9347019769d2c80" kind="enum"><name>objectType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a7581fa07718f773bf9347019769d2c80aa84491abd0130dee520f3055918599dd" kind="enumvalue"><name>TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a7581fa07718f773bf9347019769d2c80a4d47004d3bec07be8a80226b462ec62e" kind="enumvalue"><name>TextMeshProUGUI</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1aeb3d9e7c797f07f254f4f280467b7cee" kind="variable"><name>ObjectType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a5d554a45b55df66f623b13ccb74d3455" kind="variable"><name>isStatic</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1aa01a999011188765bec2692ae268688b" kind="variable"><name>m_text</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a1143f9bc8f88dd6da716bc495578b1e3" kind="variable"><name>count</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a544b2c8a9c3f5cea86adc87fb23023b8" kind="variable"><name>k_label</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a192c22093a9eef79c995f068bb1199dc" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a8595951a77c04c9de253f369f57b9833" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter" kind="class"><name>TMPro::Examples::TMP_FrameRateCounter</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5" kind="enum"><name>FpsCounterAnchorPositions</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5ab32beb056fbfe36afbabc6c88c81ab36" kind="enumvalue"><name>TopLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a98e5a1c44509157ebcaf46c515c78875" kind="enumvalue"><name>BottomLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a1d85a557894c340c318493f33bfa8efb" kind="enumvalue"><name>TopRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a9146bfc669fddc88db2c4d89297d0e9a" kind="enumvalue"><name>BottomRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1ae8d84e2e21d6d819d48f594b09b0319b" kind="variable"><name>UpdateInterval</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a7c92928be05c154b10c2eb092425e865" kind="variable"><name>AnchorPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1afcd5f6127ceb5620ccca5c3ce9b82c6c" kind="variable"><name>m_LastInterval</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a4d445f99bfb5528363429928cbe3c1a2" kind="variable"><name>m_Frames</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af14a680010f2de9ba5ee089cbe758ccf" kind="variable"><name>htmlColorTag</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1ad4db98727cd1caf7a6bed4b08616df6a" kind="variable"><name>m_TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1ae0f89bfbe75beb6de770d9f0de43ce2a" kind="variable"><name>m_frameCounter_transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a1a925b292ec5996f7810562d0d923963" kind="variable"><name>m_camera</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a9be938044167c740406c482be80dd79c" kind="variable"><name>last_AnchorPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a6ebbaa72c5d2af277d9f87d7321429eb" kind="variable"><name>fpsLabel</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1acf5f19371f84e3401672373517defdd1" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a9707b690b721e835d78734de69177079" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a6a307d8f5eb11cb855a5e9823159d6bd" kind="function"><name>Update</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1ac5e4979da5b5514cb8c231d815670cae" kind="function"><name>Set_FrameCounter_Position</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___phone_number_validator" kind="class"><name>TMPro::TMP_PhoneNumberValidator</name>
+    <member refid="class_t_m_pro_1_1_t_m_p___phone_number_validator_1a7a812e1204c678ea3cf3258428a2b36f" kind="function"><name>Validate</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check" kind="class"><name>TMPro::Examples::TMP_TextEventCheck</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1ae23cb7bfed7c19448af70d9e7de12c95" kind="variable"><name>TextEventHandler</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1afb282ce69534c6284ed722e99e985652" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1abd8a09e902fa87f209c97da3e27e249c" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1aa628289191f4e07be9227d6e6c1412ba" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1ae2c5dab169ac42313821c281473e2094" kind="function"><name>OnCharacterSelection</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1ac3cef6007b1bbef2c6ccb748c6fcb15f" kind="function"><name>OnSpriteSelection</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1a57df10d83c4ca2652de4d9d5b0c9abf7" kind="function"><name>OnWordSelection</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1a0fd5a44c55d48cc6897a98c3b4592f1a" kind="function"><name>OnLineSelection</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1aab97e6b0fc4aa8714c56dce297a6d847" kind="function"><name>OnLinkSelection</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler" kind="class"><name>TMPro::TMP_TextEventHandler</name>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1adf246c6977702948b7ab987f34bf12a2" kind="property"><name>onCharacterSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a363991aa14af2f191cc7c77846c134f9" kind="property"><name>onSpriteSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1aaba688a88f61b13eecf99e05725e6985" kind="property"><name>onWordSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1ae13d515549d0908bfaabb435239b59b0" kind="property"><name>onLineSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1aa2b47e6e7e685896cf95aa7386f8ab18" kind="property"><name>onLinkSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a3fc9193fa2b29ed97e73e037e1e29f1f" kind="variable"><name>m_OnCharacterSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1aa6842abfec96649588de0422f3848679" kind="variable"><name>m_OnSpriteSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a6bab88c9b98153f85805838fab7c6af4" kind="variable"><name>m_OnWordSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a0f1219e2cd6672584efe3240d1d1dd0b" kind="variable"><name>m_OnLineSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a5c09f4c9ee868e4dede77967cdff2899" kind="variable"><name>m_OnLinkSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1ab1182de0a6ced87206e1260b4e1d1515" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a316c024d55df84c4f33d7d5143c7955f" kind="variable"><name>m_Camera</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a5fd5b58a306ec7fd6ce186e6aa0c0739" kind="variable"><name>m_Canvas</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a2091d9c27a1491c0857399396ec1ff4c" kind="variable"><name>m_selectedLink</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a8c5ebc0971a592fd24402fb3257898a7" kind="variable"><name>m_lastCharIndex</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a4f1edae5ad22db4cafbd7a2299599343" kind="variable"><name>m_lastWordIndex</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a65523117f80e74fca4e782d11571663e" kind="variable"><name>m_lastLineIndex</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a79d79a41bd144ead1a7920503c0ed768" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a1b1c0ef737dddbb025de1a210fca24bd" kind="function"><name>LateUpdate</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a326ef15970fea3bb9691b0a4fdb60208" kind="function"><name>SendOnCharacterSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1aa840f47968aa076bfd32b158c5b2d8c6" kind="function"><name>SendOnSpriteSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a6cec7c095a4e67726fa8da75b2969711" kind="function"><name>SendOnWordSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a4901e4c06758822083e3b96929c27567" kind="function"><name>SendOnLineSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a1d348fabb96666271c432640f4247345" kind="function"><name>SendOnLinkSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a2aabc4e44e30d86b783edb3d4a2f2d9b" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a0ad3fd5e712593130a9669706aa55906" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_info_debug_tool" kind="class"><name>TMPro::Examples::TMP_TextInfoDebugTool</name>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a" kind="class"><name>TMPro::Examples::TMP_TextSelector_A</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a6d794381b5ff8bfc42162427f94cd13d" kind="variable"><name>m_TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1abfeb964fda5ce70b6641aa50d5d11de1" kind="variable"><name>m_Camera</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a842bc173daa86a306ab42055af4d9cdc" kind="variable"><name>m_isHoveringObject</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a18d127c46880c77a70a680f3b1281024" kind="variable"><name>m_selectedLink</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1adeaae9c16325c986ad6ff87b81b77bb3" kind="variable"><name>m_lastCharIndex</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1af3dfb5ac7002e769c990ea22d4171325" kind="variable"><name>m_lastWordIndex</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a1feb6e51793c22491fa9e239acc44d27" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1ae02247155a02fcb4841c061a94b03c1f" kind="function"><name>LateUpdate</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a41f448ef3c5dd89abfdcb8ded5c46d89" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a5214229e809ada98db644b76cbdf145a" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b" kind="class"><name>TMPro::Examples::TMP_TextSelector_B</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1afab51f8e6ae2f2c170a2fbee569f29d7" kind="variable"><name>TextPopup_Prefab_01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a014942d86485bf0a962aba454c1a49b5" kind="variable"><name>m_TextPopup_RectTransform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1ad3a1c51fe717e5490f17240b610d1fd1" kind="variable"><name>m_TextPopup_TMPComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a5e4ec0a901707dc98ed6923a85ea2409" kind="variable"><name>m_TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a9f66868c1f786f39bd011421a6e68738" kind="variable"><name>m_Canvas</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1aba3643c9554cb9eafa9668f7a0c23f94" kind="variable"><name>m_Camera</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a47c822eef42b100d1dff8af755ff7701" kind="variable"><name>isHoveringObject</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a9fbbcf01d8c6902632fddb7ab5c95e57" kind="variable"><name>m_selectedWord</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a3838e328ea80d00173db573d04294c0f" kind="variable"><name>m_selectedLink</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a0b18f4d696ce15dfcd4deb7aa38b4160" kind="variable"><name>m_lastIndex</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1aaed1d8c14c79142ba5468b6157da8fbd" kind="variable"><name>m_matrix</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a24fc7c46e9057bbc8bb99b716a7b36b4" kind="variable"><name>m_cachedMeshInfoVertexData</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a4c8f925469d0800974c0c49f95cd2a0a" kind="variable"><name>k_LinkText</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a12c8e39ffc69e07a346bc5f06bd62c8b" kind="variable"><name>k_WordText</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a5211a7b00934843886fb233af685fee5" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a843b01a3c9aa9d67141dad4f4e14a350" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a4f7946ba89595b7d49f626c762ae71af" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a63825ea0beb3c2879827bba4df898cd3" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a9438ff90b28fc23cc6f9650547872ae1" kind="function"><name>LateUpdate</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a9e7267784ba9f40f798821bbc79e0b56" kind="function"><name>RestoreCachedVertexAttributes</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1ae7830c3581122852db867ca0e728c2a8" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1adaec8e4a30998ce95981f29f92ced137" kind="function"><name>OnPointerExit</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1ad0a0f7e8a9485a0980bb873f31e18e41" kind="function"><name>OnPointerClick</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a2e36cc0ea424f43ad1e4ca6e3cdcf1b0" kind="function"><name>OnPointerUp</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter" kind="class"><name>TMPro::Examples::TMP_UiFrameRateCounter</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ece" kind="enum"><name>FpsCounterAnchorPositions</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2eceab32beb056fbfe36afbabc6c88c81ab36" kind="enumvalue"><name>TopLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ecea98e5a1c44509157ebcaf46c515c78875" kind="enumvalue"><name>BottomLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ecea1d85a557894c340c318493f33bfa8efb" kind="enumvalue"><name>TopRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ecea9146bfc669fddc88db2c4d89297d0e9a" kind="enumvalue"><name>BottomRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a826c5dd240c35cc3cec70d82d0e6d76e" kind="variable"><name>UpdateInterval</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a1088605129e1b56d212d3dd4aa9d1e80" kind="variable"><name>AnchorPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1aa0a4c18ac66572a39932ee051ee42347" kind="variable"><name>m_LastInterval</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a15def6e4c1f2dabe6b5c09accd3214d4" kind="variable"><name>m_Frames</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a2cbc1725e08dd5ce8128da13d638d0f8" kind="variable"><name>htmlColorTag</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a9b8876219b8bea4c19e16a4ba44e54cd" kind="variable"><name>m_TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a998f5fd4b12e6e65d4aa3b30bd0b946f" kind="variable"><name>m_frameCounter_transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a7a0ceaadbbe57be4da25b914b1243713" kind="variable"><name>last_AnchorPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1ab8bab87cb36b2bc9965d457fb52bf000" kind="variable"><name>fpsLabel</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a63733cd9f5d1e78a990a482525bbbee9" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1aa9ff3b65ff7b296c647b5241b863d6ee" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a67a50a896baf5d72fefc16cc9d7087f2" kind="function"><name>Update</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a14ce96ceee956401615e16ad2709ab53" kind="function"><name>Set_FrameCounter_Position</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay" kind="class"><name>TMPro::Examples::TMPro_InstructionOverlay</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415" kind="enum"><name>FpsCounterAnchorPositions</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415ab32beb056fbfe36afbabc6c88c81ab36" kind="enumvalue"><name>TopLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a98e5a1c44509157ebcaf46c515c78875" kind="enumvalue"><name>BottomLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a1d85a557894c340c318493f33bfa8efb" kind="enumvalue"><name>TopRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a9146bfc669fddc88db2c4d89297d0e9a" kind="enumvalue"><name>BottomRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a711b531b8ed7c421f67b1ee9b32b36dd" kind="variable"><name>AnchorPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1ab92d76ac3e385ebe2707c2e67fb6f66f" kind="variable"><name>instructions</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1aba57a88e67df8155c4a8939d50e013c2" kind="variable"><name>m_TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a70ecdc78a8ff70646d33412fac6d5947" kind="variable"><name>m_textContainer</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a92b1d17f2e6911e775485f7dde6cd16e" kind="variable"><name>m_frameCounter_transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a3488ab0ee8d1b9e35c9acd9f097cb077" kind="variable"><name>m_camera</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1afb58739e20ed8f89d916c4b3234df7bf" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a5523290e9f3868aa26824851e50a895a" kind="function"><name>Set_FrameCounter_Position</name></member>
+  </compound>
+  <compound refid="struct_t_m_pro_1_1_examples_1_1_vertex_jitter_1_1_vertex_anim" kind="struct"><name>TMPro::Examples::VertexJitter::VertexAnim</name>
+    <member refid="struct_t_m_pro_1_1_examples_1_1_vertex_jitter_1_1_vertex_anim_1ad829f085baf9a3502c027a0ff26ea507" kind="variable"><name>angleRange</name></member>
+    <member refid="struct_t_m_pro_1_1_examples_1_1_vertex_jitter_1_1_vertex_anim_1ae878879bcf64dac0b4200a981b11b2d2" kind="variable"><name>angle</name></member>
+    <member refid="struct_t_m_pro_1_1_examples_1_1_vertex_jitter_1_1_vertex_anim_1a3c8420566e44d2778a651b41e4977479" kind="variable"><name>speed</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler" kind="class"><name>TMPro::Examples::VertexColorCycler</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler_1abb28c5b9ecd666852945c364b21ebfc4" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler_1a1803068f22f82161b412719efc891367" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler_1a057df06b22c8de255d8d191ae6313e6a" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler_1a22a41f2f64cdf007330973d283d61d8e" kind="function"><name>AnimateVertexColors</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter" kind="class"><name>TMPro::Examples::VertexJitter</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a48aa2f5018ce1f57c68b316cfc5a76d0" kind="variable"><name>AngleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a5470bb01ad13ec8b9dab328468bc454d" kind="variable"><name>SpeedMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a2950cda059be7e08282d0caee720df49" kind="variable"><name>CurveScale</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1ae3d9dc852d637312afdb59a5075f110f" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1af5b1b70324ca99a72d08112cf9d84f3e" kind="variable"><name>hasTextChanged</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1acf1d10a2af619e8aa78dbbfaf28bfd4c" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1ad8d8903bc7884311367dc27f671d997e" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a4c293b6718acf646763f16e07ad323b0" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a6ce5c9ed7071b268a96cf7efbce68f79" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a25adec7aee0f1ae6bde268e58558e415" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a65fcba6ff345a1a527b236c6166de696" kind="function"><name>AnimateVertexColors</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a" kind="class"><name>TMPro::Examples::VertexShakeA</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a8a3fca222f496902c262c53683d3f94e" kind="variable"><name>AngleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a10bf945b918292c2ea7552dd86f6a4ec" kind="variable"><name>SpeedMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a9e03d577c862b3b95e7309143c0a1d74" kind="variable"><name>ScaleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1ab4bd4cb50926999b1a1ac59da8fcf7f1" kind="variable"><name>RotationMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a845dda579f40696499892752906c379b" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a554a287c0cb156e0841a1ae739678e53" kind="variable"><name>hasTextChanged</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1afe818fb4181d5bd00ad19354557d5ef2" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1ab7965dbe6dfa2e4799b76201f980b88a" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a5d692977725badca45d7d8e068014882" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a07dd4922f2071e1fcf572f56c6aa0839" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1ab4e830d5f8b067d607643fcb66cbe178" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a41614ab9364a34655672675eca5d16d0" kind="function"><name>AnimateVertexColors</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b" kind="class"><name>TMPro::Examples::VertexShakeB</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a25046a446241c10abe00a455b8860c7f" kind="variable"><name>AngleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ac278e62e3d4b818697ca09ee9bbcfc77" kind="variable"><name>SpeedMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ab3c2718cdb0b13d63b37cc869801ce88" kind="variable"><name>CurveScale</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ae2bac31df0412569300d2d41d2e13215" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a9110da56680292f501f793487dfc7628" kind="variable"><name>hasTextChanged</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a64ca4dc3d37d31519af3d447c47b8ccd" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a022c31095ef481c0768de6200f880342" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a45a9ed296c60f2aba5ae44ac8ecb6eac" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a395152a6d91d164385b47dd04174d231" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ac12756ad22c4a9ee5ed2763faa1b1b01" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a550c38b1fda64b77f736a48470dfb649" kind="function"><name>AnimateVertexColors</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom" kind="class"><name>TMPro::Examples::VertexZoom</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1aae60c19f9d9352acb093ae262c0759a5" kind="variable"><name>AngleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a4ba5dc7acf25ea2b07b1b872050b9fa3" kind="variable"><name>SpeedMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1aaaaaeb0655b1d974a085b416c2e13522" kind="variable"><name>CurveScale</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a147cc26618cf8dc27160d5d8f0c3c390" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a7a55845140cc6ad934c37625429f79ec" kind="variable"><name>hasTextChanged</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1abb4237ecd84b842bda3e9ae5fb743875" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a3598f7dce190f79459fed17ab712ab88" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a1a11499abadd4c3a18bc271fb8818c59" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1ae2aa77d1c57048835cfabff3588f6b58" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a083e2d4151d80b31382f327a34122e07" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a0fc98ad8ed9f103145f1dfe96540e88a" kind="function"><name>AnimateVertexColors</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_warp_text_example" kind="class"><name>TMPro::Examples::WarpTextExample</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1a31c953d43370a467cf9d3309623d3887" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1aa95fcb47fe116dd3890a0f92106a6602" kind="variable"><name>VertexCurve</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1a99104ed4ea6b2676485a40e555388f54" kind="variable"><name>AngleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1ae02c88a8c8958d8a2343a75897ef400e" kind="variable"><name>SpeedMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1aa76e772eda39a25ba1d9f033f6fc516c" kind="variable"><name>CurveScale</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1a27ab4bde9d74741085a42c2360c37f1e" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1acdd83c2d233bf73c9c6da7ee51b1bc3c" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1ad1b1c7fe6b7e59498268a47006da09a8" kind="function"><name>CopyAnimationCurve</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1aefa5d7333e89c48b4f6df00d61d6e1c4" kind="function"><name>WarpText</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_word_selection_event" kind="class"><name>TMPro::TMP_TextEventHandler::WordSelectionEvent</name>
+  </compound>
+  <compound refid="namespace_cinemachine" kind="namespace"><name>Cinemachine</name>
+  </compound>
+  <compound refid="namespace_parrot_player" kind="namespace"><name>ParrotPlayer</name>
+  </compound>
+  <compound refid="namespace_parrot_third_person_camera" kind="namespace"><name>ParrotThirdPersonCamera</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_t_m_pro" kind="namespace"><name>TMPro</name>
+  </compound>
+  <compound refid="namespace_t_m_pro_1_1_examples" kind="namespace"><name>TMPro::Examples</name>
+  </compound>
+  <compound refid="namespace_unity_editor" kind="namespace"><name>UnityEditor</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_audio" kind="namespace"><name>UnityEngine::Audio</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_events" kind="namespace"><name>UnityEngine::Events</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_event_systems" kind="namespace"><name>UnityEngine::EventSystems</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_text_core_1_1_low_level" kind="namespace"><name>UnityEngine::TextCore::LowLevel</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_parrot_player_8cs" kind="file"><name>ParrotPlayer.cs</name>
+  </compound>
+  <compound refid="_parrot_third_person_camera_8cs" kind="file"><name>ParrotThirdPersonCamera.cs</name>
+  </compound>
+  <compound refid="_audio_manager_8cs" kind="file"><name>AudioManager.cs</name>
+  </compound>
+  <compound refid="_audio_mixer_sliders_8cs" kind="file"><name>AudioMixerSliders.cs</name>
+  </compound>
+  <compound refid="_event_rearrange_manager_8cs" kind="file"><name>EventRearrangeManager.cs</name>
+  </compound>
+  <compound refid="_game_manager_8cs" kind="file"><name>GameManager.cs</name>
+  </compound>
+  <compound refid="_g_u_i_skew_image_8cs" kind="file"><name>GUISkewImage.cs</name>
+  </compound>
+  <compound refid="_image_fill_gradient_8cs" kind="file"><name>ImageFillGradient.cs</name>
+  </compound>
+  <compound refid="_main_menu_manager_8cs" kind="file"><name>MainMenuManager.cs</name>
+  </compound>
+  <compound refid="_pause_menu_manager_8cs" kind="file"><name>PauseMenuManager.cs</name>
+  </compound>
+  <compound refid="_statistic_manager_8cs" kind="file"><name>StatisticManager.cs</name>
+  </compound>
+  <compound refid="_camera_follow_player_8cs" kind="file"><name>CameraFollowPlayer.cs</name>
+  </compound>
+  <compound refid="_player_collision_8cs" kind="file"><name>PlayerCollision.cs</name>
+  </compound>
+  <compound refid="_player_controller_8cs" kind="file"><name>PlayerController.cs</name>
+  </compound>
+  <compound refid="_player_shatter_8cs" kind="file"><name>PlayerShatter.cs</name>
+  </compound>
+  <compound refid="_scene_transitioner_8cs" kind="file"><name>SceneTransitioner.cs</name>
+  </compound>
+  <compound refid="_chunk_manager_8cs" kind="file"><name>ChunkManager.cs</name>
+  </compound>
+  <compound refid="_obstacle_spawner_8cs" kind="file"><name>ObstacleSpawner.cs</name>
+  </compound>
+  <compound refid="_oscillate_obstacle_8cs" kind="file"><name>OscillateObstacle.cs</name>
+  </compound>
+  <compound refid="_benchmark01_8cs" kind="file"><name>Benchmark01.cs</name>
+  </compound>
+  <compound refid="_benchmark01___u_g_u_i_8cs" kind="file"><name>Benchmark01_UGUI.cs</name>
+  </compound>
+  <compound refid="_benchmark02_8cs" kind="file"><name>Benchmark02.cs</name>
+  </compound>
+  <compound refid="_benchmark03_8cs" kind="file"><name>Benchmark03.cs</name>
+  </compound>
+  <compound refid="_benchmark04_8cs" kind="file"><name>Benchmark04.cs</name>
+  </compound>
+  <compound refid="_camera_controller_8cs" kind="file"><name>CameraController.cs</name>
+  </compound>
+  <compound refid="_chat_controller_8cs" kind="file"><name>ChatController.cs</name>
+  </compound>
+  <compound refid="_dropdown_sample_8cs" kind="file"><name>DropdownSample.cs</name>
+  </compound>
+  <compound refid="_env_map_animator_8cs" kind="file"><name>EnvMapAnimator.cs</name>
+  </compound>
+  <compound refid="_object_spin_8cs" kind="file"><name>ObjectSpin.cs</name>
+  </compound>
+  <compound refid="_shader_prop_animator_8cs" kind="file"><name>ShaderPropAnimator.cs</name>
+  </compound>
+  <compound refid="_simple_script_8cs" kind="file"><name>SimpleScript.cs</name>
+  </compound>
+  <compound refid="_skew_text_example_8cs" kind="file"><name>SkewTextExample.cs</name>
+  </compound>
+  <compound refid="_tele_type_8cs" kind="file"><name>TeleType.cs</name>
+  </compound>
+  <compound refid="_text_console_simulator_8cs" kind="file"><name>TextConsoleSimulator.cs</name>
+  </compound>
+  <compound refid="_text_mesh_pro_floating_text_8cs" kind="file"><name>TextMeshProFloatingText.cs</name>
+  </compound>
+  <compound refid="_text_mesh_spawner_8cs" kind="file"><name>TextMeshSpawner.cs</name>
+  </compound>
+  <compound refid="_t_m_p___digit_validator_8cs" kind="file"><name>TMP_DigitValidator.cs</name>
+  </compound>
+  <compound refid="_t_m_p___example_script__01_8cs" kind="file"><name>TMP_ExampleScript_01.cs</name>
+  </compound>
+  <compound refid="_t_m_p___frame_rate_counter_8cs" kind="file"><name>TMP_FrameRateCounter.cs</name>
+  </compound>
+  <compound refid="_t_m_p___phone_number_validator_8cs" kind="file"><name>TMP_PhoneNumberValidator.cs</name>
+  </compound>
+  <compound refid="_t_m_p___text_event_check_8cs" kind="file"><name>TMP_TextEventCheck.cs</name>
+  </compound>
+  <compound refid="_t_m_p___text_event_handler_8cs" kind="file"><name>TMP_TextEventHandler.cs</name>
+  </compound>
+  <compound refid="_t_m_p___text_info_debug_tool_8cs" kind="file"><name>TMP_TextInfoDebugTool.cs</name>
+  </compound>
+  <compound refid="_t_m_p___text_selector___a_8cs" kind="file"><name>TMP_TextSelector_A.cs</name>
+  </compound>
+  <compound refid="_t_m_p___text_selector___b_8cs" kind="file"><name>TMP_TextSelector_B.cs</name>
+  </compound>
+  <compound refid="_t_m_p___ui_frame_rate_counter_8cs" kind="file"><name>TMP_UiFrameRateCounter.cs</name>
+  </compound>
+  <compound refid="_t_m_pro___instruction_overlay_8cs" kind="file"><name>TMPro_InstructionOverlay.cs</name>
+  </compound>
+  <compound refid="_vertex_color_cycler_8cs" kind="file"><name>VertexColorCycler.cs</name>
+  </compound>
+  <compound refid="_vertex_jitter_8cs" kind="file"><name>VertexJitter.cs</name>
+  </compound>
+  <compound refid="_vertex_shake_a_8cs" kind="file"><name>VertexShakeA.cs</name>
+  </compound>
+  <compound refid="_vertex_shake_b_8cs" kind="file"><name>VertexShakeB.cs</name>
+  </compound>
+  <compound refid="_vertex_zoom_8cs" kind="file"><name>VertexZoom.cs</name>
+  </compound>
+  <compound refid="_warp_text_example_8cs" kind="file"><name>WarpTextExample.cs</name>
+  </compound>
+  <compound refid="dir_2fd482fba2341a694ba31470864b4a14" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev</name>
+  </compound>
+  <compound refid="dir_12f23f735f3cb67289d2606f82d1edbf" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets</name>
+  </compound>
+  <compound refid="dir_60b25c05a5ecc32024c169cc9927c78b" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets</name>
+  </compound>
+  <compound refid="dir_f171d689a328ef4548bb42fac9059f6c" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets</name>
+  </compound>
+  <compound refid="dir_a17579d6d522450f075295fec9c36643" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts</name>
+  </compound>
+  <compound refid="dir_0a4d41329070ceadf2d659c9e42d2f6e" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character</name>
+  </compound>
+  <compound refid="dir_f396504afdc959660871b003fa10164d" kind="dir"><name>C:/Users/thebe/Documents</name>
+  </compound>
+  <compound refid="dir_faad77105c30d4b04bda852dec6cef06" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/Editor</name>
+  </compound>
+  <compound refid="dir_15729d473312b19ddbe3b059833b6c57" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras</name>
+  </compound>
+  <compound refid="dir_7e17ac9cf8fba2cb04bc248c85b0ceb7" kind="dir"><name>C:/Users/thebe/Documents/GitHub</name>
+  </compound>
+  <compound refid="dir_4b44e6fb59badaa099d3cfde48be1f58" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts</name>
+  </compound>
+  <compound refid="dir_d67abf404238e6c9975a83c281076d8e" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot</name>
+  </compound>
+  <compound refid="dir_3fcbf232eb39182dee13b9b83f31e2a1" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack</name>
+  </compound>
+  <compound refid="dir_bb7d8240d4947c16b3f0e94221e218ab" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts</name>
+  </compound>
+  <compound refid="dir_4d02286c65f53a84cc2b297e8eeeca57" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts</name>
+  </compound>
+  <compound refid="dir_caaef2295953f4ccb5469d59ed0ff6f9" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts</name>
+  </compound>
+  <compound refid="dir_6c6e20f7dc5279d51413ae6244704222" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia</name>
+  </compound>
+  <compound refid="dir_01b5ef6069241b970a0dfbbf2c975bb4" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro</name>
+  </compound>
+  <compound refid="dir_396811e94dbb8d386b17a14b43766670" kind="dir"><name>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts</name>
+  </compound>
+</doxygenindex>

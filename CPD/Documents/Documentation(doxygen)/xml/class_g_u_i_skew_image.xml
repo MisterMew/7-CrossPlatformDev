@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_g_u_i_skew_image" kind="class" language="C#" prot="public">
+    <compoundname>GUISkewImage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Image</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_u_i_skew_image_1a3340bdab036018178c8fd77d26b4c8c4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GUISkewImage.skewX</definition>
+        <argsstring></argsstring>
+        <name>skewX</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/GUISkewImage.cs" line="5" column="20" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/GUISkewImage.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_skew_image_1a8488f098299d6afad7dd0944163c7b77" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GUISkewImage.skewY</definition>
+        <argsstring></argsstring>
+        <name>skewY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/GUISkewImage.cs" line="6" column="20" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/GUISkewImage.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_g_u_i_skew_image_1aef6e433caebe48048b3581d7e1a32cd9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GUISkewImage.OnPopulateMesh</definition>
+        <argsstring>(VertexHelper vh)</argsstring>
+        <name>OnPopulateMesh</name>
+        <param>
+          <type>VertexHelper</type>
+          <declname>vh</declname>
+        </param>
+        <briefdescription>
+<para>Allow an image to be skewed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/GUISkewImage.cs" line="11" column="29" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/GUISkewImage.cs" bodystart="11" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GUISkewImage</label>
+        <link refid="class_g_u_i_skew_image"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Image</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GUISkewImage</label>
+        <link refid="class_g_u_i_skew_image"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Image</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/GUISkewImage.cs" line="4" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/GUISkewImage.cs" bodystart="4" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_g_u_i_skew_image_1aef6e433caebe48048b3581d7e1a32cd9" prot="protected" virt="non-virtual"><scope>GUISkewImage</scope><name>OnPopulateMesh</name></member>
+      <member refid="class_g_u_i_skew_image_1a3340bdab036018178c8fd77d26b4c8c4" prot="private" virt="non-virtual"><scope>GUISkewImage</scope><name>skewX</name></member>
+      <member refid="class_g_u_i_skew_image_1a8488f098299d6afad7dd0944163c7b77" prot="private" virt="non-virtual"><scope>GUISkewImage</scope><name>skewY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

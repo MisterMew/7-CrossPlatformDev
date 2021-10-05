@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_parrot_player_1_1_parrot_player" xml:lang="en-US">
+<title>ParrotPlayer.ParrotPlayer Class Reference</title>
+<indexterm><primary>ParrotPlayer.ParrotPlayer</primary></indexterm>
+<para>Inheritance diagram for ParrotPlayer.ParrotPlayer:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_parrot_player_1_1_parrot_player.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_parrot_player_1_1_parrot_player_1aab9278aa8b07c6e8d54803711be5e460">speed</link> = 600.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_parrot_player_1_1_parrot_player_1ad090442c1e3af601bb08813effc0ff99">turnSpeed</link> = 400.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_parrot_player_1_1_parrot_player_1a4bcdf2fa780d17939a741a1c94da7598">gravity</link> = 20.0f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_parrot_player_1_1_parrot_player_1a4bcdf2fa780d17939a741a1c94da7598"/><section>
+    <title>gravity</title>
+<indexterm><primary>gravity</primary><secondary>ParrotPlayer.ParrotPlayer</secondary></indexterm>
+<indexterm><primary>ParrotPlayer.ParrotPlayer</primary><secondary>gravity</secondary></indexterm>
+<para><computeroutput>float ParrotPlayer.ParrotPlayer.gravity = 20.0f</computeroutput></para></section>
+<anchor xml:id="_class_parrot_player_1_1_parrot_player_1aab9278aa8b07c6e8d54803711be5e460"/><section>
+    <title>speed</title>
+<indexterm><primary>speed</primary><secondary>ParrotPlayer.ParrotPlayer</secondary></indexterm>
+<indexterm><primary>ParrotPlayer.ParrotPlayer</primary><secondary>speed</secondary></indexterm>
+<para><computeroutput>float ParrotPlayer.ParrotPlayer.speed = 600.0f</computeroutput></para></section>
+<anchor xml:id="_class_parrot_player_1_1_parrot_player_1ad090442c1e3af601bb08813effc0ff99"/><section>
+    <title>turnSpeed</title>
+<indexterm><primary>turnSpeed</primary><secondary>ParrotPlayer.ParrotPlayer</secondary></indexterm>
+<indexterm><primary>ParrotPlayer.ParrotPlayer</primary><secondary>turnSpeed</secondary></indexterm>
+<para><computeroutput>float ParrotPlayer.ParrotPlayer.turnSpeed = 400.0f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets/LowPoly Birds Ultimate Pack/Assets/Low Poly Bird Parrot/Character/<link linkend="__parrot_player_8cs">ParrotPlayer.cs</link></section>
+</section>

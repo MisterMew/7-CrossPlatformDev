@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_4d02286c65f53a84cc2b297e8eeeca57" xml:lang="en-US">
+<title>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts Directory Reference</title>
+<indexterm><primary>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_a17579d6d522450f075295fec9c36643">AudioScripts</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_faad77105c30d4b04bda852dec6cef06">Editor</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_4b44e6fb59badaa099d3cfde48be1f58">GUIScripts</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_bb7d8240d4947c16b3f0e94221e218ab">PlayerScripts</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_396811e94dbb8d386b17a14b43766670">WorldGenScripts</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__game_manager_8cs">GameManager.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__scene_transitioner_8cs">SceneTransitioner.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

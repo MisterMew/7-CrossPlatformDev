@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_camera_follow_player" xml:lang="en-US">
+<title>CameraFollowPlayer Class Reference</title>
+<indexterm><primary>CameraFollowPlayer</primary></indexterm>
+<para>Inheritance diagram for CameraFollowPlayer:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_camera_follow_player.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Transform <link linkend="_class_camera_follow_player_1a1bf81ea5b669e2a1dda6fc9b1512cbff">player</link></para>
+</listitem>
+            <listitem><para>Vector3 <link linkend="_class_camera_follow_player_1a73d5030276529ef41f55115c23b78d9d">offset</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_camera_follow_player_1a73d5030276529ef41f55115c23b78d9d"/><section>
+    <title>offset</title>
+<indexterm><primary>offset</primary><secondary>CameraFollowPlayer</secondary></indexterm>
+<indexterm><primary>CameraFollowPlayer</primary><secondary>offset</secondary></indexterm>
+<para><computeroutput>Vector3 CameraFollowPlayer.offset</computeroutput></para></section>
+<anchor xml:id="_class_camera_follow_player_1a1bf81ea5b669e2a1dda6fc9b1512cbff"/><section>
+    <title>player</title>
+<indexterm><primary>player</primary><secondary>CameraFollowPlayer</secondary></indexterm>
+<indexterm><primary>CameraFollowPlayer</primary><secondary>player</secondary></indexterm>
+<para><computeroutput>Transform CameraFollowPlayer.player</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/<link linkend="__camera_follow_player_8cs">CameraFollowPlayer.cs</link></section>
+</section>

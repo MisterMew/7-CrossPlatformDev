@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_chunk_manager" kind="class" language="C#" prot="public">
+    <compoundname>ChunkManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_chunk_manager_1aa5547015cebfa94b8888f04232dbcd4a" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] ChunkManager.chunkPrefabs</definition>
+        <argsstring></argsstring>
+        <name>chunkPrefabs</name>
+        <briefdescription>
+<para>Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="6" column="23" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_chunk_manager_1a7241e4e830e7c9f4fbcf82e583bb298d" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform ChunkManager.playerTransform</definition>
+        <argsstring></argsstring>
+        <name>playerTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="7" column="23" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chunk_manager_1a1ff9531793e19b8921a05b7d8f206366" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ChunkManager.spawnZ</definition>
+        <argsstring></argsstring>
+        <name>spawnZ</name>
+        <initializer>= 0F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="9" column="19" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chunk_manager_1a9c46d3c4b7c012a62ac89d186b6a389c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ChunkManager.chunkLength</definition>
+        <argsstring></argsstring>
+        <name>chunkLength</name>
+        <initializer>= 512F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="10" column="19" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chunk_manager_1af85f5bea4525ecf1161bf219459a0e37" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ChunkManager.chunksOnScreen</definition>
+        <argsstring></argsstring>
+        <name>chunksOnScreen</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="11" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chunk_manager_1a358f7dae94679ca2e9443b362e2a1f95" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ChunkManager.safeZone</definition>
+        <argsstring></argsstring>
+        <name>safeZone</name>
+        <initializer>= 256F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="12" column="19" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chunk_manager_1a78020343c859558c8d74186980ddf189" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ChunkManager.previousPrefabIndex</definition>
+        <argsstring></argsstring>
+        <name>previousPrefabIndex</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="13" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chunk_manager_1a5eec97ebeeae95d3638133fabf1fc02b" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; ChunkManager.activeChunks</definition>
+        <argsstring></argsstring>
+        <name>activeChunks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="15" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_chunk_manager_1a0a59dc01c877b74d002ea2d799644b1f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChunkManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upon Start, get game objects and spawn chunks </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="20" column="10" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="20" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chunk_manager_1a543e3f5cc143906fd50ac3e3e38841d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChunkManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update chunks dependant on framerate </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="36" column="10" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chunk_manager_1abfd2fd854d0381494c2caf1a74020f55" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChunkManager.SpawnChunk</definition>
+        <argsstring>(int prefabIndex=-1)</argsstring>
+        <name>SpawnChunk</name>
+        <param>
+          <type>int</type>
+          <declname>prefabIndex</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CHUNK: SPAWN Determine when and where to spawn chunks </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="47" column="10" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="47" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chunk_manager_1adc5122bbb43ecae611b0c37013d516d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChunkManager.DeleteChunk</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteChunk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CHUNK: DELETE Delete the oldest existing chunk </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="65" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chunk_manager_1a8eeee26024d6779daeebd8775b7079d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ChunkManager.RandomPrefabIndex</definition>
+        <argsstring>()</argsstring>
+        <name>RandomPrefabIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RANDOM PREFAB INDEX Randomly determine which prefab to generate next </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="74" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="74" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ChunkManager</label>
+        <link refid="class_chunk_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ChunkManager</label>
+        <link refid="class_chunk_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" line="4" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/ChunkManager.cs" bodystart="4" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_chunk_manager_1a5eec97ebeeae95d3638133fabf1fc02b" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>activeChunks</name></member>
+      <member refid="class_chunk_manager_1a9c46d3c4b7c012a62ac89d186b6a389c" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>chunkLength</name></member>
+      <member refid="class_chunk_manager_1aa5547015cebfa94b8888f04232dbcd4a" prot="public" virt="non-virtual"><scope>ChunkManager</scope><name>chunkPrefabs</name></member>
+      <member refid="class_chunk_manager_1af85f5bea4525ecf1161bf219459a0e37" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>chunksOnScreen</name></member>
+      <member refid="class_chunk_manager_1adc5122bbb43ecae611b0c37013d516d3" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>DeleteChunk</name></member>
+      <member refid="class_chunk_manager_1a7241e4e830e7c9f4fbcf82e583bb298d" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>playerTransform</name></member>
+      <member refid="class_chunk_manager_1a78020343c859558c8d74186980ddf189" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>previousPrefabIndex</name></member>
+      <member refid="class_chunk_manager_1a8eeee26024d6779daeebd8775b7079d5" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>RandomPrefabIndex</name></member>
+      <member refid="class_chunk_manager_1a358f7dae94679ca2e9443b362e2a1f95" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>safeZone</name></member>
+      <member refid="class_chunk_manager_1abfd2fd854d0381494c2caf1a74020f55" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>SpawnChunk</name></member>
+      <member refid="class_chunk_manager_1a1ff9531793e19b8921a05b7d8f206366" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>spawnZ</name></member>
+      <member refid="class_chunk_manager_1a0a59dc01c877b74d002ea2d799644b1f" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>Start</name></member>
+      <member refid="class_chunk_manager_1a543e3f5cc143906fd50ac3e3e38841d4" prot="private" virt="non-virtual"><scope>ChunkManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_statistic_manager" xml:lang="en-US">
+<title>StatisticManager Class Reference</title>
+<indexterm><primary>StatisticManager</primary></indexterm>
+<para>Inheritance diagram for StatisticManager:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_statistic_manager.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_statistic_manager_1ad50350e72f742357539230f691546010">Awake</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Transform <link linkend="_class_statistic_manager_1a369b59a684ee6324f76466a5dbe8e686">player</link></para>
+</listitem>
+            <listitem><para>TextMeshProUGUI <link linkend="_class_statistic_manager_1a905a749b5f2acd6a4ce2df9e91c5301c">scoreText</link></para>
+
+<para>Score Variables. </para>
+</listitem>
+            <listitem><para>TextMeshProUGUI <link linkend="_class_statistic_manager_1acb442fbdbcbf1b1c634392d40a1802d1">distanceText</link></para>
+
+<para>Distance Variables. </para>
+</listitem>
+            <listitem><para>TextMeshProUGUI <link linkend="_class_statistic_manager_1aa19d09b39cfdbd78f2b89865f41b7c93">collectiblesText</link></para>
+
+<para>Collectible Variables. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_statistic_manager_1ad50350e72f742357539230f691546010"/><section>
+    <title>Awake()</title>
+<indexterm><primary>Awake</primary><secondary>StatisticManager</secondary></indexterm>
+<indexterm><primary>StatisticManager</primary><secondary>Awake</secondary></indexterm>
+<para><computeroutput>void StatisticManager.Awake ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_statistic_manager_1aa19d09b39cfdbd78f2b89865f41b7c93"/><section>
+    <title>collectiblesText</title>
+<indexterm><primary>collectiblesText</primary><secondary>StatisticManager</secondary></indexterm>
+<indexterm><primary>StatisticManager</primary><secondary>collectiblesText</secondary></indexterm>
+<para><computeroutput>TextMeshProUGUI StatisticManager.collectiblesText</computeroutput></para><para>
+
+<para>Collectible Variables. </para>
+</para>
+</section>
+<anchor xml:id="_class_statistic_manager_1acb442fbdbcbf1b1c634392d40a1802d1"/><section>
+    <title>distanceText</title>
+<indexterm><primary>distanceText</primary><secondary>StatisticManager</secondary></indexterm>
+<indexterm><primary>StatisticManager</primary><secondary>distanceText</secondary></indexterm>
+<para><computeroutput>TextMeshProUGUI StatisticManager.distanceText</computeroutput></para><para>
+
+<para>Distance Variables. </para>
+</para>
+</section>
+<anchor xml:id="_class_statistic_manager_1a369b59a684ee6324f76466a5dbe8e686"/><section>
+    <title>player</title>
+<indexterm><primary>player</primary><secondary>StatisticManager</secondary></indexterm>
+<indexterm><primary>StatisticManager</primary><secondary>player</secondary></indexterm>
+<para><computeroutput>Transform StatisticManager.player</computeroutput></para></section>
+<anchor xml:id="_class_statistic_manager_1a905a749b5f2acd6a4ce2df9e91c5301c"/><section>
+    <title>scoreText</title>
+<indexterm><primary>scoreText</primary><secondary>StatisticManager</secondary></indexterm>
+<indexterm><primary>StatisticManager</primary><secondary>scoreText</secondary></indexterm>
+<para><computeroutput>TextMeshProUGUI StatisticManager.scoreText</computeroutput></para><para>
+
+<para>Score Variables. </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/<link linkend="__statistic_manager_8cs">StatisticManager.cs</link></section>
+</section>

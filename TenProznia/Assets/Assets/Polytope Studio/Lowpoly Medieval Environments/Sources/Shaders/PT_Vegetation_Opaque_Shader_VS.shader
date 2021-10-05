@@ -31,7 +31,7 @@ Shader "Polytope Studio/PT_Vegetation_Opaque_Shader_VS"
 		#include "UnityShaderVariables.cginc"
 		#include "UnityPBSLighting.cginc"
 		#include "Lighting.cginc"
-		#pragma target 5.0
+		#pragma target 3.5
 		#pragma multi_compile_instancing
 		#pragma shader_feature _CUSTOMWIND1_ON
 		#pragma shader_feature_local _SNOWONOFF_ON
@@ -176,7 +176,7 @@ Shader "Polytope Studio/PT_Vegetation_Opaque_Shader_VS"
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
-			#pragma target 5.0
+			#pragma target 3.5
 			#pragma multi_compile_shadowcaster
 			#pragma multi_compile UNITY_PASS_SHADOWCASTER
 			#pragma skip_variants FOG_LINEAR FOG_EXP FOG_EXP2

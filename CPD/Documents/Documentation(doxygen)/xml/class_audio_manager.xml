@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_audio_manager" kind="class" language="C#" prot="public">
+    <compoundname>AudioManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource AudioManager.musicSource</definition>
+        <argsstring></argsstring>
+        <name>musicSource</name>
+        <briefdescription>
+<para>Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioManager.cs" line="5" column="24" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioManager.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the current music source upon awake </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioManager.cs" line="10" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioManager.cs" bodystart="10" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AudioManager</label>
+        <link refid="class_audio_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AudioManager</label>
+        <link refid="class_audio_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioManager.cs" line="3" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioManager.cs" bodystart="3" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>Awake</name></member>
+      <member refid="class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>musicSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_chunk_manager" xml:lang="en-US">
+<title>ChunkManager Class Reference</title>
+<indexterm><primary>ChunkManager</primary></indexterm>
+<para>Inheritance diagram for ChunkManager:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_chunk_manager.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject[] <link linkend="_class_chunk_manager_1aa5547015cebfa94b8888f04232dbcd4a">chunkPrefabs</link></para>
+
+<para>Variables. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_chunk_manager_1aa5547015cebfa94b8888f04232dbcd4a"/><section>
+    <title>chunkPrefabs</title>
+<indexterm><primary>chunkPrefabs</primary><secondary>ChunkManager</secondary></indexterm>
+<indexterm><primary>ChunkManager</primary><secondary>chunkPrefabs</secondary></indexterm>
+<para><computeroutput>GameObject [] ChunkManager.chunkPrefabs</computeroutput></para><para>
+
+<para>Variables. </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/WorldGenScripts/<link linkend="__chunk_manager_8cs">ChunkManager.cs</link></section>
+</section>

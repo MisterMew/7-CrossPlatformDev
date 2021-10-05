@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter" xml:lang="en-US">
+<title>TMPro.Examples.TMP_FrameRateCounter Class Reference</title>
+<indexterm><primary>TMPro.Examples.TMP_FrameRateCounter</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.TMP_FrameRateCounter:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5">FpsCounterAnchorPositions</link> { <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5ab32beb056fbfe36afbabc6c88c81ab36">TopLeft</link>
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a98e5a1c44509157ebcaf46c515c78875">BottomLeft</link>
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a1d85a557894c340c318493f33bfa8efb">TopRight</link>
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a9146bfc669fddc88db2c4d89297d0e9a">BottomRight</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1ae8d84e2e21d6d819d48f594b09b0319b">UpdateInterval</link> = 5.0f</para>
+</listitem>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5">FpsCounterAnchorPositions</link> <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a7c92928be05c154b10c2eb092425e865">AnchorPosition</link> = <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a1d85a557894c340c318493f33bfa8efb">FpsCounterAnchorPositions.TopRight</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5"/><section>
+    <title>FpsCounterAnchorPositions</title>
+<indexterm><primary>FpsCounterAnchorPositions</primary><secondary>TMPro.Examples.TMP_FrameRateCounter</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_FrameRateCounter</primary><secondary>FpsCounterAnchorPositions</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5">TMPro.Examples.TMP_FrameRateCounter.FpsCounterAnchorPositions</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>TopLeft</primary><secondary>TMPro.Examples.TMP_FrameRateCounter</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_FrameRateCounter</primary><secondary>TopLeft</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5ab32beb056fbfe36afbabc6c88c81ab36"/>TopLeft</entry><entry></entry></row><row><entry><indexterm><primary>BottomLeft</primary><secondary>TMPro.Examples.TMP_FrameRateCounter</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_FrameRateCounter</primary><secondary>BottomLeft</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a98e5a1c44509157ebcaf46c515c78875"/>BottomLeft</entry><entry></entry></row><row><entry><indexterm><primary>TopRight</primary><secondary>TMPro.Examples.TMP_FrameRateCounter</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_FrameRateCounter</primary><secondary>TopRight</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a1d85a557894c340c318493f33bfa8efb"/>TopRight</entry><entry></entry></row><row><entry><indexterm><primary>BottomRight</primary><secondary>TMPro.Examples.TMP_FrameRateCounter</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_FrameRateCounter</primary><secondary>BottomRight</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a9146bfc669fddc88db2c4d89297d0e9a"/>BottomRight</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a7c92928be05c154b10c2eb092425e865"/><section>
+    <title>AnchorPosition</title>
+<indexterm><primary>AnchorPosition</primary><secondary>TMPro.Examples.TMP_FrameRateCounter</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_FrameRateCounter</primary><secondary>AnchorPosition</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5">FpsCounterAnchorPositions</link> TMPro.Examples.TMP_FrameRateCounter.AnchorPosition = <link linkend="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a1d85a557894c340c318493f33bfa8efb">FpsCounterAnchorPositions.TopRight</link></computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1ae8d84e2e21d6d819d48f594b09b0319b"/><section>
+    <title>UpdateInterval</title>
+<indexterm><primary>UpdateInterval</primary><secondary>TMPro.Examples.TMP_FrameRateCounter</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TMP_FrameRateCounter</primary><secondary>UpdateInterval</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.TMP_FrameRateCounter.UpdateInterval = 5.0f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__t_m_p___frame_rate_counter_8cs">TMP_FrameRateCounter.cs</link></section>
+</section>

@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_pause_menu_manager" kind="class" language="C#" prot="public">
+    <compoundname>PauseMenuManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_pause_menu_manager_1ae26ec391bcc1a3c4406d2efea60d2163" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool PauseMenuManager.gameIsPaused</definition>
+        <argsstring></argsstring>
+        <name>gameIsPaused</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="6" column="24" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pause_menu_manager_1a0a78a541cea4c469ef0aa3bddfe82a49" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PauseMenuManager.pauseMenuUI</definition>
+        <argsstring></argsstring>
+        <name>pauseMenuUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="7" column="23" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_menu_manager_1ab320b22302db2bd4736c89a783d99c03" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PauseMenuManager.gameOverlay</definition>
+        <argsstring></argsstring>
+        <name>gameOverlay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="8" column="23" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_menu_manager_1af3520aebc02d59b81caf333c2e1b11f0" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PauseMenuManager.buttonInputs</definition>
+        <argsstring></argsstring>
+        <name>buttonInputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="9" column="23" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pause_menu_manager_1a03f9fbd33dd41e3a222a392f62e20090" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>UPDATE. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Check update for key press to pause game </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="16" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pause_menu_manager_1a886189569ee70c2a57d86ef5f7d59602" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuManager.ResumeGame</definition>
+        <argsstring>()</argsstring>
+        <name>ResumeGame</name>
+        <briefdescription>
+<para>GAME: Resume. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Resume the game </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="31" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_manager_1a73cfd980e6d6e634cc27113654c07b1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuManager.PauseGame</definition>
+        <argsstring>()</argsstring>
+        <name>PauseGame</name>
+        <briefdescription>
+<para>GAME: Pause. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Pause the game </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="44" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="44" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_manager_1a552e5294a03a1feeaa1608e70d1eca33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuManager.ReturnToMenu</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnToMenu</name>
+        <briefdescription>
+<para>RETURN MAIN. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Return to main menu </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="57" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_manager_1ab94e7a248212648f64ebd470cf8d46b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuManager.RestartGame</definition>
+        <argsstring>()</argsstring>
+        <name>RestartGame</name>
+        <briefdescription>
+<para>GAME: RESTART. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Restart the game </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="69" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_manager_1a99019215d81e3826c220d8b50b0eefd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PauseMenuManager.ValidatePauseInput</definition>
+        <argsstring>()</argsstring>
+        <name>ValidatePauseInput</name>
+        <briefdescription>
+<para>VALIDATE INPUT. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Validate if an input to trigger pausing has occured </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="79" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_manager_1ab3e6f52141ec2de320c38788cd6eba16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuManager.QuitGame</definition>
+        <argsstring>()</argsstring>
+        <name>QuitGame</name>
+        <briefdescription>
+<para>QUIT. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Quit the game </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="91" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="91" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PauseMenuManager</label>
+        <link refid="class_pause_menu_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PauseMenuManager</label>
+        <link refid="class_pause_menu_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" line="4" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/PauseMenuManager.cs" bodystart="4" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_pause_menu_manager_1af3520aebc02d59b81caf333c2e1b11f0" prot="public" virt="non-virtual"><scope>PauseMenuManager</scope><name>buttonInputs</name></member>
+      <member refid="class_pause_menu_manager_1ae26ec391bcc1a3c4406d2efea60d2163" prot="public" virt="non-virtual"><scope>PauseMenuManager</scope><name>gameIsPaused</name></member>
+      <member refid="class_pause_menu_manager_1ab320b22302db2bd4736c89a783d99c03" prot="public" virt="non-virtual"><scope>PauseMenuManager</scope><name>gameOverlay</name></member>
+      <member refid="class_pause_menu_manager_1a73cfd980e6d6e634cc27113654c07b1e" prot="public" virt="non-virtual"><scope>PauseMenuManager</scope><name>PauseGame</name></member>
+      <member refid="class_pause_menu_manager_1a0a78a541cea4c469ef0aa3bddfe82a49" prot="public" virt="non-virtual"><scope>PauseMenuManager</scope><name>pauseMenuUI</name></member>
+      <member refid="class_pause_menu_manager_1ab3e6f52141ec2de320c38788cd6eba16" prot="public" virt="non-virtual"><scope>PauseMenuManager</scope><name>QuitGame</name></member>
+      <member refid="class_pause_menu_manager_1ab94e7a248212648f64ebd470cf8d46b8" prot="public" virt="non-virtual"><scope>PauseMenuManager</scope><name>RestartGame</name></member>
+      <member refid="class_pause_menu_manager_1a886189569ee70c2a57d86ef5f7d59602" prot="public" virt="non-virtual"><scope>PauseMenuManager</scope><name>ResumeGame</name></member>
+      <member refid="class_pause_menu_manager_1a552e5294a03a1feeaa1608e70d1eca33" prot="public" virt="non-virtual"><scope>PauseMenuManager</scope><name>ReturnToMenu</name></member>
+      <member refid="class_pause_menu_manager_1a03f9fbd33dd41e3a222a392f62e20090" prot="private" virt="non-virtual"><scope>PauseMenuManager</scope><name>Update</name></member>
+      <member refid="class_pause_menu_manager_1a99019215d81e3826c220d8b50b0eefd7" prot="public" virt="non-virtual"><scope>PauseMenuManager</scope><name>ValidatePauseInput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

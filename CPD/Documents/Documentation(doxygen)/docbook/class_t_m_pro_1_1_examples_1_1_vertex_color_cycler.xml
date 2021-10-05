@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_color_cycler" xml:lang="en-US">
+<title>TMPro.Examples.VertexColorCycler Class Reference</title>
+<indexterm><primary>TMPro.Examples.VertexColorCycler</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.VertexColorCycler:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__vertex_color_cycler_8cs">VertexColorCycler.cs</link></section>

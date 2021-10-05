@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark02" xml:lang="en-US">
+<title>TMPro.Examples.Benchmark02 Class Reference</title>
+<indexterm><primary>TMPro.Examples.Benchmark02</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.Benchmark02:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_benchmark02.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark02_1a2a32f6a6d5ecd16e70c8174957234158">SpawnType</link> = 0</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark02_1ab564edc57654d2d1a52a5dd012f3b63e">NumberOfNPC</link> = 12</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark02_1ab564edc57654d2d1a52a5dd012f3b63e"/><section>
+    <title>NumberOfNPC</title>
+<indexterm><primary>NumberOfNPC</primary><secondary>TMPro.Examples.Benchmark02</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark02</primary><secondary>NumberOfNPC</secondary></indexterm>
+<para><computeroutput>int TMPro.Examples.Benchmark02.NumberOfNPC = 12</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark02_1a2a32f6a6d5ecd16e70c8174957234158"/><section>
+    <title>SpawnType</title>
+<indexterm><primary>SpawnType</primary><secondary>TMPro.Examples.Benchmark02</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark02</primary><secondary>SpawnType</secondary></indexterm>
+<para><computeroutput>int TMPro.Examples.Benchmark02.SpawnType = 0</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__benchmark02_8cs">Benchmark02.cs</link></section>
+</section>

@@ -1,0 +1,101 @@
+.TH "PauseMenuManager" 3 "Fri Sep 24 2021" "Version v1" "TenProznia" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PauseMenuManager
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBResumeGame\fP ()"
+.br
+.RI "GAME: Resume\&. "
+.ti -1c
+.RI "void \fBPauseGame\fP ()"
+.br
+.RI "GAME: Pause\&. "
+.ti -1c
+.RI "void \fBReturnToMenu\fP ()"
+.br
+.RI "RETURN MAIN\&. "
+.ti -1c
+.RI "void \fBRestartGame\fP ()"
+.br
+.RI "GAME: RESTART\&. "
+.ti -1c
+.RI "bool \fBValidatePauseInput\fP ()"
+.br
+.RI "VALIDATE INPUT\&. "
+.ti -1c
+.RI "void \fBQuitGame\fP ()"
+.br
+.RI "QUIT\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "GameObject \fBpauseMenuUI\fP"
+.br
+.ti -1c
+.RI "GameObject \fBgameOverlay\fP"
+.br
+.ti -1c
+.RI "GameObject \fBbuttonInputs\fP"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBgameIsPaused\fP = false"
+.br
+.RI "Variables\&. "
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void PauseMenuManager\&.PauseGame ()"
+
+.PP
+GAME: Pause\&. Pause the game 
+.SS "void PauseMenuManager\&.QuitGame ()"
+
+.PP
+QUIT\&. Quit the game 
+.SS "void PauseMenuManager\&.RestartGame ()"
+
+.PP
+GAME: RESTART\&. Restart the game 
+.SS "void PauseMenuManager\&.ResumeGame ()"
+
+.PP
+GAME: Resume\&. Resume the game 
+.SS "void PauseMenuManager\&.ReturnToMenu ()"
+
+.PP
+RETURN MAIN\&. Return to main menu 
+.SS "bool PauseMenuManager\&.ValidatePauseInput ()"
+
+.PP
+VALIDATE INPUT\&. Validate if an input to trigger pausing has occured 
+.SH "Member Data Documentation"
+.PP 
+.SS "GameObject PauseMenuManager\&.buttonInputs"
+
+.SS "bool PauseMenuManager\&.gameIsPaused = false\fC [static]\fP"
+
+.PP
+Variables\&. 
+.SS "GameObject PauseMenuManager\&.gameOverlay"
+
+.SS "GameObject PauseMenuManager\&.pauseMenuUI"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TenProznia from the source code\&.

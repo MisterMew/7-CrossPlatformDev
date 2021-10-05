@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_shatter" xml:lang="en-US">
+<title>PlayerShatter Class Reference</title>
+<indexterm><primary>PlayerShatter</primary></indexterm>
+<para>Inheritance diagram for PlayerShatter:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_shatter.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_player_shatter_1a8a383c5113ff3490b99b0327943ed63a">shatter</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_player_shatter_1ae24308efeac280f2f26c5922d38b7b7b">cubeSize</link> = 0.2f</para>
+
+<para>Variables. </para>
+</listitem>
+            <listitem><para>int <link linkend="_class_player_shatter_1ad603c5263e2a36b24615240703076a2c">cubesInRow</link> = 5</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_shatter_1a56f52f2f02adddae7a818279bd3ba4cd">shatterForce</link> = 50f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_shatter_1aa3bc5d76b7de5e991e1b362857b1d07c">shatterRadius</link> = 4f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_shatter_1a25ea3cad02c2d0fb16ce08b198a9c925">shatterUpward</link> = 0.4f</para>
+</listitem>
+            <listitem><para>Material <link linkend="_class_player_shatter_1a3185b794e82ed85db72ececdf533485f">matPlayer</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_player_shatter_1a8a383c5113ff3490b99b0327943ed63a"/><section>
+    <title>shatter()</title>
+<indexterm><primary>shatter</primary><secondary>PlayerShatter</secondary></indexterm>
+<indexterm><primary>PlayerShatter</primary><secondary>shatter</secondary></indexterm>
+<para><computeroutput>void PlayerShatter.shatter ( )</computeroutput></para><para>
+</para>
+
+<para>SHATTER Function Create player shattering effect </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_player_shatter_1ad603c5263e2a36b24615240703076a2c"/><section>
+    <title>cubesInRow</title>
+<indexterm><primary>cubesInRow</primary><secondary>PlayerShatter</secondary></indexterm>
+<indexterm><primary>PlayerShatter</primary><secondary>cubesInRow</secondary></indexterm>
+<para><computeroutput>int PlayerShatter.cubesInRow = 5</computeroutput></para></section>
+<anchor xml:id="_class_player_shatter_1ae24308efeac280f2f26c5922d38b7b7b"/><section>
+    <title>cubeSize</title>
+<indexterm><primary>cubeSize</primary><secondary>PlayerShatter</secondary></indexterm>
+<indexterm><primary>PlayerShatter</primary><secondary>cubeSize</secondary></indexterm>
+<para><computeroutput>float PlayerShatter.cubeSize = 0.2f</computeroutput></para><para>
+
+<para>Variables. </para>
+</para>
+</section>
+<anchor xml:id="_class_player_shatter_1a3185b794e82ed85db72ececdf533485f"/><section>
+    <title>matPlayer</title>
+<indexterm><primary>matPlayer</primary><secondary>PlayerShatter</secondary></indexterm>
+<indexterm><primary>PlayerShatter</primary><secondary>matPlayer</secondary></indexterm>
+<para><computeroutput>Material PlayerShatter.matPlayer</computeroutput></para></section>
+<anchor xml:id="_class_player_shatter_1a56f52f2f02adddae7a818279bd3ba4cd"/><section>
+    <title>shatterForce</title>
+<indexterm><primary>shatterForce</primary><secondary>PlayerShatter</secondary></indexterm>
+<indexterm><primary>PlayerShatter</primary><secondary>shatterForce</secondary></indexterm>
+<para><computeroutput>float PlayerShatter.shatterForce = 50f</computeroutput></para></section>
+<anchor xml:id="_class_player_shatter_1aa3bc5d76b7de5e991e1b362857b1d07c"/><section>
+    <title>shatterRadius</title>
+<indexterm><primary>shatterRadius</primary><secondary>PlayerShatter</secondary></indexterm>
+<indexterm><primary>PlayerShatter</primary><secondary>shatterRadius</secondary></indexterm>
+<para><computeroutput>float PlayerShatter.shatterRadius = 4f</computeroutput></para></section>
+<anchor xml:id="_class_player_shatter_1a25ea3cad02c2d0fb16ce08b198a9c925"/><section>
+    <title>shatterUpward</title>
+<indexterm><primary>shatterUpward</primary><secondary>PlayerShatter</secondary></indexterm>
+<indexterm><primary>PlayerShatter</primary><secondary>shatterUpward</secondary></indexterm>
+<para><computeroutput>float PlayerShatter.shatterUpward = 0.4f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/PlayerScripts/<link linkend="__player_shatter_8cs">PlayerShatter.cs</link></section>
+</section>

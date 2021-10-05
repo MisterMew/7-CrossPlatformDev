@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller" xml:lang="en-US">
+<title>TMPro.Examples.CameraController Class Reference</title>
+<indexterm><primary>TMPro.Examples.CameraController</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.CameraController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_camera_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ce">CameraModes</link> { <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452cea3903aab323863bd2e9b68218a7a65ebd">Follow</link>
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452cea93fe1f7c5ca2e09af063aca96d0625cc">Isometric</link>
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ceab24ce0cd392a5b0b8dedc66c25213594">Free</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Transform <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a185480dc2cf1a5f480549dfebc0ee8e7">CameraTarget</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a63f61961e47e5d7068e6ce65be83cc36">FollowDistance</link> = 30.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a794f2217e529fa239e65463612bd78ca">MaxFollowDistance</link> = 100.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1af54c30206b387c4cdb03d8c894aee65e">MinFollowDistance</link> = 2.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8709e27c129e088a6da0f43c119d835a">ElevationAngle</link> = 30.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a33b43fba4e4a426db3cf907e875a579a">MaxElevationAngle</link> = 85.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1ab56a8533afb8ddf74cf4f28403db0c9e">MinElevationAngle</link> = 0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1ac480ba2a3715f19d27dabb126ebb9a55">OrbitalAngle</link> = 0f</para>
+</listitem>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ce">CameraModes</link> <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a27513135088672400a14f64275a45190">CameraMode</link> = <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452cea3903aab323863bd2e9b68218a7a65ebd">CameraModes.Follow</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a88aeb1dacfab4311497e12b63d9a0ead">MovementSmoothing</link> = true</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a3e2c0e89101934e95f27fa271ff05d14">RotationSmoothing</link> = false</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1add5727218e5af8bf5c4d50ecbc69eff2">MovementSmoothingValue</link> = 25f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a004e199cff2c8738cc9584087357444d">RotationSmoothingValue</link> = 5.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1af5ce7ae7b15ae2b86b4d7b4ad077d71a">MoveSensitivity</link> = 2.0f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ce"/><section>
+    <title>CameraModes</title>
+<indexterm><primary>CameraModes</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>CameraModes</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ce">TMPro.Examples.CameraController.CameraModes</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Follow</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>Follow</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452cea3903aab323863bd2e9b68218a7a65ebd"/>Follow</entry><entry></entry></row><row><entry><indexterm><primary>Isometric</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>Isometric</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452cea93fe1f7c5ca2e09af063aca96d0625cc"/>Isometric</entry><entry></entry></row><row><entry><indexterm><primary>Free</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>Free</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ceab24ce0cd392a5b0b8dedc66c25213594"/>Free</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a27513135088672400a14f64275a45190"/><section>
+    <title>CameraMode</title>
+<indexterm><primary>CameraMode</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>CameraMode</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ce">CameraModes</link> TMPro.Examples.CameraController.CameraMode = <link linkend="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452cea3903aab323863bd2e9b68218a7a65ebd">CameraModes.Follow</link></computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a185480dc2cf1a5f480549dfebc0ee8e7"/><section>
+    <title>CameraTarget</title>
+<indexterm><primary>CameraTarget</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>CameraTarget</secondary></indexterm>
+<para><computeroutput>Transform TMPro.Examples.CameraController.CameraTarget</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a8709e27c129e088a6da0f43c119d835a"/><section>
+    <title>ElevationAngle</title>
+<indexterm><primary>ElevationAngle</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>ElevationAngle</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.CameraController.ElevationAngle = 30.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a63f61961e47e5d7068e6ce65be83cc36"/><section>
+    <title>FollowDistance</title>
+<indexterm><primary>FollowDistance</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>FollowDistance</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.CameraController.FollowDistance = 30.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a33b43fba4e4a426db3cf907e875a579a"/><section>
+    <title>MaxElevationAngle</title>
+<indexterm><primary>MaxElevationAngle</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>MaxElevationAngle</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.CameraController.MaxElevationAngle = 85.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a794f2217e529fa239e65463612bd78ca"/><section>
+    <title>MaxFollowDistance</title>
+<indexterm><primary>MaxFollowDistance</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>MaxFollowDistance</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.CameraController.MaxFollowDistance = 100.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1ab56a8533afb8ddf74cf4f28403db0c9e"/><section>
+    <title>MinElevationAngle</title>
+<indexterm><primary>MinElevationAngle</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>MinElevationAngle</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.CameraController.MinElevationAngle = 0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1af54c30206b387c4cdb03d8c894aee65e"/><section>
+    <title>MinFollowDistance</title>
+<indexterm><primary>MinFollowDistance</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>MinFollowDistance</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.CameraController.MinFollowDistance = 2.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a88aeb1dacfab4311497e12b63d9a0ead"/><section>
+    <title>MovementSmoothing</title>
+<indexterm><primary>MovementSmoothing</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>MovementSmoothing</secondary></indexterm>
+<para><computeroutput>bool TMPro.Examples.CameraController.MovementSmoothing = true</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1add5727218e5af8bf5c4d50ecbc69eff2"/><section>
+    <title>MovementSmoothingValue</title>
+<indexterm><primary>MovementSmoothingValue</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>MovementSmoothingValue</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.CameraController.MovementSmoothingValue = 25f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1af5ce7ae7b15ae2b86b4d7b4ad077d71a"/><section>
+    <title>MoveSensitivity</title>
+<indexterm><primary>MoveSensitivity</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>MoveSensitivity</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.CameraController.MoveSensitivity = 2.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1ac480ba2a3715f19d27dabb126ebb9a55"/><section>
+    <title>OrbitalAngle</title>
+<indexterm><primary>OrbitalAngle</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>OrbitalAngle</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.CameraController.OrbitalAngle = 0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a3e2c0e89101934e95f27fa271ff05d14"/><section>
+    <title>RotationSmoothing</title>
+<indexterm><primary>RotationSmoothing</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>RotationSmoothing</secondary></indexterm>
+<para><computeroutput>bool TMPro.Examples.CameraController.RotationSmoothing = false</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_camera_controller_1a004e199cff2c8738cc9584087357444d"/><section>
+    <title>RotationSmoothingValue</title>
+<indexterm><primary>RotationSmoothingValue</primary><secondary>TMPro.Examples.CameraController</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.CameraController</primary><secondary>RotationSmoothingValue</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.CameraController.RotationSmoothingValue = 5.0f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__camera_controller_8cs">CameraController.cs</link></section>
+</section>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_t_m_p___text_event_handler" xml:lang="en-US">
+<title>TMPro.TMP_TextEventHandler Class Reference</title>
+<indexterm><primary>TMPro.TMP_TextEventHandler</primary></indexterm>
+<para>Inheritance diagram for TMPro.TMP_TextEventHandler:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_t_m_p___text_event_handler.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_character_selection_event">CharacterSelectionEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_line_selection_event">LineSelectionEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_link_selection_event">LinkSelectionEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_sprite_selection_event">SpriteSelectionEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_word_selection_event">WordSelectionEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1a2aabc4e44e30d86b783edb3d4a2f2d9b">OnPointerEnter</link> (PointerEventData eventData)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1a0ad3fd5e712593130a9669706aa55906">OnPointerExit</link> (PointerEventData eventData)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_character_selection_event">CharacterSelectionEvent</link> <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1adf246c6977702948b7ab987f34bf12a2">onCharacterSelection</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Event delegate triggered when pointer is over a character. </para>
+</listitem>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_sprite_selection_event">SpriteSelectionEvent</link> <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1a363991aa14af2f191cc7c77846c134f9">onSpriteSelection</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Event delegate triggered when pointer is over a sprite. </para>
+</listitem>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_word_selection_event">WordSelectionEvent</link> <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1aaba688a88f61b13eecf99e05725e6985">onWordSelection</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Event delegate triggered when pointer is over a word. </para>
+</listitem>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_line_selection_event">LineSelectionEvent</link> <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1ae13d515549d0908bfaabb435239b59b0">onLineSelection</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Event delegate triggered when pointer is over a line. </para>
+</listitem>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_link_selection_event">LinkSelectionEvent</link> <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1aa2b47e6e7e685896cf95aa7386f8ab18">onLinkSelection</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Event delegate triggered when pointer is over a link. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_t_m_p___text_event_handler_1a2aabc4e44e30d86b783edb3d4a2f2d9b"/><section>
+    <title>OnPointerEnter()</title>
+<indexterm><primary>OnPointerEnter</primary><secondary>TMPro.TMP_TextEventHandler</secondary></indexterm>
+<indexterm><primary>TMPro.TMP_TextEventHandler</primary><secondary>OnPointerEnter</secondary></indexterm>
+<para><computeroutput>void TMPro.TMP_TextEventHandler.OnPointerEnter (PointerEventData eventData)</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_t_m_p___text_event_handler_1a0ad3fd5e712593130a9669706aa55906"/><section>
+    <title>OnPointerExit()</title>
+<indexterm><primary>OnPointerExit</primary><secondary>TMPro.TMP_TextEventHandler</secondary></indexterm>
+<indexterm><primary>TMPro.TMP_TextEventHandler</primary><secondary>OnPointerExit</secondary></indexterm>
+<para><computeroutput>void TMPro.TMP_TextEventHandler.OnPointerExit (PointerEventData eventData)</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_t_m_p___text_event_handler_1adf246c6977702948b7ab987f34bf12a2"/><section>
+    <title>onCharacterSelection</title>
+<indexterm><primary>onCharacterSelection</primary><secondary>TMPro.TMP_TextEventHandler</secondary></indexterm>
+<indexterm><primary>TMPro.TMP_TextEventHandler</primary><secondary>onCharacterSelection</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_character_selection_event">CharacterSelectionEvent</link> TMPro.TMP_TextEventHandler.onCharacterSelection<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Event delegate triggered when pointer is over a character. </para>
+</para>
+</section>
+<anchor xml:id="_class_t_m_pro_1_1_t_m_p___text_event_handler_1ae13d515549d0908bfaabb435239b59b0"/><section>
+    <title>onLineSelection</title>
+<indexterm><primary>onLineSelection</primary><secondary>TMPro.TMP_TextEventHandler</secondary></indexterm>
+<indexterm><primary>TMPro.TMP_TextEventHandler</primary><secondary>onLineSelection</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_line_selection_event">LineSelectionEvent</link> TMPro.TMP_TextEventHandler.onLineSelection<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Event delegate triggered when pointer is over a line. </para>
+</para>
+</section>
+<anchor xml:id="_class_t_m_pro_1_1_t_m_p___text_event_handler_1aa2b47e6e7e685896cf95aa7386f8ab18"/><section>
+    <title>onLinkSelection</title>
+<indexterm><primary>onLinkSelection</primary><secondary>TMPro.TMP_TextEventHandler</secondary></indexterm>
+<indexterm><primary>TMPro.TMP_TextEventHandler</primary><secondary>onLinkSelection</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_link_selection_event">LinkSelectionEvent</link> TMPro.TMP_TextEventHandler.onLinkSelection<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Event delegate triggered when pointer is over a link. </para>
+</para>
+</section>
+<anchor xml:id="_class_t_m_pro_1_1_t_m_p___text_event_handler_1a363991aa14af2f191cc7c77846c134f9"/><section>
+    <title>onSpriteSelection</title>
+<indexterm><primary>onSpriteSelection</primary><secondary>TMPro.TMP_TextEventHandler</secondary></indexterm>
+<indexterm><primary>TMPro.TMP_TextEventHandler</primary><secondary>onSpriteSelection</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_sprite_selection_event">SpriteSelectionEvent</link> TMPro.TMP_TextEventHandler.onSpriteSelection<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Event delegate triggered when pointer is over a sprite. </para>
+</para>
+</section>
+<anchor xml:id="_class_t_m_pro_1_1_t_m_p___text_event_handler_1aaba688a88f61b13eecf99e05725e6985"/><section>
+    <title>onWordSelection</title>
+<indexterm><primary>onWordSelection</primary><secondary>TMPro.TMP_TextEventHandler</secondary></indexterm>
+<indexterm><primary>TMPro.TMP_TextEventHandler</primary><secondary>onWordSelection</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_word_selection_event">WordSelectionEvent</link> TMPro.TMP_TextEventHandler.onWordSelection<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Event delegate triggered when pointer is over a word. </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__t_m_p___text_event_handler_8cs">TMP_TextEventHandler.cs</link></section>
+</section>

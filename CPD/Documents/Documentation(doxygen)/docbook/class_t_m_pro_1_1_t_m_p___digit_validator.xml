@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_t_m_p___digit_validator" xml:lang="en-US">
+<title>TMPro.TMP_DigitValidator Class Reference</title>
+<indexterm><primary>TMPro.TMP_DigitValidator</primary></indexterm>
+<para>
+
+<para>EXample of a Custom Character Input Validator to only allow digits from 0 to 9. </para>
+ 
+</para>
+<para>Inheritance diagram for TMPro.TMP_DigitValidator:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_t_m_p___digit_validator.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override char <link linkend="_class_t_m_pro_1_1_t_m_p___digit_validator_1aee9e46839d4adef308831e5fcba40b0e">Validate</link> (ref string text, ref int pos, char ch)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>EXample of a Custom Character Input Validator to only allow digits from 0 to 9. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_t_m_p___digit_validator_1aee9e46839d4adef308831e5fcba40b0e"/><section>
+    <title>Validate()</title>
+<indexterm><primary>Validate</primary><secondary>TMPro.TMP_DigitValidator</secondary></indexterm>
+<indexterm><primary>TMPro.TMP_DigitValidator</primary><secondary>Validate</secondary></indexterm>
+<para><computeroutput>override char TMPro.TMP_DigitValidator.Validate (ref string text, ref int pos, char ch)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__t_m_p___digit_validator_8cs">TMP_DigitValidator.cs</link></section>
+</section>

@@ -5,6 +5,9 @@ public class GUISkewImage : Image {
     [SerializeField] private float skewX = 0;
     [SerializeField] private float skewY = 0;
 
+    /// <summary>
+    /// Allow an image to be skewed
+    /// </summary>
     protected override void OnPopulateMesh(VertexHelper vh) {
         base.OnPopulateMesh(vh);
 

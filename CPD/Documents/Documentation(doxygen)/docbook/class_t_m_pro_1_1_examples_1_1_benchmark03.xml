@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark03" xml:lang="en-US">
+<title>TMPro.Examples.Benchmark03 Class Reference</title>
+<indexterm><primary>TMPro.Examples.Benchmark03</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.Benchmark03:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_benchmark03.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14a">BenchmarkType</link> { 
+<link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aafca9d59239c6f35c2f0aac71266b1e0d">TMP_SDF_MOBILE</link> = 0
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aaace65420212814769249b3b9cec85693">TMP_SDF__MOBILE_SSD</link> = 1
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa5034bfb01f1ef64ed8c16b4dcaf26983">TMP_SDF</link> = 2
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa843417aa36d5868faea02d795c0db97f">TMP_BITMAP_MOBILE</link> = 3
+, 
+<link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa60b5f9278a0883891723912a65cb9820">TEXTMESH_BITMAP</link> = 4
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a0018cd82081205ac1379fa8e66a394f0">NumberOfSamples</link> = 100</para>
+</listitem>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14a">BenchmarkType</link> <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a467c3e3f72230d8eb48dbb8e1533cd12">Benchmark</link></para>
+</listitem>
+            <listitem><para>Font <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a4d7a226f0facf0494d3c5eaef95d234c">SourceFontFile</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14a"/><section>
+    <title>BenchmarkType</title>
+<indexterm><primary>BenchmarkType</primary><secondary>TMPro.Examples.Benchmark03</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark03</primary><secondary>BenchmarkType</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14a">TMPro.Examples.Benchmark03.BenchmarkType</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>TMP_SDF_MOBILE</primary><secondary>TMPro.Examples.Benchmark03</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark03</primary><secondary>TMP_SDF_MOBILE</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aafca9d59239c6f35c2f0aac71266b1e0d"/>TMP_SDF_MOBILE</entry><entry></entry></row><row><entry><indexterm><primary>TMP_SDF__MOBILE_SSD</primary><secondary>TMPro.Examples.Benchmark03</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark03</primary><secondary>TMP_SDF__MOBILE_SSD</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aaace65420212814769249b3b9cec85693"/>TMP_SDF__MOBILE_SSD</entry><entry></entry></row><row><entry><indexterm><primary>TMP_SDF</primary><secondary>TMPro.Examples.Benchmark03</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark03</primary><secondary>TMP_SDF</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa5034bfb01f1ef64ed8c16b4dcaf26983"/>TMP_SDF</entry><entry></entry></row><row><entry><indexterm><primary>TMP_BITMAP_MOBILE</primary><secondary>TMPro.Examples.Benchmark03</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark03</primary><secondary>TMP_BITMAP_MOBILE</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa843417aa36d5868faea02d795c0db97f"/>TMP_BITMAP_MOBILE</entry><entry></entry></row><row><entry><indexterm><primary>TEXTMESH_BITMAP</primary><secondary>TMPro.Examples.Benchmark03</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark03</primary><secondary>TEXTMESH_BITMAP</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa60b5f9278a0883891723912a65cb9820"/>TEXTMESH_BITMAP</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a467c3e3f72230d8eb48dbb8e1533cd12"/><section>
+    <title>Benchmark</title>
+<indexterm><primary>Benchmark</primary><secondary>TMPro.Examples.Benchmark03</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark03</primary><secondary>Benchmark</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14a">BenchmarkType</link> TMPro.Examples.Benchmark03.Benchmark</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a0018cd82081205ac1379fa8e66a394f0"/><section>
+    <title>NumberOfSamples</title>
+<indexterm><primary>NumberOfSamples</primary><secondary>TMPro.Examples.Benchmark03</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark03</primary><secondary>NumberOfSamples</secondary></indexterm>
+<para><computeroutput>int TMPro.Examples.Benchmark03.NumberOfSamples = 100</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_benchmark03_1a4d7a226f0facf0494d3c5eaef95d234c"/><section>
+    <title>SourceFontFile</title>
+<indexterm><primary>SourceFontFile</primary><secondary>TMPro.Examples.Benchmark03</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.Benchmark03</primary><secondary>SourceFontFile</secondary></indexterm>
+<para><computeroutput>Font TMPro.Examples.Benchmark03.SourceFontFile</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__benchmark03_8cs">Benchmark03.cs</link></section>
+</section>

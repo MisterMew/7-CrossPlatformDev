@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_env_map_animator" xml:lang="en-US">
+<title>EnvMapAnimator Class Reference</title>
+<indexterm><primary>EnvMapAnimator</primary></indexterm>
+<para>Inheritance diagram for EnvMapAnimator:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_env_map_animator.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Vector3 <link linkend="_class_env_map_animator_1a0e8af1e7df113e4ca34b2ffbb6a603e7">RotationSpeeds</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_env_map_animator_1a0e8af1e7df113e4ca34b2ffbb6a603e7"/><section>
+    <title>RotationSpeeds</title>
+<indexterm><primary>RotationSpeeds</primary><secondary>EnvMapAnimator</secondary></indexterm>
+<indexterm><primary>EnvMapAnimator</primary><secondary>RotationSpeeds</secondary></indexterm>
+<para><computeroutput>Vector3 EnvMapAnimator.RotationSpeeds</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__env_map_animator_8cs">EnvMapAnimator.cs</link></section>
+</section>

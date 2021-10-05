@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_object_spin" xml:lang="en-US">
+<title>TMPro.Examples.ObjectSpin Class Reference</title>
+<indexterm><primary>TMPro.Examples.ObjectSpin</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.ObjectSpin:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_object_spin.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fc">MotionType</link> { <link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fcaf1a42bd417390fc63b030a519624607a">Rotation</link>
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fcad64312a309fe3d4d870a2afbd94d5ec3">BackAndForth</link>
+, <link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fca6dd08874f83507e9c7b23f1a46b7fa7c">Translation</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin_1a4b1d0b19553122b485c5878fe45ea0b3">SpinSpeed</link> = 5</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin_1a802c4f5441264532dd2b379c48dfa012">RotationRange</link> = 15</para>
+</listitem>
+            <listitem><para><link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fc">MotionType</link> <link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin_1ae422bdffcabfc75fae2c0bad902124f1">Motion</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fc"/><section>
+    <title>MotionType</title>
+<indexterm><primary>MotionType</primary><secondary>TMPro.Examples.ObjectSpin</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.ObjectSpin</primary><secondary>MotionType</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fc">TMPro.Examples.ObjectSpin.MotionType</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Rotation</primary><secondary>TMPro.Examples.ObjectSpin</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.ObjectSpin</primary><secondary>Rotation</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fcaf1a42bd417390fc63b030a519624607a"/>Rotation</entry><entry></entry></row><row><entry><indexterm><primary>BackAndForth</primary><secondary>TMPro.Examples.ObjectSpin</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.ObjectSpin</primary><secondary>BackAndForth</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fcad64312a309fe3d4d870a2afbd94d5ec3"/>BackAndForth</entry><entry></entry></row><row><entry><indexterm><primary>Translation</primary><secondary>TMPro.Examples.ObjectSpin</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.ObjectSpin</primary><secondary>Translation</secondary></indexterm>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fca6dd08874f83507e9c7b23f1a46b7fa7c"/>Translation</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_object_spin_1ae422bdffcabfc75fae2c0bad902124f1"/><section>
+    <title>Motion</title>
+<indexterm><primary>Motion</primary><secondary>TMPro.Examples.ObjectSpin</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.ObjectSpin</primary><secondary>Motion</secondary></indexterm>
+<para><computeroutput><link linkend="_class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fc">MotionType</link> TMPro.Examples.ObjectSpin.Motion</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_object_spin_1a802c4f5441264532dd2b379c48dfa012"/><section>
+    <title>RotationRange</title>
+<indexterm><primary>RotationRange</primary><secondary>TMPro.Examples.ObjectSpin</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.ObjectSpin</primary><secondary>RotationRange</secondary></indexterm>
+<para><computeroutput>int TMPro.Examples.ObjectSpin.RotationRange = 15</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_object_spin_1a4b1d0b19553122b485c5878fe45ea0b3"/><section>
+    <title>SpinSpeed</title>
+<indexterm><primary>SpinSpeed</primary><secondary>TMPro.Examples.ObjectSpin</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.ObjectSpin</primary><secondary>SpinSpeed</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.ObjectSpin.SpinSpeed = 5</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__object_spin_8cs">ObjectSpin.cs</link></section>
+</section>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_12f23f735f3cb67289d2606f82d1edbf" kind="dir">
+    <compoundname>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets</compoundname>
+    <innerdir refid="dir_60b25c05a5ecc32024c169cc9927c78b">C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Assets</innerdir>
+    <innerdir refid="dir_4d02286c65f53a84cc2b297e8eeeca57">C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts</innerdir>
+    <innerdir refid="dir_01b5ef6069241b970a0dfbbf2c975bb4">C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/"/>
+  </compounddef>
+</doxygen>

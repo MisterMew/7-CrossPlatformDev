@@ -8,8 +8,11 @@ public class PauseMenuManager : MonoBehaviour {
     public GameObject gameOverlay;
     public GameObject buttonInputs;
 
-     /// UPDATE
+    /// UPDATE
     /* Check update for key press to pause */
+    /// <summary>
+    /// Check update for key press to pause game
+    /// </summary>
     private void Update() {
         if (ValidatePauseInput()) {
             if (gameIsPaused) { //If the game is paused
@@ -20,8 +23,11 @@ public class PauseMenuManager : MonoBehaviour {
         }
     }
 
-     /// GAME: Resume
+    /// GAME: Resume
     /* Resume the game if paused */
+    /// <summary>
+    /// Resume the game
+    /// </summary>
     public void ResumeGame() {
         pauseMenuUI.SetActive(false);
         gameOverlay.SetActive(true);
@@ -30,8 +36,11 @@ public class PauseMenuManager : MonoBehaviour {
         gameIsPaused = false;
     }
 
-     /// GAME: Pause
+    /// GAME: Pause
     /* Pause the game */
+    /// <summary>
+    /// Pause the game
+    /// </summary>
     public void PauseGame() {
         pauseMenuUI.SetActive(true);
         gameOverlay.SetActive(false);
@@ -40,8 +49,11 @@ public class PauseMenuManager : MonoBehaviour {
         gameIsPaused = true;
     }
 
-     /// RETURN MAIN
+    /// RETURN MAIN
     /* Returns use to the main menu */
+    /// <summary>
+    /// Return to main menu
+    /// </summary>
     public void ReturnToMenu() {
         //SceneTransitioner st = new SceneTransitioner();
         //st.CrossfadeScene("MainMenu");
@@ -49,15 +61,21 @@ public class PauseMenuManager : MonoBehaviour {
         ResumeGame();
     }
 
-     /// GAME: RESTART
+    /// GAME: RESTART
     /* Restarts the current game */
+    /// <summary>
+    /// Restart the game
+    /// </summary>
     public void RestartGame() {
         SceneManager.LoadScene("EndlessVoid");
         ResumeGame();
     }
 
-     /// VALIDATE INPUT
+    /// VALIDATE INPUT
     /* Validate if an input to trigger pausing has occured */
+    /// <summary>
+    /// Validate if an input to trigger pausing has occured
+    /// </summary>
     public bool ValidatePauseInput() {
         if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape)) {
             return true;
@@ -65,8 +83,11 @@ public class PauseMenuManager : MonoBehaviour {
         return false;
     }
 
-     /// QUIT
+    /// QUIT
     /* Quit the Game */
+    /// <summary>
+    /// Quit the game
+    /// </summary>
     public void QuitGame() {
         Application.Quit();
     }

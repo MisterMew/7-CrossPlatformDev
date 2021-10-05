@@ -22,14 +22,20 @@ public class StatisticManager : MonoBehaviour {
         pc = FindObjectOfType<PlayerCollision>();
     }
 
-     /// START
+    /// START
     /* Set the starting values */
+    /// <summary>
+    /// Upon start, reset the statistics
+    /// </summary>
     private void Start() {
         ResetStatistics();
     }
 
-     /// UPDATE
+    /// UPDATE
     /* Update the GUI text to match the collectible count */
+    /// <summary>
+    /// Update the GUI text to match the collectible count
+    /// </summary>
     private void Update() {
         flowerOrbs = pc.flowerOrbs;
 
@@ -38,8 +44,11 @@ public class StatisticManager : MonoBehaviour {
         collectiblesText.text = flowerOrbs.ToString();
     }
 
-     /// STAT: Reset
+       /// STAT: Reset
     /* Reset the statistics at the start of every game */
+       /// <summary>
+     /// Reset all statistics back to 0
+    /// </summary>
     private void ResetStatistics() {
         scoreText.text = "0";
         distanceText.text = "0m";
@@ -51,8 +60,11 @@ public class StatisticManager : MonoBehaviour {
         flowerOrbs = 0;
     }
 
-     /// STAT: Score
+    /// STAT: Score
     /* Calculate the players current */
+    /// <summary>
+    /// Calculate the players score
+    /// </summary>
     private int CalculateScore() {
         for (int i = 0; i < flowerOrbs; i++) {
             if (i % 5 == 0) { 
@@ -67,8 +79,11 @@ public class StatisticManager : MonoBehaviour {
         return playerScore;
     }
 
-     /// STAT: Distance
+    /// STAT: Distance
     /* Calculate the players current distance travelled */
+    /// <summary>
+    /// Calculate the players current distance from Z 0
+    /// </summary>
     private int CalculateDistance() {
         playerDistance = (int)Mathf.Floor(player.position.z / 0.64F);
         if (playerDistance < 0) {

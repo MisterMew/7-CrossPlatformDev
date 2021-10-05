@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour {
 
      /// GAME: END
     /* Ends the game */
+      /// <summary>
+     /// End the game by Invoking a restart
+    /// </summary>
     public void EndGame() {
         if (gameEnded == false) {
             gameEnded = true;
@@ -15,6 +18,9 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+      /// <summary>
+     /// Reload the current scene
+    /// </summary>
     private void Restart() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

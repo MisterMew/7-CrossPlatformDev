@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_pause_menu_manager" xml:lang="en-US">
+<title>PauseMenuManager Class Reference</title>
+<indexterm><primary>PauseMenuManager</primary></indexterm>
+<para>Inheritance diagram for PauseMenuManager:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_pause_menu_manager.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_pause_menu_manager_1a886189569ee70c2a57d86ef5f7d59602">ResumeGame</link> ()</para>
+
+<para>GAME: Resume. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_pause_menu_manager_1a73cfd980e6d6e634cc27113654c07b1e">PauseGame</link> ()</para>
+
+<para>GAME: Pause. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_pause_menu_manager_1a552e5294a03a1feeaa1608e70d1eca33">ReturnToMenu</link> ()</para>
+
+<para>RETURN MAIN. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_pause_menu_manager_1ab94e7a248212648f64ebd470cf8d46b8">RestartGame</link> ()</para>
+
+<para>GAME: RESTART. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_pause_menu_manager_1a99019215d81e3826c220d8b50b0eefd7">ValidatePauseInput</link> ()</para>
+
+<para>VALIDATE INPUT. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_pause_menu_manager_1ab3e6f52141ec2de320c38788cd6eba16">QuitGame</link> ()</para>
+
+<para>QUIT. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_class_pause_menu_manager_1a0a78a541cea4c469ef0aa3bddfe82a49">pauseMenuUI</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_pause_menu_manager_1ab320b22302db2bd4736c89a783d99c03">gameOverlay</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_pause_menu_manager_1af3520aebc02d59b81caf333c2e1b11f0">buttonInputs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static bool <link linkend="_class_pause_menu_manager_1ae26ec391bcc1a3c4406d2efea60d2163">gameIsPaused</link> = false</para>
+
+<para>Variables. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_pause_menu_manager_1a73cfd980e6d6e634cc27113654c07b1e"/><section>
+    <title>PauseGame()</title>
+<indexterm><primary>PauseGame</primary><secondary>PauseMenuManager</secondary></indexterm>
+<indexterm><primary>PauseMenuManager</primary><secondary>PauseGame</secondary></indexterm>
+<para><computeroutput>void PauseMenuManager.PauseGame ( )</computeroutput></para><para>
+
+<para>GAME: Pause. </para>
+</para>
+
+<para>Pause the game </para>
+</section>
+<anchor xml:id="_class_pause_menu_manager_1ab3e6f52141ec2de320c38788cd6eba16"/><section>
+    <title>QuitGame()</title>
+<indexterm><primary>QuitGame</primary><secondary>PauseMenuManager</secondary></indexterm>
+<indexterm><primary>PauseMenuManager</primary><secondary>QuitGame</secondary></indexterm>
+<para><computeroutput>void PauseMenuManager.QuitGame ( )</computeroutput></para><para>
+
+<para>QUIT. </para>
+</para>
+
+<para>Quit the game </para>
+</section>
+<anchor xml:id="_class_pause_menu_manager_1ab94e7a248212648f64ebd470cf8d46b8"/><section>
+    <title>RestartGame()</title>
+<indexterm><primary>RestartGame</primary><secondary>PauseMenuManager</secondary></indexterm>
+<indexterm><primary>PauseMenuManager</primary><secondary>RestartGame</secondary></indexterm>
+<para><computeroutput>void PauseMenuManager.RestartGame ( )</computeroutput></para><para>
+
+<para>GAME: RESTART. </para>
+</para>
+
+<para>Restart the game </para>
+</section>
+<anchor xml:id="_class_pause_menu_manager_1a886189569ee70c2a57d86ef5f7d59602"/><section>
+    <title>ResumeGame()</title>
+<indexterm><primary>ResumeGame</primary><secondary>PauseMenuManager</secondary></indexterm>
+<indexterm><primary>PauseMenuManager</primary><secondary>ResumeGame</secondary></indexterm>
+<para><computeroutput>void PauseMenuManager.ResumeGame ( )</computeroutput></para><para>
+
+<para>GAME: Resume. </para>
+</para>
+
+<para>Resume the game </para>
+</section>
+<anchor xml:id="_class_pause_menu_manager_1a552e5294a03a1feeaa1608e70d1eca33"/><section>
+    <title>ReturnToMenu()</title>
+<indexterm><primary>ReturnToMenu</primary><secondary>PauseMenuManager</secondary></indexterm>
+<indexterm><primary>PauseMenuManager</primary><secondary>ReturnToMenu</secondary></indexterm>
+<para><computeroutput>void PauseMenuManager.ReturnToMenu ( )</computeroutput></para><para>
+
+<para>RETURN MAIN. </para>
+</para>
+
+<para>Return to main menu </para>
+</section>
+<anchor xml:id="_class_pause_menu_manager_1a99019215d81e3826c220d8b50b0eefd7"/><section>
+    <title>ValidatePauseInput()</title>
+<indexterm><primary>ValidatePauseInput</primary><secondary>PauseMenuManager</secondary></indexterm>
+<indexterm><primary>PauseMenuManager</primary><secondary>ValidatePauseInput</secondary></indexterm>
+<para><computeroutput>bool PauseMenuManager.ValidatePauseInput ( )</computeroutput></para><para>
+
+<para>VALIDATE INPUT. </para>
+</para>
+
+<para>Validate if an input to trigger pausing has occured </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_pause_menu_manager_1af3520aebc02d59b81caf333c2e1b11f0"/><section>
+    <title>buttonInputs</title>
+<indexterm><primary>buttonInputs</primary><secondary>PauseMenuManager</secondary></indexterm>
+<indexterm><primary>PauseMenuManager</primary><secondary>buttonInputs</secondary></indexterm>
+<para><computeroutput>GameObject PauseMenuManager.buttonInputs</computeroutput></para></section>
+<anchor xml:id="_class_pause_menu_manager_1ae26ec391bcc1a3c4406d2efea60d2163"/><section>
+    <title>gameIsPaused</title>
+<indexterm><primary>gameIsPaused</primary><secondary>PauseMenuManager</secondary></indexterm>
+<indexterm><primary>PauseMenuManager</primary><secondary>gameIsPaused</secondary></indexterm>
+<para><computeroutput>bool PauseMenuManager.gameIsPaused = false<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Variables. </para>
+</para>
+</section>
+<anchor xml:id="_class_pause_menu_manager_1ab320b22302db2bd4736c89a783d99c03"/><section>
+    <title>gameOverlay</title>
+<indexterm><primary>gameOverlay</primary><secondary>PauseMenuManager</secondary></indexterm>
+<indexterm><primary>PauseMenuManager</primary><secondary>gameOverlay</secondary></indexterm>
+<para><computeroutput>GameObject PauseMenuManager.gameOverlay</computeroutput></para></section>
+<anchor xml:id="_class_pause_menu_manager_1a0a78a541cea4c469ef0aa3bddfe82a49"/><section>
+    <title>pauseMenuUI</title>
+<indexterm><primary>pauseMenuUI</primary><secondary>PauseMenuManager</secondary></indexterm>
+<indexterm><primary>PauseMenuManager</primary><secondary>pauseMenuUI</secondary></indexterm>
+<para><computeroutput>GameObject PauseMenuManager.pauseMenuUI</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/<link linkend="__pause_menu_manager_8cs">PauseMenuManager.cs</link></section>
+</section>

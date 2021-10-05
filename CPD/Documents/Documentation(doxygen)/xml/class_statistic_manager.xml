@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_statistic_manager" kind="class" language="C#" prot="public">
+    <compoundname>StatisticManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_statistic_manager_1a861131db7bdf5e1df7bc4002d6ca6675" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_collision" kindref="compound">PlayerCollision</ref></type>
+        <definition>PlayerCollision StatisticManager.pc</definition>
+        <argsstring></argsstring>
+        <name>pc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="5" column="21" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_statistic_manager_1a5f45a47da3b894d50a8c03d68887b525" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StatisticManager.scoreMultiplier</definition>
+        <argsstring></argsstring>
+        <name>scoreMultiplier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="10" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_statistic_manager_1aa47ad7587cf01cab09f86e3d39107090" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StatisticManager.playerScore</definition>
+        <argsstring></argsstring>
+        <name>playerScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="11" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_statistic_manager_1a382ed7464099b50cda657e4369c80eba" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StatisticManager.playerDistance</definition>
+        <argsstring></argsstring>
+        <name>playerDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="15" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_statistic_manager_1aef099d4027232f70bb36300d94282a15" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StatisticManager.flowerOrbs</definition>
+        <argsstring></argsstring>
+        <name>flowerOrbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="19" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_statistic_manager_1a369b59a684ee6324f76466a5dbe8e686" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform StatisticManager.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="6" column="22" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_statistic_manager_1a905a749b5f2acd6a4ce2df9e91c5301c" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI StatisticManager.scoreText</definition>
+        <argsstring></argsstring>
+        <name>scoreText</name>
+        <briefdescription>
+<para>Score Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="9" column="28" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_statistic_manager_1acb442fbdbcbf1b1c634392d40a1802d1" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI StatisticManager.distanceText</definition>
+        <argsstring></argsstring>
+        <name>distanceText</name>
+        <briefdescription>
+<para>Distance Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="14" column="28" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_statistic_manager_1aa19d09b39cfdbd78f2b89865f41b7c93" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI StatisticManager.collectiblesText</definition>
+        <argsstring></argsstring>
+        <name>collectiblesText</name>
+        <briefdescription>
+<para>Collectible Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="18" column="28" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_statistic_manager_1ad50350e72f742357539230f691546010" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StatisticManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="21" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="21" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_statistic_manager_1a57560337d253a78f932c555911d95f1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StatisticManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>START. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Upon start, reset the statistics </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="30" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_statistic_manager_1a6a7d30688fdf7604dc4f465869e1e650" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StatisticManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>UPDATE. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Update the GUI text to match the collectible count </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="39" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="39" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_statistic_manager_1a6ad36f9034aae562778c3f8e053a0e6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StatisticManager.ResetStatistics</definition>
+        <argsstring>()</argsstring>
+        <name>ResetStatistics</name>
+        <briefdescription>
+<para>STAT: Reset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset all statistics back to 0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="52" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="52" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_statistic_manager_1a6812cdd28ec19f6f1217bed4e3872597" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int StatisticManager.CalculateScore</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateScore</name>
+        <briefdescription>
+<para>STAT: Score. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the players score </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="68" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="68" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_statistic_manager_1a684c17b9a673108ac2ef59ca9a97dacc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int StatisticManager.CalculateDistance</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateDistance</name>
+        <briefdescription>
+<para>STAT: Distance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the players current distance from Z 0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="87" column="17" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="87" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>StatisticManager</label>
+        <link refid="class_statistic_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>StatisticManager</label>
+        <link refid="class_statistic_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" line="4" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/StatisticManager.cs" bodystart="4" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_statistic_manager_1ad50350e72f742357539230f691546010" prot="public" virt="non-virtual"><scope>StatisticManager</scope><name>Awake</name></member>
+      <member refid="class_statistic_manager_1a684c17b9a673108ac2ef59ca9a97dacc" prot="private" virt="non-virtual"><scope>StatisticManager</scope><name>CalculateDistance</name></member>
+      <member refid="class_statistic_manager_1a6812cdd28ec19f6f1217bed4e3872597" prot="private" virt="non-virtual"><scope>StatisticManager</scope><name>CalculateScore</name></member>
+      <member refid="class_statistic_manager_1aa19d09b39cfdbd78f2b89865f41b7c93" prot="public" virt="non-virtual"><scope>StatisticManager</scope><name>collectiblesText</name></member>
+      <member refid="class_statistic_manager_1acb442fbdbcbf1b1c634392d40a1802d1" prot="public" virt="non-virtual"><scope>StatisticManager</scope><name>distanceText</name></member>
+      <member refid="class_statistic_manager_1aef099d4027232f70bb36300d94282a15" prot="private" virt="non-virtual"><scope>StatisticManager</scope><name>flowerOrbs</name></member>
+      <member refid="class_statistic_manager_1a861131db7bdf5e1df7bc4002d6ca6675" prot="private" virt="non-virtual"><scope>StatisticManager</scope><name>pc</name></member>
+      <member refid="class_statistic_manager_1a369b59a684ee6324f76466a5dbe8e686" prot="public" virt="non-virtual"><scope>StatisticManager</scope><name>player</name></member>
+      <member refid="class_statistic_manager_1a382ed7464099b50cda657e4369c80eba" prot="private" virt="non-virtual"><scope>StatisticManager</scope><name>playerDistance</name></member>
+      <member refid="class_statistic_manager_1aa47ad7587cf01cab09f86e3d39107090" prot="private" virt="non-virtual"><scope>StatisticManager</scope><name>playerScore</name></member>
+      <member refid="class_statistic_manager_1a6ad36f9034aae562778c3f8e053a0e6e" prot="private" virt="non-virtual"><scope>StatisticManager</scope><name>ResetStatistics</name></member>
+      <member refid="class_statistic_manager_1a5f45a47da3b894d50a8c03d68887b525" prot="private" virt="non-virtual"><scope>StatisticManager</scope><name>scoreMultiplier</name></member>
+      <member refid="class_statistic_manager_1a905a749b5f2acd6a4ce2df9e91c5301c" prot="public" virt="non-virtual"><scope>StatisticManager</scope><name>scoreText</name></member>
+      <member refid="class_statistic_manager_1a57560337d253a78f932c555911d95f1b" prot="private" virt="non-virtual"><scope>StatisticManager</scope><name>Start</name></member>
+      <member refid="class_statistic_manager_1a6a7d30688fdf7604dc4f465869e1e650" prot="private" virt="non-virtual"><scope>StatisticManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

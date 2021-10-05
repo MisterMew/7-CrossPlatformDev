@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_audio_manager" xml:lang="en-US">
+<title>AudioManager Class Reference</title>
+<indexterm><primary>AudioManager</primary></indexterm>
+<para>Inheritance diagram for AudioManager:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_manager.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>AudioSource <link linkend="_class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773">musicSource</link></para>
+
+<para>Variables. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_audio_manager_1a54db9f2d0d9838c238a56cc82b222773"/><section>
+    <title>musicSource</title>
+<indexterm><primary>musicSource</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>musicSource</secondary></indexterm>
+<para><computeroutput>AudioSource AudioManager.musicSource</computeroutput></para><para>
+
+<para>Variables. </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/<link linkend="__audio_manager_8cs">AudioManager.cs</link></section>
+</section>

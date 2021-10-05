@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_t_m_p___phone_number_validator" xml:lang="en-US">
+<title>TMPro.TMP_PhoneNumberValidator Class Reference</title>
+<indexterm><primary>TMPro.TMP_PhoneNumberValidator</primary></indexterm>
+<para>
+
+<para>Example of a Custom Character Input Validator to only allow phone number in the (800) 555-1212 format. </para>
+ 
+</para>
+<para>Inheritance diagram for TMPro.TMP_PhoneNumberValidator:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_t_m_p___phone_number_validator.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override char <link linkend="_class_t_m_pro_1_1_t_m_p___phone_number_validator_1a7a812e1204c678ea3cf3258428a2b36f">Validate</link> (ref string text, ref int pos, char ch)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Example of a Custom Character Input Validator to only allow phone number in the (800) 555-1212 format. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_t_m_p___phone_number_validator_1a7a812e1204c678ea3cf3258428a2b36f"/><section>
+    <title>Validate()</title>
+<indexterm><primary>Validate</primary><secondary>TMPro.TMP_PhoneNumberValidator</secondary></indexterm>
+<indexterm><primary>TMPro.TMP_PhoneNumberValidator</primary><secondary>Validate</secondary></indexterm>
+<para><computeroutput>override char TMPro.TMP_PhoneNumberValidator.Validate (ref string text, ref int pos, char ch)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__t_m_p___phone_number_validator_8cs">TMP_PhoneNumberValidator.cs</link></section>
+</section>

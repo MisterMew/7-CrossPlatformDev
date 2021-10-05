@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_shake_a" xml:lang="en-US">
+<title>TMPro.Examples.VertexShakeA Class Reference</title>
+<indexterm><primary>TMPro.Examples.VertexShakeA</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.VertexShakeA:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_vertex_shake_a.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a8a3fca222f496902c262c53683d3f94e">AngleMultiplier</link> = 1.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a10bf945b918292c2ea7552dd86f6a4ec">SpeedMultiplier</link> = 1.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a9e03d577c862b3b95e7309143c0a1d74">ScaleMultiplier</link> = 1.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1ab4bd4cb50926999b1a1ac59da8fcf7f1">RotationMultiplier</link> = 1.0f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a8a3fca222f496902c262c53683d3f94e"/><section>
+    <title>AngleMultiplier</title>
+<indexterm><primary>AngleMultiplier</primary><secondary>TMPro.Examples.VertexShakeA</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.VertexShakeA</primary><secondary>AngleMultiplier</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.VertexShakeA.AngleMultiplier = 1.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1ab4bd4cb50926999b1a1ac59da8fcf7f1"/><section>
+    <title>RotationMultiplier</title>
+<indexterm><primary>RotationMultiplier</primary><secondary>TMPro.Examples.VertexShakeA</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.VertexShakeA</primary><secondary>RotationMultiplier</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.VertexShakeA.RotationMultiplier = 1.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a9e03d577c862b3b95e7309143c0a1d74"/><section>
+    <title>ScaleMultiplier</title>
+<indexterm><primary>ScaleMultiplier</primary><secondary>TMPro.Examples.VertexShakeA</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.VertexShakeA</primary><secondary>ScaleMultiplier</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.VertexShakeA.ScaleMultiplier = 1.0f</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a10bf945b918292c2ea7552dd86f6a4ec"/><section>
+    <title>SpeedMultiplier</title>
+<indexterm><primary>SpeedMultiplier</primary><secondary>TMPro.Examples.VertexShakeA</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.VertexShakeA</primary><secondary>SpeedMultiplier</secondary></indexterm>
+<para><computeroutput>float TMPro.Examples.VertexShakeA.SpeedMultiplier = 1.0f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__vertex_shake_a_8cs">VertexShakeA.cs</link></section>
+</section>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_image_fill_gradient" kind="class" language="C#" prot="public">
+    <compoundname>ImageFillGradient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_image_fill_gradient_1ab9b1e05ba0a69a83fe4ff0b8455effe2" prot="private" static="no" mutable="no">
+        <type>Gradient</type>
+        <definition>Gradient ImageFillGradient.gradient</definition>
+        <argsstring></argsstring>
+        <name>gradient</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/ImageFillGradient.cs" line="7" column="23" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/ImageFillGradient.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_image_fill_gradient_1aa6bba0f50c3117847ff82041314460f9" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image ImageFillGradient.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/ImageFillGradient.cs" line="8" column="20" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/ImageFillGradient.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_image_fill_gradient_1a34154096ea2f9dd85330e8f78711ae10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImageFillGradient.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+<para>Get image component upon awake </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/ImageFillGradient.cs" line="13" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/ImageFillGradient.cs" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_image_fill_gradient_1a92bf143831c9023dd1ea3263512566d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImageFillGradient.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>update the images fill gradient by amount </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/ImageFillGradient.cs" line="20" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/ImageFillGradient.cs" bodystart="20" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ImageFillGradient</label>
+        <link refid="class_image_fill_gradient"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ImageFillGradient</label>
+        <link refid="class_image_fill_gradient"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/ImageFillGradient.cs" line="6" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/GUIScripts/ImageFillGradient.cs" bodystart="6" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_image_fill_gradient_1a34154096ea2f9dd85330e8f78711ae10" prot="private" virt="non-virtual"><scope>ImageFillGradient</scope><name>Awake</name></member>
+      <member refid="class_image_fill_gradient_1ab9b1e05ba0a69a83fe4ff0b8455effe2" prot="private" virt="non-virtual"><scope>ImageFillGradient</scope><name>gradient</name></member>
+      <member refid="class_image_fill_gradient_1aa6bba0f50c3117847ff82041314460f9" prot="private" virt="non-virtual"><scope>ImageFillGradient</scope><name>image</name></member>
+      <member refid="class_image_fill_gradient_1a92bf143831c9023dd1ea3263512566d3" prot="private" virt="non-virtual"><scope>ImageFillGradient</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

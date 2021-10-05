@@ -13,28 +13,41 @@ public class AudioMixerSliders : MonoBehaviour {
     [SerializeField] private Slider slider = default;
     [SerializeField] private float volumeMultiplier = 20F;
 
-     /// AWAKE
-    /* Execute upon awaking */
+       /// AWAKE
+      /// <summary>
+     /// Upon Awake
+    /// </summary>
     private void Awake() {
         slider.onValueChanged.AddListener(HandleSliderValueChanged);
     }
 
-     /// START
-    /* Execute upon starting */
+       /// START
+      /// <summary>
+     /// Execute PlayerPrefs upon start
+    /// </summary>
     private void Start() {
         slider.value = PlayerPrefs.GetFloat(volumeParameter, slider.value);
     }
 
+    /// <summary>
+    /// On disable, save the player prefs
+    /// </summary>
     private void OnDisable() {
         PlayerPrefs.SetFloat(volumeParameter, slider.value);
     }
 
+    /// <summary>
+    /// Calculate and set the mixer value when the slider is changed
+    /// </summary>
     private void HandleSliderValueChanged(float sliderValue) {
         audioMixer.SetFloat(volumeParameter, Mathf.Log10(sliderValue) * volumeMultiplier);
     }
 
-     /// START FADE
+    /// START FADE
     /* Fade out the audio mixer */
+    /// <summary>
+    /// Fade the master mixer when tansitioning scenes
+    /// </summary>
     public static IEnumerator StartFade(AudioMixer audioMixer, string exposedParam, float duration, float targetVolume) {
         float currentTime = 0;
         float currentVol;

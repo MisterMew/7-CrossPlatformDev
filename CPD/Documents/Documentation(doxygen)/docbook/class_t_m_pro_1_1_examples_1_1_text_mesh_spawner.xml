@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_t_m_pro_1_1_examples_1_1_text_mesh_spawner" xml:lang="en-US">
+<title>TMPro.Examples.TextMeshSpawner Class Reference</title>
+<indexterm><primary>TMPro.Examples.TextMeshSpawner</primary></indexterm>
+<para>Inheritance diagram for TMPro.Examples.TextMeshSpawner:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1ab194341830ee5e784c176b8b516d6fe3">SpawnType</link> = 0</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a27f2e4feca0ce34a67de071e9e256bfb">NumberOfNPC</link> = 12</para>
+</listitem>
+            <listitem><para>Font <link linkend="_class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a5095e4cdcd5de19421b45082723ea30e">TheFont</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a27f2e4feca0ce34a67de071e9e256bfb"/><section>
+    <title>NumberOfNPC</title>
+<indexterm><primary>NumberOfNPC</primary><secondary>TMPro.Examples.TextMeshSpawner</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TextMeshSpawner</primary><secondary>NumberOfNPC</secondary></indexterm>
+<para><computeroutput>int TMPro.Examples.TextMeshSpawner.NumberOfNPC = 12</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1ab194341830ee5e784c176b8b516d6fe3"/><section>
+    <title>SpawnType</title>
+<indexterm><primary>SpawnType</primary><secondary>TMPro.Examples.TextMeshSpawner</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TextMeshSpawner</primary><secondary>SpawnType</secondary></indexterm>
+<para><computeroutput>int TMPro.Examples.TextMeshSpawner.SpawnType = 0</computeroutput></para></section>
+<anchor xml:id="_class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a5095e4cdcd5de19421b45082723ea30e"/><section>
+    <title>TheFont</title>
+<indexterm><primary>TheFont</primary><secondary>TMPro.Examples.TextMeshSpawner</secondary></indexterm>
+<indexterm><primary>TMPro.Examples.TextMeshSpawner</primary><secondary>TheFont</secondary></indexterm>
+<para><computeroutput>Font TMPro.Examples.TextMeshSpawner.TheFont</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/<link linkend="__text_mesh_spawner_8cs">TextMeshSpawner.cs</link></section>
+</section>

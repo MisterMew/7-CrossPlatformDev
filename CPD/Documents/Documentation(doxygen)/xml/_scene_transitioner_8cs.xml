@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_scene_transitioner_8cs" kind="file" language="C#">
+    <compoundname>SceneTransitioner.cs</compoundname>
+    <innerclass refid="class_scene_transitioner" prot="public">SceneTransitioner</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.Audio;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.SceneManagement;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_scene_transitioner" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_scene_transitioner" kindref="compound">SceneTransitioner</ref><sp/>:<sp/>MonoBehaviour<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>AudioMixer<sp/><ref refid="class_scene_transitioner_1a81cafc84683b3724d844c4a28d26fa05" kindref="member">audioMixer</ref><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Animator<sp/><ref refid="class_scene_transitioner_1ac9adea59b862a10f76ce00d444b928bb" kindref="member">crossfade</ref><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_scene_transitioner_1af44eb09aa590fd8bcd9104b661ceca95" kindref="member">transitionTime</ref><sp/>=<sp/>1f;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sceneToLoad<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_scene_transitioner_1ae7012ae8f3c05605837645de88c2eb07" kindref="member">Awake</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StartCoroutine(<ref refid="class_audio_mixer_sliders" kindref="compound">AudioMixerSliders</ref>.<ref refid="class_audio_mixer_sliders_1a4323bca135d1915151ffd2bd79210082" kindref="member">StartFade</ref>(<ref refid="class_scene_transitioner_1a81cafc84683b3724d844c4a28d26fa05" kindref="member">audioMixer</ref>,<sp/></highlight><highlight class="stringliteral">&quot;volMaster&quot;</highlight><highlight class="normal">,<sp/>1F,<sp/>1f));</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_scene_transitioner_1a93ed028775c9dcf60f6587994206fda1" kindref="member">FadeToScene</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sceneIndex)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sceneToLoad<sp/>=<sp/>sceneIndex;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_scene_transitioner_1ac9adea59b862a10f76ce00d444b928bb" kindref="member">crossfade</ref>.SetTrigger(</highlight><highlight class="stringliteral">&quot;FadeOut&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StartCoroutine(<ref refid="class_audio_mixer_sliders" kindref="compound">AudioMixerSliders</ref>.<ref refid="class_audio_mixer_sliders_1a4323bca135d1915151ffd2bd79210082" kindref="member">StartFade</ref>(<ref refid="class_scene_transitioner_1a81cafc84683b3724d844c4a28d26fa05" kindref="member">audioMixer</ref>,<sp/></highlight><highlight class="stringliteral">&quot;volMaster&quot;</highlight><highlight class="normal">,<sp/>3F,<sp/>0.0001f));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_scene_transitioner_1a91a25ba5ad21d9abc89bcead2ed8b3f1" kindref="member">OnFadeComplete</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SceneManager.LoadScene(sceneToLoad);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/SceneTransitioner.cs"/>
+  </compounddef>
+</doxygen>

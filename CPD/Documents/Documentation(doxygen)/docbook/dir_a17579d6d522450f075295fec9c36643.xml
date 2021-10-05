@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_a17579d6d522450f075295fec9c36643" xml:lang="en-US">
+<title>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts Directory Reference</title>
+<indexterm><primary>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__audio_manager_8cs">AudioManager.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__audio_mixer_sliders_8cs">AudioMixerSliders.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

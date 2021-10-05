@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_audio_mixer_sliders" kind="class" language="C#" prot="public">
+    <compoundname>AudioMixerSliders</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_audio_mixer_sliders_1af2d2cb1bcd3960e3a685669ed3294ad4" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_audio_mixer_sliders" kindref="compound">AudioMixerSliders</ref></type>
+        <definition>AudioMixerSliders AudioMixerSliders.musicTransitionInstance</definition>
+        <argsstring></argsstring>
+        <name>musicTransitionInstance</name>
+        <briefdescription>
+<para>Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="8" column="38" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_audio_mixer_sliders_1a1b743bc9e2d25a9f97fec7f393b133ce" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AudioMixerSliders.volumeParameter</definition>
+        <argsstring></argsstring>
+        <name>volumeParameter</name>
+        <initializer>= &quot;volMaster&quot;</initializer>
+        <briefdescription>
+<para>Slider Variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="11" column="21" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_mixer_sliders_1aab048032e995308cdb179a9c00c7ffa9" prot="private" static="no" mutable="no">
+        <type>AudioMixer</type>
+        <definition>AudioMixer AudioMixerSliders.audioMixer</definition>
+        <argsstring></argsstring>
+        <name>audioMixer</name>
+        <initializer>= default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="12" column="25" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_mixer_sliders_1ab51b701de67fc7bc079e84cd6b19d245" prot="private" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider AudioMixerSliders.slider</definition>
+        <argsstring></argsstring>
+        <name>slider</name>
+        <initializer>= default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="13" column="21" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_mixer_sliders_1a623ac10424316a8e40baf82aece3a4c3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioMixerSliders.volumeMultiplier</definition>
+        <argsstring></argsstring>
+        <name>volumeMultiplier</name>
+        <initializer>= 20F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="14" column="20" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_audio_mixer_sliders_1a475112a898da6b1f2ad74a83dbfe2ecd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioMixerSliders.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>AWAKE Upon Awake </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="20" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_mixer_sliders_1a73bf790ec16ebf329bce96675a680ad3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioMixerSliders.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>START Execute PlayerPrefs upon start </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="28" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_mixer_sliders_1a6626d5eb35020e0c234b261aebbfe303" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioMixerSliders.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+<para>On disable, save the player prefs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="35" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_mixer_sliders_1ab0a2b9e5f3e37bd23152cffee71573a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioMixerSliders.HandleSliderValueChanged</definition>
+        <argsstring>(float sliderValue)</argsstring>
+        <name>HandleSliderValueChanged</name>
+        <param>
+          <type>float</type>
+          <declname>sliderValue</declname>
+        </param>
+        <briefdescription>
+<para>Calculate and set the mixer value when the slider is changed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="42" column="18" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="42" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_audio_mixer_sliders_1a4323bca135d1915151ffd2bd79210082" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>static IEnumerator AudioMixerSliders.StartFade</definition>
+        <argsstring>(AudioMixer audioMixer, string exposedParam, float duration, float targetVolume)</argsstring>
+        <name>StartFade</name>
+        <param>
+          <type>AudioMixer</type>
+          <declname>audioMixer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>exposedParam</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetVolume</declname>
+        </param>
+        <briefdescription>
+<para>START FADE. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Fade the master mixer when tansitioning scenes </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="51" column="31" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="51" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AudioMixerSliders</label>
+        <link refid="class_audio_mixer_sliders"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AudioMixerSliders</label>
+        <link refid="class_audio_mixer_sliders"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" line="6" column="7" bodyfile="C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/Scripts/AudioScripts/AudioMixerSliders.cs" bodystart="6" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_audio_mixer_sliders_1aab048032e995308cdb179a9c00c7ffa9" prot="private" virt="non-virtual"><scope>AudioMixerSliders</scope><name>audioMixer</name></member>
+      <member refid="class_audio_mixer_sliders_1a475112a898da6b1f2ad74a83dbfe2ecd" prot="private" virt="non-virtual"><scope>AudioMixerSliders</scope><name>Awake</name></member>
+      <member refid="class_audio_mixer_sliders_1ab0a2b9e5f3e37bd23152cffee71573a7" prot="private" virt="non-virtual"><scope>AudioMixerSliders</scope><name>HandleSliderValueChanged</name></member>
+      <member refid="class_audio_mixer_sliders_1af2d2cb1bcd3960e3a685669ed3294ad4" prot="private" virt="non-virtual"><scope>AudioMixerSliders</scope><name>musicTransitionInstance</name></member>
+      <member refid="class_audio_mixer_sliders_1a6626d5eb35020e0c234b261aebbfe303" prot="private" virt="non-virtual"><scope>AudioMixerSliders</scope><name>OnDisable</name></member>
+      <member refid="class_audio_mixer_sliders_1ab51b701de67fc7bc079e84cd6b19d245" prot="private" virt="non-virtual"><scope>AudioMixerSliders</scope><name>slider</name></member>
+      <member refid="class_audio_mixer_sliders_1a73bf790ec16ebf329bce96675a680ad3" prot="private" virt="non-virtual"><scope>AudioMixerSliders</scope><name>Start</name></member>
+      <member refid="class_audio_mixer_sliders_1a4323bca135d1915151ffd2bd79210082" prot="public" virt="non-virtual"><scope>AudioMixerSliders</scope><name>StartFade</name></member>
+      <member refid="class_audio_mixer_sliders_1a623ac10424316a8e40baf82aece3a4c3" prot="private" virt="non-virtual"><scope>AudioMixerSliders</scope><name>volumeMultiplier</name></member>
+      <member refid="class_audio_mixer_sliders_1a1b743bc9e2d25a9f97fec7f393b133ce" prot="private" virt="non-virtual"><scope>AudioMixerSliders</scope><name>volumeParameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

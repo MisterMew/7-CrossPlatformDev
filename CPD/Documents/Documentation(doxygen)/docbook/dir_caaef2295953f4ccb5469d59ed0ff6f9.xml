@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_caaef2295953f4ccb5469d59ed0ff6f9" xml:lang="en-US">
+<title>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts Directory Reference</title>
+<indexterm><primary>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__benchmark01_8cs">Benchmark01.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__benchmark01___u_g_u_i_8cs">Benchmark01_UGUI.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__benchmark02_8cs">Benchmark02.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__benchmark03_8cs">Benchmark03.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__benchmark04_8cs">Benchmark04.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__camera_controller_8cs">CameraController.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__chat_controller_8cs">ChatController.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__dropdown_sample_8cs">DropdownSample.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__env_map_animator_8cs">EnvMapAnimator.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__object_spin_8cs">ObjectSpin.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__shader_prop_animator_8cs">ShaderPropAnimator.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__simple_script_8cs">SimpleScript.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__skew_text_example_8cs">SkewTextExample.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__tele_type_8cs">TeleType.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__text_console_simulator_8cs">TextConsoleSimulator.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__text_mesh_pro_floating_text_8cs">TextMeshProFloatingText.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__text_mesh_spawner_8cs">TextMeshSpawner.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_p___digit_validator_8cs">TMP_DigitValidator.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_p___example_script__01_8cs">TMP_ExampleScript_01.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_p___frame_rate_counter_8cs">TMP_FrameRateCounter.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_p___phone_number_validator_8cs">TMP_PhoneNumberValidator.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_p___text_event_check_8cs">TMP_TextEventCheck.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_p___text_event_handler_8cs">TMP_TextEventHandler.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_p___text_info_debug_tool_8cs">TMP_TextInfoDebugTool.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_p___text_selector___a_8cs">TMP_TextSelector_A.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_p___text_selector___b_8cs">TMP_TextSelector_B.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_p___ui_frame_rate_counter_8cs">TMP_UiFrameRateCounter.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__t_m_pro___instruction_overlay_8cs">TMPro_InstructionOverlay.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__vertex_color_cycler_8cs">VertexColorCycler.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__vertex_jitter_8cs">VertexJitter.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__vertex_shake_a_8cs">VertexShakeA.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__vertex_shake_b_8cs">VertexShakeB.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__vertex_zoom_8cs">VertexZoom.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__warp_text_example_8cs">WarpTextExample.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__t_m_p___text_event_handler_8cs" xml:lang="en-US">
+<title>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs File Reference</title>
+<indexterm><primary>C:/Users/thebe/Documents/GitHub/7-CrossPlatformDev/TenProznia/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler">TMPro.TMP_TextEventHandler</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_character_selection_event">TMPro.TMP_TextEventHandler.CharacterSelectionEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_sprite_selection_event">TMPro.TMP_TextEventHandler.SpriteSelectionEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_word_selection_event">TMPro.TMP_TextEventHandler.WordSelectionEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_line_selection_event">TMPro.TMP_TextEventHandler.LineSelectionEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_link_selection_event">TMPro.TMP_TextEventHandler.LinkSelectionEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_t_m_pro">TMPro</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
