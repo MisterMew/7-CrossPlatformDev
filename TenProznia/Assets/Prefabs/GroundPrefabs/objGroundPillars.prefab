@@ -486,6 +486,7 @@ MonoBehaviour:
   - {fileID: 2222971168545334936}
   - {fileID: 7876757346225443468}
   - {fileID: 4714565563901517308}
+  obstacleSpawnDelay: 0.01
 --- !u!1 &1956825946129405138
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,3 +2433,4 @@ MonoBehaviour:
   - {fileID: 632524278650315239}
   - {fileID: 1143304482187383131}
   - {fileID: 7773256865671837322}
+  obstacleSpawnDelay: 0.1
