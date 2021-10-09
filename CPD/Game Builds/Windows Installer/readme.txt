@@ -1,3 +1,3 @@
 
-Launch "mysetup.exe"
+Launch "TenProzniaInstaller.exe"
 Proceed with installation to play.
