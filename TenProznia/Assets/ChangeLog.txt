@@ -1,0 +1,15 @@
+
+IDEAS -
+GAMEMODES:
+- Freefly mode (no ground or gravity, in any straight direction and avoid the procedurally generated void)
+- Story/Levels (pre-designed levels)
+- Deathwish (procedurally generated but very hard)
+
+GAMEPLAY:
+- Boost meter - fills up over time
+- Near--miss scores
+
+SCENES:
+- Environmental presets (skybox and lighting biomes)
+- Boids flying to add ambience
+
